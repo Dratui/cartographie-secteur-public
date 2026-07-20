@@ -4,6 +4,7 @@ import {
   chargerEmployeurs,
   chargerVersants,
   chargerTypesEmployeurs,
+  chargerSecteurs,
   chargerConcours,
   libelleVersant,
   libelleTypeEmployeur,
@@ -15,10 +16,11 @@ async function afficherFicheEmployeur() {
   const idEmployeur = new URLSearchParams(window.location.search).get("id");
 
   try {
-    const [employeurs, versants, types, concours] = await Promise.all([
+    const [employeurs, versants, types, secteurs, concours] = await Promise.all([
       chargerEmployeurs(),
       chargerVersants(),
       chargerTypesEmployeurs(),
+      chargerSecteurs(),
       chargerConcours(),
     ]);
 
@@ -34,7 +36,7 @@ async function afficherFicheEmployeur() {
     document.getElementById("fil-ariane-nom").textContent = employeur.nom;
 
     conteneur.textContent = "";
-    conteneur.appendChild(creerFiche(employeur, versants, types));
+    conteneur.appendChild(creerFiche(employeur, versants, types, secteurs));
     conteneur.appendChild(creerSectionConcours(employeur, concours));
   } catch (erreur) {
     conteneur.textContent = "Erreur lors du chargement de la fiche : " + erreur.message;
@@ -54,7 +56,7 @@ function afficherEmployeurIntrouvable(conteneur) {
   conteneur.appendChild(lien);
 }
 
-function creerFiche(employeur, versants, types) {
+function creerFiche(employeur, versants, types, secteursRef) {
   const fiche = document.createElement("section");
   fiche.className = "fiche";
 
@@ -71,7 +73,7 @@ function creerFiche(employeur, versants, types) {
   fiche.appendChild(versant);
 
   const secteurs = document.createElement("p");
-  const libellesSecteurs = employeur.secteur.map(libelleSecteur).join(", ");
+  const libellesSecteurs = employeur.secteur.map((id) => libelleSecteur(secteursRef, id)).join(", ");
   secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
   fiche.appendChild(secteurs);
 

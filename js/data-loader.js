@@ -81,7 +81,6 @@ export function libelleCategorie(categories, id) {
   return trouverLibelle(categories, id);
 }
 
-export function libelleSecteur(idSecteur) {
-  const avecEspaces = idSecteur.replace(/-/g, " ");
-  return avecEspaces.charAt(0).toUpperCase() + avecEspaces.slice(1);
+export function libelleSecteur(secteurs, id) {
+  return trouverLibelle(secteurs, id);
 }

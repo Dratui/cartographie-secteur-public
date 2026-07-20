@@ -14,6 +14,7 @@ import { filtrerParCriteres, creerPredicatEgalite, creerPredicatIntersection } f
 let tousLesEmployeurs = [];
 let versantsRef = [];
 let typesRef = [];
+let secteursRef = [];
 
 async function afficherEmployeurs() {
   const conteneur = document.getElementById("liste-employeurs");
@@ -29,6 +30,7 @@ async function afficherEmployeurs() {
     tousLesEmployeurs = employeurs;
     versantsRef = versants;
     typesRef = types;
+    secteursRef = secteurs;
 
     initialiserFiltres(types, versants, secteurs);
     appliquerFiltres();
@@ -52,11 +54,11 @@ function rendererCartes(liste) {
   }
 
   liste.forEach((employeur) => {
-    conteneur.appendChild(creerCarteEmployeur(employeur, versantsRef, typesRef));
+    conteneur.appendChild(creerCarteEmployeur(employeur, versantsRef, typesRef, secteursRef));
   });
 }
 
-function creerCarteEmployeur(employeur, versants, types) {
+function creerCarteEmployeur(employeur, versants, types, secteursRef) {
   const carte = document.createElement("a");
   carte.className = "carte-employeur";
   carte.href = "employeur-detail.html?id=" + encodeURIComponent(employeur.id);
@@ -74,7 +76,7 @@ function creerCarteEmployeur(employeur, versants, types) {
   carte.appendChild(versant);
 
   const secteurs = document.createElement("p");
-  const libellesSecteurs = employeur.secteur.map(libelleSecteur).join(", ");
+  const libellesSecteurs = employeur.secteur.map((id) => libelleSecteur(secteursRef, id)).join(", ");
   secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
   carte.appendChild(secteurs);
 
@@ -111,10 +113,10 @@ function remplirCasesSecteurs(fieldset, secteurs) {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.name = "secteur";
-    checkbox.value = secteur;
+    checkbox.value = secteur.id;
 
     label.appendChild(checkbox);
-    label.appendChild(document.createTextNode(" " + libelleSecteur(secteur)));
+    label.appendChild(document.createTextNode(" " + secteur.libelle));
 
     fieldset.appendChild(label);
   });

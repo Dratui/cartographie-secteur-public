@@ -18,6 +18,7 @@ let tousLesConcours = [];
 let versantsRef = [];
 let filieresRef = [];
 let employeursRef = [];
+let secteursRef = [];
 
 async function afficherConcours() {
   const conteneur = document.getElementById("liste-concours");
@@ -37,6 +38,7 @@ async function afficherConcours() {
     versantsRef = versants;
     filieresRef = filieres;
     employeursRef = employeurs;
+    secteursRef = secteurs;
 
     initialiserFiltres(filieres, versants, categories, typesConcours, secteurs);
     appliquerFiltres();
@@ -60,7 +62,7 @@ function rendererCartes(liste) {
   }
 
   liste.forEach((unConcours) => {
-    conteneur.appendChild(creerCarteConcours(unConcours, versantsRef, filieresRef, employeursRef));
+    conteneur.appendChild(creerCarteConcours(unConcours, versantsRef, filieresRef, employeursRef, secteursRef));
   });
 }
 
@@ -69,7 +71,7 @@ function nomEmployeur(employeurs, id) {
   return employeur ? employeur.nom : id;
 }
 
-function creerCarteConcours(concours, versants, filieres, employeurs) {
+function creerCarteConcours(concours, versants, filieres, employeurs, secteursRef) {
   const carte = document.createElement("a");
   carte.className = "carte-concours";
   carte.href = "concours-detail.html?id=" + encodeURIComponent(concours.id);
@@ -99,7 +101,7 @@ function creerCarteConcours(concours, versants, filieres, employeurs) {
   carte.appendChild(niveau);
 
   const secteurs = document.createElement("p");
-  const libellesSecteurs = concours.secteur.map(libelleSecteur).join(", ");
+  const libellesSecteurs = concours.secteur.map((id) => libelleSecteur(secteursRef, id)).join(", ");
   secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
   carte.appendChild(secteurs);
 
@@ -145,10 +147,10 @@ function remplirCasesSecteurs(fieldset, secteurs) {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.name = "secteur";
-    checkbox.value = secteur;
+    checkbox.value = secteur.id;
 
     label.appendChild(checkbox);
-    label.appendChild(document.createTextNode(" " + libelleSecteur(secteur)));
+    label.appendChild(document.createTextNode(" " + secteur.libelle));
 
     fieldset.appendChild(label);
   });

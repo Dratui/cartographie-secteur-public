@@ -1,9 +1,32 @@
 {
   "secteurs": [
-    "numerique", "environnement-transition-ecologique", "energie",
-    "transports-infrastructures", "amenagement-urbanisme",
-    "agriculture-alimentation", "sante-publique", "defense-securite",
-    "recherche-innovation", "industrie-economie", "espace-aeronautique",
-    "international-diplomatie"
+    { "id": "numerique", "libelle": "Numérique" },
+    { "id": "environnement-biodiversite", "libelle": "Environnement & biodiversité" },
+    { "id": "transition-ecologique-climat", "libelle": "Transition écologique & climat" },
+    { "id": "energie", "libelle": "Énergie" },
+    { "id": "transports-infrastructures", "libelle": "Transports & infrastructures" },
+    { "id": "amenagement-urbanisme", "libelle": "Aménagement & urbanisme" },
+    { "id": "logement-habitat", "libelle": "Logement & habitat" },
+    { "id": "agriculture-alimentation", "libelle": "Agriculture & alimentation" },
+    { "id": "mer-littoral", "libelle": "Mer & littoral" },
+    { "id": "sante-publique", "libelle": "Santé publique" },
+    { "id": "affaires-sociales-solidarites", "libelle": "Affaires sociales & solidarités" },
+    { "id": "travail-emploi", "libelle": "Travail & emploi" },
+    { "id": "education", "libelle": "Éducation" },
+    { "id": "enseignement-superieur-recherche", "libelle": "Enseignement supérieur & recherche" },
+    { "id": "culture-patrimoine", "libelle": "Culture & patrimoine" },
+    { "id": "sport", "libelle": "Sport" },
+    { "id": "jeunesse-vie-associative", "libelle": "Jeunesse & vie associative" },
+    { "id": "justice", "libelle": "Justice" },
+    { "id": "defense", "libelle": "Défense" },
+    { "id": "securite-interieure", "libelle": "Sécurité intérieure" },
+    { "id": "finances-publiques", "libelle": "Finances publiques" },
+    { "id": "ressources-humaines", "libelle": "Ressources humaines" },
+    { "id": "industrie", "libelle": "Industrie" },
+    { "id": "economie", "libelle": "Économie" },
+    { "id": "espace-aeronautique", "libelle": "Espace & aéronautique" },
+    { "id": "international-diplomatie", "libelle": "International & diplomatie" },
+    { "id": "europe-affaires-europeennes", "libelle": "Europe & affaires européennes" },
+    { "id": "statistiques-donnees-publiques", "libelle": "Statistiques & données publiques" }
   ]
 }

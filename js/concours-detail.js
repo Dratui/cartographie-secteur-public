@@ -5,6 +5,7 @@ import {
   chargerVersants,
   chargerFilieres,
   chargerCategories,
+  chargerSecteurs,
   chargerEmployeurs,
   libelleVersant,
   libelleFiliere,
@@ -17,11 +18,12 @@ async function afficherFicheConcours() {
   const idConcours = new URLSearchParams(window.location.search).get("id");
 
   try {
-    const [concoursListe, versants, filieres, categories, employeurs] = await Promise.all([
+    const [concoursListe, versants, filieres, categories, secteurs, employeurs] = await Promise.all([
       chargerConcours(),
       chargerVersants(),
       chargerFilieres(),
       chargerCategories(),
+      chargerSecteurs(),
       chargerEmployeurs(),
     ]);
 
@@ -37,7 +39,7 @@ async function afficherFicheConcours() {
     document.getElementById("fil-ariane-nom").textContent = concours.nom;
 
     conteneur.textContent = "";
-    conteneur.appendChild(creerFiche(concours, versants, filieres, categories));
+    conteneur.appendChild(creerFiche(concours, versants, filieres, categories, secteurs));
     conteneur.appendChild(creerSectionEmployeurs(concours, employeurs));
   } catch (erreur) {
     conteneur.textContent = "Erreur lors du chargement de la fiche : " + erreur.message;
@@ -57,7 +59,7 @@ function afficherConcoursIntrouvable(conteneur) {
   conteneur.appendChild(lien);
 }
 
-function creerFiche(concours, versants, filieres, categories) {
+function creerFiche(concours, versants, filieres, categories, secteursRef) {
   const fiche = document.createElement("section");
   fiche.className = "fiche";
 
@@ -86,7 +88,7 @@ function creerFiche(concours, versants, filieres, categories) {
   fiche.appendChild(niveau);
 
   const secteurs = document.createElement("p");
-  const libellesSecteurs = concours.secteur.map(libelleSecteur).join(", ");
+  const libellesSecteurs = concours.secteur.map((id) => libelleSecteur(secteursRef, id)).join(", ");
   secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
   fiche.appendChild(secteurs);
 
