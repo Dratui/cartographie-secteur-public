@@ -10,6 +10,30 @@
   <a href="index.html">&larr; Retour à l'accueil</a>
   <h1>Les employeurs du secteur public</h1>
 
+  <section id="filtres" aria-label="Filtres">
+    <div class="filtre-groupe">
+      <label for="filtre-type">Type</label>
+      <select id="filtre-type">
+        <option value="">Tous les types</option>
+      </select>
+    </div>
+
+    <div class="filtre-groupe">
+      <label for="filtre-versant">Versant</label>
+      <select id="filtre-versant">
+        <option value="">Tous les versants</option>
+      </select>
+    </div>
+
+    <fieldset id="filtre-secteurs" class="filtre-groupe">
+      <legend>Secteur</legend>
+    </fieldset>
+
+    <button type="button" id="reinitialiser-filtres">Réinitialiser les filtres</button>
+  </section>
+
+  <p id="compteur-employeurs" aria-live="polite"></p>
+
   <div id="liste-employeurs">
     <p>Chargement des employeurs...</p>
   </div>

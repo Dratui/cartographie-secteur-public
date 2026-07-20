@@ -48,6 +48,16 @@ export async function chargerFilieres() {
   return donnees.filieres;
 }
 
+export async function chargerCategories() {
+  const donnees = await chargerJSON("categories.json");
+  return donnees.categories;
+}
+
+export async function chargerTypesConcours() {
+  const donnees = await chargerJSON("types-concours.json");
+  return donnees.types;
+}
+
 // --- Fonctions utilitaires : conversion id -> libellé ---
 
 function trouverLibelle(liste, id) {

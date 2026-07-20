@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "id": "A+", "libelle": "Catégorie A+" },
+    { "id": "A", "libelle": "Catégorie A" },
+    { "id": "B", "libelle": "Catégorie B" },
+    { "id": "C", "libelle": "Catégorie C" },
+    { "id": "autre", "libelle": "Autre" }
+  ]
+}

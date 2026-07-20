@@ -1,0 +1,8 @@
+{
+  "types": [
+    { "id": "externe", "libelle": "Externe" },
+    { "id": "interne", "libelle": "Interne" },
+    { "id": "3ème concours", "libelle": "3ème concours" },
+    { "id": "autre", "libelle": "Autre" }
+  ]
+}
