@@ -57,8 +57,9 @@ function rendererCartes(liste) {
 }
 
 function creerCarteEmployeur(employeur, versants, types) {
-  const carte = document.createElement("article");
+  const carte = document.createElement("a");
   carte.className = "carte-employeur";
+  carte.href = "employeur-detail.html?id=" + encodeURIComponent(employeur.id);
 
   const titre = document.createElement("h2");
   titre.textContent = employeur.nom;
@@ -76,15 +77,6 @@ function creerCarteEmployeur(employeur, versants, types) {
   const libellesSecteurs = employeur.secteur.map(libelleSecteur).join(", ");
   secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
   carte.appendChild(secteurs);
-
-  if (employeur.siteWeb) {
-    const lien = document.createElement("a");
-    lien.href = employeur.siteWeb;
-    lien.textContent = "Site web";
-    lien.target = "_blank";
-    lien.rel = "noopener";
-    carte.appendChild(lien);
-  }
 
   return carte;
 }

@@ -70,8 +70,9 @@ function nomEmployeur(employeurs, id) {
 }
 
 function creerCarteConcours(concours, versants, filieres, employeurs) {
-  const carte = document.createElement("article");
+  const carte = document.createElement("a");
   carte.className = "carte-concours";
+  carte.href = "concours-detail.html?id=" + encodeURIComponent(concours.id);
 
   const titre = document.createElement("h2");
   titre.textContent = concours.nom;
@@ -106,15 +107,6 @@ function creerCarteConcours(concours, versants, filieres, employeurs) {
   const nomsEmployeurs = concours.employeurs.map((id) => nomEmployeur(employeurs, id)).join(", ");
   employeursListe.textContent = "Employeurs : " + (nomsEmployeurs || "Non renseigné");
   carte.appendChild(employeursListe);
-
-  if (concours.siteWeb) {
-    const lien = document.createElement("a");
-    lien.href = concours.siteWeb;
-    lien.textContent = "Site web";
-    lien.target = "_blank";
-    lien.rel = "noopener";
-    carte.appendChild(lien);
-  }
 
   return carte;
 }

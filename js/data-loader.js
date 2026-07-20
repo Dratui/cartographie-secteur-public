@@ -77,6 +77,10 @@ export function libelleFiliere(filieres, id) {
   return trouverLibelle(filieres, id);
 }
 
+export function libelleCategorie(categories, id) {
+  return trouverLibelle(categories, id);
+}
+
 export function libelleSecteur(idSecteur) {
   const avecEspaces = idSecteur.replace(/-/g, " ");
   return avecEspaces.charAt(0).toUpperCase() + avecEspaces.slice(1);
