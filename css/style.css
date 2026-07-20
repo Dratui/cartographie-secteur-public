@@ -1,1 +1,117 @@
 /* Cartographie du secteur public — feuille de styles */
+
+:root {
+  --couleur-fond: #f4f6f8;
+  --couleur-texte: #1f2933;
+  --couleur-texte-clair: #52606d;
+  --couleur-primaire: #1a3c6e;
+  --couleur-primaire-fonce: #12294a;
+  --couleur-carte-fond: #ffffff;
+  --couleur-bordure: #d9e0e6;
+  --espacement: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: var(--espacement);
+  max-width: 1100px;
+  margin-inline: auto;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: var(--couleur-fond);
+  color: var(--couleur-texte);
+  line-height: 1.5;
+}
+
+h1 {
+  color: var(--couleur-primaire);
+  border-bottom: 2px solid var(--couleur-bordure);
+  padding-bottom: 0.5rem;
+}
+
+p {
+  color: var(--couleur-texte-clair);
+}
+
+a {
+  color: var(--couleur-primaire);
+}
+
+/* Lien de retour vers l'accueil */
+body > a:first-child {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--couleur-texte-clair);
+}
+
+body > a:first-child:hover {
+  text-decoration: underline;
+}
+
+/* Navigation de la page d'accueil */
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  background-color: var(--couleur-primaire);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  background-color: var(--couleur-primaire-fonce);
+}
+
+/* Grille de cartes (employeurs et concours) */
+#liste-employeurs,
+#liste-concours {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--espacement);
+  margin-top: var(--espacement);
+}
+
+.carte-employeur,
+.carte-concours {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--couleur-carte-fond);
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.carte-employeur h2,
+.carte-concours h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: var(--couleur-primaire);
+}
+
+.carte-employeur p,
+.carte-concours p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.carte-employeur a,
+.carte-concours a {
+  margin-top: auto;
+  padding-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
