@@ -1,0 +1,15 @@
+{
+  "types": [
+    { "id": "administration-centrale", "libelle": "Administration centrale" },
+    { "id": "administration-deconcentree", "libelle": "Administration déconcentrée" },
+    { "id": "commune", "libelle": "Commune" },
+    { "id": "departement", "libelle": "Département" },
+    { "id": "region", "libelle": "Région" },
+    { "id": "collectivite-statut-particulier", "libelle": "Collectivité à statut particulier" },
+    { "id": "epci", "libelle": "Établissement public de coopération intercommunale" },
+    { "id": "epa", "libelle": "Établissement public administratif" },
+    { "id": "epic", "libelle": "Établissement public industriel et commercial" },
+    { "id": "etablissement-public-sante", "libelle": "Établissement public de santé" },
+    { "id": "operateur-etat", "libelle": "Opérateur de l'État" }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "filieres": [
+    { "id": "administrative", "libelle": "Administrative" },
+    { "id": "technique", "libelle": "Technique" },
+    { "id": "sociale", "libelle": "Sociale" },
+    { "id": "medico-sociale", "libelle": "Médico-sociale" },
+    { "id": "culturelle", "libelle": "Culturelle" },
+    { "id": "sportive", "libelle": "Sportive" },
+    { "id": "securite", "libelle": "Sécurité" }
+  ]
+}

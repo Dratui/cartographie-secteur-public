@@ -1,0 +1,9 @@
+{
+  "secteurs": [
+    "numerique", "environnement-transition-ecologique", "energie",
+    "transports-infrastructures", "amenagement-urbanisme",
+    "agriculture-alimentation", "sante-publique", "defense-securite",
+    "recherche-innovation", "industrie-economie", "espace-aeronautique",
+    "international-diplomatie"
+  ]
+}
