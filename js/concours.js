@@ -160,7 +160,7 @@ function remplirCasesSecteurs(fieldset, secteurs) {
     checkbox.value = secteur.id;
 
     label.appendChild(checkbox);
-    label.appendChild(document.createTextNode(" " + secteur.libelle));
+    label.appendChild(document.createTextNode(" " + secteur.emoji + " " + secteur.libelle));
 
     fieldset.appendChild(label);
   });

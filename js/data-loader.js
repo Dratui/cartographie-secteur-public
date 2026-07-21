@@ -82,5 +82,9 @@ export function libelleCategorie(categories, id) {
 }
 
 export function libelleSecteur(secteurs, id) {
-  return trouverLibelle(secteurs, id);
+  const secteur = secteurs.find((element) => element.id === id);
+  if (!secteur) {
+    return id;
+  }
+  return secteur.emoji ? `${secteur.emoji} ${secteur.libelle}` : secteur.libelle;
 }
