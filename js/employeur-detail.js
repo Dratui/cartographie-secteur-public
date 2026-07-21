@@ -46,9 +46,9 @@ async function afficherFicheEmployeur() {
 function afficherEmployeurIntrouvable(conteneur) {
   conteneur.textContent = "";
 
-  const message = document.createElement("p");
-  message.textContent = "Employeur introuvable.";
-  conteneur.appendChild(message);
+  const titre = document.createElement("h1");
+  titre.textContent = "Employeur introuvable";
+  conteneur.appendChild(titre);
 
   const lien = document.createElement("a");
   lien.href = "employeurs.html";

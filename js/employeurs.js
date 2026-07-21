@@ -62,6 +62,7 @@ function creerCarteEmployeur(employeur, versants, types, secteursRef) {
   const carte = document.createElement("a");
   carte.className = "carte-employeur";
   carte.href = "employeur-detail.html?id=" + encodeURIComponent(employeur.id);
+  carte.setAttribute("aria-label", employeur.nom);
 
   const titre = document.createElement("h2");
   titre.textContent = employeur.nom;

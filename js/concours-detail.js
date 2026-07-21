@@ -49,9 +49,9 @@ async function afficherFicheConcours() {
 function afficherConcoursIntrouvable(conteneur) {
   conteneur.textContent = "";
 
-  const message = document.createElement("p");
-  message.textContent = "Concours introuvable.";
-  conteneur.appendChild(message);
+  const titre = document.createElement("h1");
+  titre.textContent = "Concours introuvable";
+  conteneur.appendChild(titre);
 
   const lien = document.createElement("a");
   lien.href = "concours.html";

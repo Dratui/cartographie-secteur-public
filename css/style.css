@@ -7,7 +7,9 @@
   --couleur-primaire: #1a3c6e;
   --couleur-primaire-fonce: #12294a;
   --couleur-carte-fond: #ffffff;
+  --couleur-texte-inverse: #ffffff;
   --couleur-bordure: #d9e0e6;
+  --couleur-ombre: rgba(0, 0, 0, 0.06);
   --espacement: 1.5rem;
 }
 
@@ -40,22 +42,58 @@ a {
   color: var(--couleur-primaire);
 }
 
-/* Lien de retour vers l'accueil */
-body > a:first-child {
-  display: inline-block;
-  margin-bottom: 1rem;
-  text-decoration: none;
-  font-size: 0.9rem;
-  color: var(--couleur-texte-clair);
+a:hover {
+  color: var(--couleur-primaire-fonce);
 }
 
-body > a:first-child:hover {
+/* En-tête du site : titre + navigation principale (identiques sur toutes les pages) */
+.entete-site {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: var(--espacement);
+}
+
+.titre-site {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--couleur-primaire);
+  text-decoration: none;
+}
+
+.titre-site:hover {
   text-decoration: underline;
 }
 
-/* Navigation de la page d'accueil */
+.nav-principale {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+}
+
+.nav-principale a {
+  display: inline-block;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  color: var(--couleur-texte-clair);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-principale a:hover {
+  background-color: transparent;
+  color: var(--couleur-primaire);
+  text-decoration: underline;
+}
+
+/* Navigation de la page d'accueil (boutons d'appel à l'action) */
 nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-top: 1.5rem;
 }
@@ -64,7 +102,7 @@ nav a {
   display: inline-block;
   padding: 0.75rem 1.25rem;
   background-color: var(--couleur-primaire);
-  color: #ffffff;
+  color: var(--couleur-texte-inverse);
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
@@ -77,8 +115,9 @@ nav a:hover {
 /* Fil d'Ariane (pages de détail) */
 .fil-ariane {
   margin-bottom: 1rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--couleur-texte-clair);
+  overflow-wrap: break-word;
 }
 
 .fil-ariane a {
@@ -96,13 +135,15 @@ nav a:hover {
 }
 
 /* Fiches de détail (employeur / concours) */
-.fiche {
+.fiche,
+.fiche-liens {
   background-color: var(--couleur-carte-fond);
   border: 1px solid var(--couleur-bordure);
   border-radius: 8px;
   padding: 1.5rem;
   margin-bottom: var(--espacement);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px var(--couleur-ombre);
+  overflow-wrap: break-word;
 }
 
 .fiche h1 {
@@ -116,10 +157,20 @@ nav a:hover {
 .lien-siteweb {
   display: inline-block;
   margin-top: 0.75rem;
+  padding: 0.6rem 1.1rem;
+  background-color: var(--couleur-primaire);
+  color: var(--couleur-texte-inverse);
+  text-decoration: none;
+  border-radius: 6px;
   font-weight: 600;
 }
 
+.lien-siteweb:hover {
+  background-color: var(--couleur-primaire-fonce);
+}
+
 .fiche-liens h2 {
+  margin-top: 0;
   color: var(--couleur-primaire);
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
@@ -133,13 +184,113 @@ nav a:hover {
   margin: 0.35rem 0;
 }
 
+/* Filtres (employeurs et concours) */
+#filtres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+  background-color: var(--couleur-carte-fond);
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-top: 1rem;
+}
+
+.filtre-groupe {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 160px;
+}
+
+.filtre-groupe > label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--couleur-texte);
+}
+
+.filtre-groupe select {
+  padding: 0.6rem 0.75rem;
+  min-height: 44px;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 6px;
+  background-color: var(--couleur-carte-fond);
+  color: var(--couleur-texte);
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+fieldset.filtre-groupe {
+  flex-basis: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+fieldset.filtre-groupe legend {
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+.case-secteur {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 6px;
+  background-color: var(--couleur-carte-fond);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.case-secteur input {
+  width: 1.1rem;
+  height: 1.1rem;
+  flex-shrink: 0;
+}
+
+#reinitialiser-filtres {
+  min-height: 44px;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid var(--couleur-primaire);
+  border-radius: 6px;
+  background-color: var(--couleur-carte-fond);
+  color: var(--couleur-primaire);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#reinitialiser-filtres:hover {
+  background-color: var(--couleur-primaire);
+  color: var(--couleur-texte-inverse);
+}
+
+#compteur-employeurs,
+#compteur-concours {
+  margin: 1rem 0 0;
+}
+
 /* Grille de cartes (employeurs et concours) */
 #liste-employeurs,
 #liste-concours {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: var(--espacement);
   margin-top: var(--espacement);
+}
+
+/* Mobile : une seule colonne, quelle que soit la largeur des cartes */
+@media (max-width: 599px) {
+  #liste-employeurs,
+  #liste-concours {
+    grid-template-columns: 1fr;
+  }
 }
 
 .carte-employeur,
@@ -150,8 +301,9 @@ nav a:hover {
   border: 1px solid var(--couleur-bordure);
   border-radius: 8px;
   padding: 1.25rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 3px var(--couleur-ombre);
   text-decoration: none;
+  overflow-wrap: break-word;
 }
 
 .carte-employeur:hover,
@@ -170,5 +322,12 @@ nav a:hover {
 .carte-employeur p,
 .carte-concours p {
   margin: 0.25rem 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
+}
+
+/* Petits écrans : laisse plus de largeur utile au contenu */
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
 }

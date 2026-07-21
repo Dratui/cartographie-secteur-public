@@ -7,7 +7,14 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <a href="index.html">&larr; Retour à l'accueil</a>
+  <header class="entete-site">
+    <a class="titre-site" href="index.html">Cartographie du secteur public</a>
+    <nav class="nav-principale" aria-label="Navigation principale">
+      <a href="employeurs.html">Employeurs</a>
+      <a href="concours.html">Concours</a>
+    </nav>
+  </header>
+
   <h1>Les employeurs du secteur public</h1>
 
   <section id="filtres" aria-label="Filtres">
@@ -34,7 +41,7 @@
 
   <p id="compteur-employeurs" aria-live="polite"></p>
 
-  <div id="liste-employeurs">
+  <div id="liste-employeurs" aria-live="polite">
     <p>Chargement des employeurs...</p>
   </div>
 

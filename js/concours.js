@@ -75,6 +75,7 @@ function creerCarteConcours(concours, versants, filieres, employeurs, secteursRe
   const carte = document.createElement("a");
   carte.className = "carte-concours";
   carte.href = "concours-detail.html?id=" + encodeURIComponent(concours.id);
+  carte.setAttribute("aria-label", concours.nom);
 
   const titre = document.createElement("h2");
   titre.textContent = concours.nom;
