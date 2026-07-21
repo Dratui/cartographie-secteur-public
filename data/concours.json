@@ -1,55 +1,728 @@
 [
-  { "id": "ipef-externe-ages", "nom": "Ingénieur-e des ponts, des eaux et des forêts (concours externe AGES)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+4 (grande école scientifique habilitée)", "secteur": ["environnement-biodiversite", "transition-ecologique-climat", "agriculture-alimentation", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "mer-littoral", "enseignement-superieur-recherche", "economie", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": ["dgec"], "siteWeb": "https://recrutement.ecologie.gouv.fr", "description": "Concours de sortie de grandes écoles scientifiques donnant accès au corps des IPEF.", "source": "https://recrutement.ecologie.gouv.fr/" },
-  { "id": "ingenieur-territorial-externe", "nom": "Ingénieur-e territorial-e (externe)", "categorie": "A", "type": "externe", "filiere": "technique", "versant": "FPT", "niveauRequis": "bac+5 (diplôme d'ingénieur habilité par l'État ou équivalent)", "secteur": ["amenagement-urbanisme", "environnement-biodiversite", "transition-ecologique-climat", "numerique"], "employeurs": ["ville-nanterre", "ville-paris"], "description": "", "siteWeb": "https://www.carrieres-publiques.com", "source": "" },
-  { "id": "administrateur-etat-3e-concours", "nom": "Administrateur-ice de l'État (troisième concours)", "categorie": "A+", "type": "3ème concours", "filiere": "administrative", "versant": "FPE", "niveauRequis": "6 années dans le secteur privé, associatif ou élu", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "agriculture-alimentation", "mer-littoral", "sante-publique", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "culture-patrimoine", "sport", "jeunesse-vie-associative", "justice", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": ["ministere-interieur", "dgec"], "siteWeb": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/troisieme-concours", "description": "", "source": "" },
-  { "id": "administrateur-territorial", "nom": "Administrateur-ice territorial-e (concours externe)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPT", "niveauRequis": "bac+3 minimum (licence) ; un master 2 en économie, gestion, administration ou IEP est fortement recommandé en pratique", "secteur": [], "employeurs": [], "description": "", "siteWeb": "https://inet.cnfpt.fr", "source": "" },
-  { "id": "administrateur-territorial-interne", "nom": "Administrateur-ice territorial-e (concours interne)", "categorie": "A+", "type": "interne", "filiere": "administrative", "versant": "FPT", "niveauRequis": "conditions d'ancienneté dans la fonction publique, sans condition de diplôme", "secteur": [], "employeurs": [], "description": "", "siteWeb": "https://inet.cnfpt.fr", "source": "" },
-  { "id": "attache-territorial-externe", "nom": "Attaché-e territorial-e (concours externe)", "categorie": "A", "type": "externe", "filiere": "administrative", "versant": "FPT", "niveauRequis": "bac+3 (licence)", "secteur": [], "employeurs": ["ville-nanterre", "ville-paris"], "description": "", "siteWeb": "https://www.cnfpt.fr", "source": "" },
-  { "id": "administrateur-ville-paris", "nom": "Administrateur-ice de la ville de Paris (concours externe)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPVP", "niveauRequis": "recrutement via l'INSP, mêmes conditions que les administrateurs de l'État (bac+3 minimum)", "secteur": [], "employeurs": ["ville-paris"], "description": "", "siteWeb": "https://www.insp.gouv.fr", "source": "" },
-  { "id": "icsap-externe", "nom": "Ingénieur-e cadre supérieur-e d'administrations parisiennes (concours externe)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPVP", "niveauRequis": "bac+5 (corps créé en homologie avec les IPEF de l'État, même échelonnement indiciaire)", "secteur": [], "employeurs": ["ville-paris"], "description": "", "siteWeb": "https://www.paris.fr", "source": "" },
-  { "id": "attache-administrations-parisiennes", "nom": "Attaché-e d'administrations parisiennes (concours externe)", "categorie": "A", "type": "externe", "filiere": "administrative", "versant": "FPVP", "niveauRequis": "bac+3", "secteur": [], "employeurs": ["ville-paris"], "description": "", "siteWeb": "https://www.paris.fr", "source": "" },
-  { "id": "ingenieur-ville-paris", "nom": "Ingénieur-e de la ville de Paris (élève-ingénieur-e, EIVP)", "categorie": "A", "type": "externe", "filiere": "technique", "versant": "FPVP", "niveauRequis": "accès post-bac via classe préparatoire intégrée, formation à l'École des ingénieurs de la Ville de Paris (EIVP)", "secteur": [], "employeurs": ["ville-paris"], "description": "", "siteWeb": "https://www.eivp-paris.fr", "source": "" },
-  { "id": "ipef-liste-aptitude", "nom": "Ingénieur-e des ponts, des eaux et des forêts (liste d'aptitude)", "categorie": "A+", "type": "autre", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+5 et 12 ans d'ancienneté dans un des corps spécifique (ITPE…)", "secteur": ["environnement-biodiversite", "transition-ecologique-climat", "agriculture-alimentation", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "mer-littoral", "enseignement-superieur-recherche", "economie", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-ponts-eaux-forets-ipef-liste-daptitude", "description": "", "source": "" },
-  { "id": "ipef-externe-docteurs", "nom": "Ingénieur-e des ponts, des eaux et des forêts (concours externe sur titres et travaux)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+8 (doctorat dans un domaine d'intérêt)", "secteur": ["environnement-biodiversite", "transition-ecologique-climat", "agriculture-alimentation", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "mer-littoral", "enseignement-superieur-recherche", "economie", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-pontsdes-eaux-forets-ipef-concours-externe-titres-travaux", "description": "", "source": "" },
-  { "id": "ipef-interne", "nom": "Ingénieur-e des ponts, des eaux et des forêts (concours interne à caractère professionnel)", "categorie": "A+", "type": "interne", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+5 et 5 ans d'ancienneté dans un des corps spécifique (ITPE…)", "secteur": ["environnement-biodiversite", "transition-ecologique-climat", "agriculture-alimentation", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "mer-littoral", "enseignement-superieur-recherche", "economie", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-ponts-eaux-forets-ipef-concours-interne-caractere-professionnel", "description": "", "source": "" },
-  { "id": "ipef-externe-ens", "nom": "Ingénieur-e des ponts, des eaux et des forêts (concours externe ENS)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+4 (ENS)", "secteur": ["environnement-biodiversite", "transition-ecologique-climat", "agriculture-alimentation", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "mer-littoral", "enseignement-superieur-recherche", "economie", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-eleve-ponts-eaux-forets-ipef-concours-externe-ecoles-normales-superieures", "description": "", "source": "" },
-  { "id": "ipef-externe-agro-isive", "nom": "Ingénieur-e des ponts, des eaux et des forêts (concours externe Agro Paris Tech - Institut des Sciences et Industries du Vivant et de l'Environnement)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+4 (Agro Paris Tech ou Institut des Sciences et Industries du Vivant et de l'Environnement)", "secteur": ["environnement-biodiversite", "transition-ecologique-climat", "agriculture-alimentation", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "mer-littoral", "enseignement-superieur-recherche", "economie", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://recrutement.ecologie.gouv.fr/concours/ingenieure-eleve-ponts-eaux-forets-ipef-concours-externe-agro-paris-tech-isive", "description": "", "source": "" },
-  { "id": "ipef-externe-ages-talents", "nom": "Ingénieur-e des ponts, des eaux et des forêts (concours externe AGES, parcours Talents)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+4 (grande école scientifique habilitée et inscription à un dispositif \"Prépa Talents\")", "secteur": ["environnement-biodiversite", "transition-ecologique-climat", "agriculture-alimentation", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "mer-littoral", "enseignement-superieur-recherche", "economie", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-eleve-ponts-eaux-forets-ipef-concours-externe-autres-grandes-ecoles", "description": "", "source": "" },
-  { "id": "ipef-externe-agro-isive-talents", "nom": "Ingénieur-e des ponts, des eaux et des forêts (concours externe Agro Paris Tech - Institut des Sciences et Industries du Vivant et de l'Environnement, parcours Talents)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+4 (Agro Paris Tech ou Institut des Sciences et Industries du Vivant et de l'Environnement et inscription à un dispositif \"Prépa Talents\")", "secteur": ["environnement-biodiversite", "transition-ecologique-climat", "agriculture-alimentation", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "mer-littoral", "enseignement-superieur-recherche", "economie", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-eleve-ponts-eaux-forets-ipef-concours-externe-institut-sciences-industries-du", "description": "", "source": "" },
-  { "id": "ict-externe", "nom": "Ingénieur-e en chef territorial (concours externe)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPT", "niveauRequis": "Bac+5 (Ingénierie)", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "agriculture-alimentation", "mer-littoral", "sante-publique", "affaires-sociales-solidarites", "education", "culture-patrimoine", "sport", "jeunesse-vie-associative", "securite-interieure", "finances-publiques", "ressources-humaines", "economie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://inet.cnfpt.fr/formation-initiale/scolarite-linet/une-formation-professionnalisante/formation-ingenieurs-en-chef", "description": "", "source": "" },
-  { "id": "ict-interne", "nom": "Ingénieur-e en chef territorial (concours interne)", "categorie": "A+", "type": "interne", "filiere": "technique", "versant": "FPT", "niveauRequis": "7 années de service public", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "agriculture-alimentation", "mer-littoral", "sante-publique", "affaires-sociales-solidarites", "education", "culture-patrimoine", "sport", "jeunesse-vie-associative", "securite-interieure", "finances-publiques", "ressources-humaines", "economie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": ["ville-nanterre", "ville-paris"], "siteWeb": "https://inet.cnfpt.fr/formation-initiale/scolarite-linet/une-formation-professionnalisante/formation-ingenieurs-en-chef", "description": "", "source": "" },
-  { "id": "ict-exam-pro", "nom": "Ingénieur-e en chef territorial (examen professionnel)", "categorie": "A+", "type": "autre", "filiere": "technique", "versant": "FPT", "niveauRequis": "Appartenir au cadre d'emplois des Ingénieur-es territoriaux et avoir accompli 4 années de service dans un grade d'avancement OU avoir accompli 6 années sur un emploi fonctionnel", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "agriculture-alimentation", "mer-littoral", "sante-publique", "affaires-sociales-solidarites", "education", "culture-patrimoine", "sport", "jeunesse-vie-associative", "securite-interieure", "finances-publiques", "ressources-humaines", "economie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.cnfpt.fr/evoluer/preparation-aux-concours-concours-examens-professionnels/decouvrir-differents-types-concours-examens-professionnels/lexamen-professionnel-dingenieur-ou-ingenieure-territorial-chef/national", "description": "", "source": "" },
-  { "id": "dh-externe", "nom": "Directeur-ice d'hôpital (concours externe)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPH", "niveauRequis": "Bac+3", "secteur": ["sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh", "description": "", "source": "" },
-  { "id": "dh-interne", "nom": "Directeur-ice d'hôpital (concours interne)", "categorie": "A+", "type": "interne", "filiere": "administrative", "versant": "FPH", "niveauRequis": "4 années de service public", "secteur": ["sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh", "description": "", "source": "" },
-  { "id": "dh-3e-concours", "nom": "Directeur-ice d'hôpital (troisième concours)", "categorie": "A+", "type": "3ème concours", "filiere": "administrative", "versant": "FPH", "niveauRequis": "6 années dans le secteur privé, associatif ou élu", "secteur": ["sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh", "description": "", "source": "" },
-  { "id": "d3s-externe", "nom": "Directeur-ice d'établissement sanitaire, social et médico-social (concours externe)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPH", "niveauRequis": "Bac+3", "secteur": ["sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s", "description": "", "source": "" },
-  { "id": "d3s-interne", "nom": "Directeur-ice d'établissement sanitaire, social et médico-social (concours interne)", "categorie": "A+", "type": "interne", "filiere": "administrative", "versant": "FPH", "niveauRequis": "4 années de service public", "secteur": ["sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s", "description": "", "source": "" },
-  { "id": "d3s-3e-concours", "nom": "Directeur-ice d'établissement sanitaire, social et médico-social (troisième concours)", "categorie": "A+", "type": "3ème concours", "filiere": "administrative", "versant": "FPH", "niveauRequis": "8 années dans le secteur privé, associatif ou élu", "secteur": ["sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s", "description": "", "source": "" },
-  { "id": "ih-externe", "nom": "Ingénieur-e hospitalier-e (concours externe)", "categorie": "A", "type": "externe", "filiere": "technique", "versant": "FPH", "niveauRequis": "Bac+5 (Ingénierie)", "secteur": ["numerique", "transition-ecologique-climat", "sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier", "description": "", "source": "" },
-  { "id": "ih-interne", "nom": "Ingénieur-e hospitalier-e (concours interne)", "categorie": "A", "type": "interne", "filiere": "technique", "versant": "FPH", "niveauRequis": "4 années de service public", "secteur": ["numerique", "transition-ecologique-climat", "sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier", "description": "", "source": "" },
-  { "id": "ih-3e-concours", "nom": "Ingénieur-e hospitalier-e (troisième concours)", "categorie": "A", "type": "3ème concours", "filiere": "technique", "versant": "FPH", "niveauRequis": "7 années dans le secteur privé, associatif ou élu", "secteur": ["numerique", "transition-ecologique-climat", "sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier", "description": "", "source": "" },
-  { "id": "ihc-externe", "nom": "Ingénieur-e hospitalier-e en chef (concours externe)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPH", "niveauRequis": "Bac+5 (Ingénierie)", "secteur": ["numerique", "transition-ecologique-climat", "sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier-en-chef", "description": "", "source": "" },
-  { "id": "ihc-interne", "nom": "Ingénieur-e hospitalier-e en chef (concours interne)", "categorie": "A+", "type": "interne", "filiere": "technique", "versant": "FPH", "niveauRequis": "5 années de service public", "secteur": ["numerique", "transition-ecologique-climat", "sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier-en-chef", "description": "", "source": "" },
-  { "id": "ihc-3e-concours", "nom": "Ingénieur-e hospitalier-e en chef (troisième concours)", "categorie": "A+", "type": "3ème concours", "filiere": "technique", "versant": "FPH", "niveauRequis": "7 années dans le secteur privé, associatif ou élu", "secteur": ["numerique", "transition-ecologique-climat", "sante-publique", "affaires-sociales-solidarites", "finances-publiques", "ressources-humaines", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier-en-chef", "description": "", "source": "" },
-  { "id": "administrateur-etat-externe", "nom": "Administrateur-ice de l'État (concours externe)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPE", "niveauRequis": "Bac+3", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "agriculture-alimentation", "mer-littoral", "sante-publique", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "culture-patrimoine", "sport", "jeunesse-vie-associative", "justice", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/concours-externe", "description": "", "source": "" },
-  { "id": "administrateur-etat-externe-talents", "nom": "Administrateur-ice de l'État (concours externe, parcours Talents)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPE", "niveauRequis": "Bac+3 et inscription à un dispositif \"Prépa Talents\"", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "agriculture-alimentation", "mer-littoral", "sante-publique", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "culture-patrimoine", "sport", "jeunesse-vie-associative", "justice", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/concours-externe-talents", "description": "", "source": "" },
-  { "id": "administrateur-etat-externe-docteurs", "nom": "Administrateur-ice de l'État (concours externe docteurs)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPE", "niveauRequis": "Bac+8 (doctorat dans un domaine d'intérêt)", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "agriculture-alimentation", "mer-littoral", "sante-publique", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "culture-patrimoine", "sport", "jeunesse-vie-associative", "justice", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/concours-externe-docteurs", "description": "", "source": "" },
-  { "id": "administrateur-etat-interne", "nom": "Administrateur-ice de l'État (concours interne)", "categorie": "A+", "type": "interne", "filiere": "administrative", "versant": "FPE", "niveauRequis": "4 années de service public", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "logement-habitat", "agriculture-alimentation", "mer-littoral", "sante-publique", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "culture-patrimoine", "sport", "jeunesse-vie-associative", "justice", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/concours-interne", "description": "", "source": "" },
-  { "id": "im-externe-docteurs", "nom": "Ingénieur-e des mines (concours externe sur titres et travaux)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente)", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "sante-publique", "travail-emploi", "enseignement-superieur-recherche", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/concours-externe", "description": "", "source": "" },
-  { "id": "im-ens", "nom": "Ingénieur-e des mines (concours ENS)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Élève en 3ème ou 4ème année d'une École normale supérieure", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "sante-publique", "travail-emploi", "enseignement-superieur-recherche", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/concours-ens", "description": "", "source": "" },
-  { "id": "im-mines-telecom", "nom": "Ingénieur-e des mines (concours Mines-Télécom)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+5, dernière année du diplôme d'ingénieur de Mines Paris - PSL ou de Télécom Paris", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "sante-publique", "travail-emploi", "enseignement-superieur-recherche", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/concours-mines-telecom", "description": "", "source": "" },
-  { "id": "im-interne", "nom": "Ingénieur-e des mines (concours interne)", "categorie": "A+", "type": "interne", "filiere": "technique", "versant": "FPE", "niveauRequis": "Catégorie A (ou niveau équivalent) et 7 années de services effectifs dans des fonctions liées aux domaines de compétence du corps", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "sante-publique", "travail-emploi", "enseignement-superieur-recherche", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/concours-interne", "description": "", "source": "" },
-  { "id": "im-exam-pro", "nom": "Ingénieur-e des mines (examen professionnel)", "categorie": "A+", "type": "autre", "filiere": "technique", "versant": "FPE", "niveauRequis": "Être ingénieur de l'industrie et des mines, ou ingénieur divisionnaire (au plus 5e échelon) avec 7 ans de service dans le corps des IIM", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "sante-publique", "travail-emploi", "enseignement-superieur-recherche", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/examen-professionnel", "description": "", "source": "" },
-  { "id": "im-liste-aptitude", "nom": "Ingénieur-e des mines (liste d'aptitude)", "categorie": "A+", "type": "autre", "filiere": "technique", "versant": "FPE", "niveauRequis": "Être ingénieur divisionnaire de l'industrie et des mines (6e échelon minimum) ou ingénieur IIM hors classe", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "sante-publique", "travail-emploi", "enseignement-superieur-recherche", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/liste-daptitude", "description": "", "source": "" },
-  { "id": "ia-externe", "nom": "Ingénieur-e de l'armement (concours externe)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+5 (7 grandes écoles scientifiques habilitées). 27 ans au plus au 1er janvier de l'année du concours.", "secteur": ["numerique", "energie", "transports-infrastructures", "mer-littoral", "enseignement-superieur-recherche", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.defense.gouv.fr/dga", "description": "", "source": "" },
-  { "id": "ia-externe-docteurs", "nom": "Ingénieur-e de l'armement (concours externe, voie docteurs)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente). 34 ans au plus au 1er janvier de l'année du concours.", "secteur": ["numerique", "energie", "transports-infrastructures", "mer-littoral", "enseignement-superieur-recherche", "defense", "securite-interieure", "finances-publiques", "ressources-humaines", "industrie", "economie", "espace-aeronautique", "international-diplomatie", "europe-affaires-europeennes", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.defense.gouv.fr/dga", "description": "", "source": "" },
-  { "id": "insed-externe", "nom": "Ingénieur-e de la statistique, de l'économie et de la donnée (concours externe)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+3", "secteur": ["numerique", "transition-ecologique-climat", "energie", "agriculture-alimentation", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "finances-publiques", "ressources-humaines", "economie", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insee.fr/fr/information/4773299", "description": "", "source": "" },
-  { "id": "insed-interne", "nom": "Ingénieur-e de la statistique, de l'économie et de la donnée (concours interne)", "categorie": "A+", "type": "interne", "filiere": "technique", "versant": "FPE", "niveauRequis": "4 années de service public", "secteur": ["numerique", "transition-ecologique-climat", "energie", "agriculture-alimentation", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "finances-publiques", "ressources-humaines", "economie", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insee.fr/fr/information/4773743", "description": "", "source": "" },
-  { "id": "insed-externe-ens", "nom": "Ingénieur-e de la statistique, de l'économie et de la donnée (concours externe ENS)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Élève en 3ème ou 4ème année d'une École normale supérieure", "secteur": ["numerique", "transition-ecologique-climat", "energie", "agriculture-alimentation", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "finances-publiques", "ressources-humaines", "economie", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insee.fr/fr/information/4774197", "description": "", "source": "" },
-  { "id": "insed-externe-talents", "nom": "Ingénieur-e de la statistique, de l'économie et de la donnée (concours externe, parcours Talents)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+3 et inscription à un dispositif \"Prépa Talents\"", "secteur": ["numerique", "transition-ecologique-climat", "energie", "agriculture-alimentation", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "finances-publiques", "ressources-humaines", "economie", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insee.fr/fr/information/9031224", "description": "", "source": "" },
-  { "id": "insed-externe-docteurs", "nom": "Ingénieur-e de la statistique, de l'économie et de la donnée (concours docteurs)", "categorie": "A+", "type": "externe", "filiere": "technique", "versant": "FPE", "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente). 34 ans au plus au 1er janvier de l'année du concours.", "secteur": ["numerique", "transition-ecologique-climat", "energie", "agriculture-alimentation", "affaires-sociales-solidarites", "travail-emploi", "education", "enseignement-superieur-recherche", "finances-publiques", "ressources-humaines", "economie", "statistiques-donnees-publiques"], "employeurs": [], "siteWeb": "https://www.insee.fr/fr/information/9031228", "description": "", "source": "" },
-  { "id": "commissaire-externe", "nom": "Commissaire de police (concours externe)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPE", "niveauRequis": "Bac+5", "secteur": ["defense", "securite-interieure", "justice"], "employeurs": ["ministere-interieur"], "siteWeb": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/ext", "description": "", "source": "" },
-  { "id": "commissaire-externe-talents", "nom": "Commissaire de police (concours externe spécial, parcours Talents)", "categorie": "A+", "type": "externe", "filiere": "administrative", "versant": "FPE", "niveauRequis": "Bac+5 et inscription à un dispositif \"Prépa Talents\"", "secteur": ["defense", "securite-interieure", "justice"], "employeurs": ["ministere-interieur"], "siteWeb": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/cs", "description": "", "source": "" },
-  { "id": "commissaire-interne-1", "nom": "Commissaire de police (premier concours interne)", "categorie": "A+", "type": "interne", "filiere": "administrative", "versant": "FPE", "niveauRequis": "4 années de service public. 45 ans au plus au 1er janvier de l'année du concours", "secteur": ["defense", "securite-interieure", "justice"], "employeurs": ["ministere-interieur"], "siteWeb": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/CRE/commissaire-de-police-premier-concours-interne", "description": "", "source": "" },
-  { "id": "commissaire-interne-2", "nom": "Commissaire de police (second concours interne)", "categorie": "A+", "type": "interne", "filiere": "administrative", "versant": "FPE", "niveauRequis": "4 ans d'ancienneté dans le grade de capitaine de police", "secteur": ["defense", "securite-interieure", "justice"], "employeurs": ["ministere-interieur"], "siteWeb": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/2int", "description": "", "source": "" }
+  {
+    "id": "ipef",
+    "nom": "Ingénieur-e des ponts, des eaux et des forêts (IPEF)",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "mer-littoral",
+      "enseignement-superieur-recherche",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [
+      "dgec"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "Concours de sortie de grandes écoles scientifiques donnant accès au corps des IPEF.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe AGES",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (grande école scientifique habilitée)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr"
+      },
+      {
+        "nomConcours": "Concours externe ENS",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (ENS)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-eleve-ponts-eaux-forets-ipef-concours-externe-ecoles-normales-superieures"
+      },
+      {
+        "nomConcours": "Concours externe Agro Paris Tech - Institut des Sciences et Industries du Vivant et de l'Environnement",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (Agro Paris Tech ou Institut des Sciences et Industries du Vivant et de l'Environnement)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieure-eleve-ponts-eaux-forets-ipef-concours-externe-agro-paris-tech-isive"
+      },
+      {
+        "nomConcours": "Concours externe AGES, parcours Talents",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (grande école scientifique habilitée et inscription à un dispositif \"Prépa Talents\")",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-eleve-ponts-eaux-forets-ipef-concours-externe-autres-grandes-ecoles"
+      },
+      {
+        "nomConcours": "Concours externe Agro Paris Tech - Institut des Sciences et Industries du Vivant et de l'Environnement, parcours Talents",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (Agro Paris Tech ou Institut des Sciences et Industries du Vivant et de l'Environnement et inscription à un dispositif \"Prépa Talents\")",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-eleve-ponts-eaux-forets-ipef-concours-externe-institut-sciences-industries-du"
+      },
+      {
+        "nomConcours": "Liste d'aptitude",
+        "type": "liste-aptitude",
+        "niveauRequis": "Bac+5 et 12 ans d'ancienneté dans un des corps spécifique (ITPE…)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-ponts-eaux-forets-ipef-liste-daptitude"
+      },
+      {
+        "nomConcours": "Concours externe sur titres et travaux",
+        "type": "externe",
+        "niveauRequis": "Bac+8 (doctorat dans un domaine d'intérêt)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-pontsdes-eaux-forets-ipef-concours-externe-titres-travaux"
+      },
+      {
+        "nomConcours": "Concours interne à caractère professionnel",
+        "type": "interne",
+        "niveauRequis": "Bac+5 et 5 ans d'ancienneté dans un des corps spécifique (ITPE…)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-ponts-eaux-forets-ipef-concours-interne-caractere-professionnel"
+      }
+    ]
+  },
+  {
+    "id": "administrateur-etat",
+    "nom": "Administrateur-ice de l'État",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "justice",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [
+      "ministere-interieur",
+      "dgec"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "6 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/troisieme-concours"
+      },
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/concours-externe"
+      },
+      {
+        "nomConcours": "Concours externe, parcours Talents",
+        "type": "externe",
+        "niveauRequis": "Bac+3 et inscription à un dispositif \"Prépa Talents\"",
+        "siteWebConcours": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/concours-externe-talents"
+      },
+      {
+        "nomConcours": "Concours externe docteurs",
+        "type": "externe",
+        "niveauRequis": "Bac+8 (doctorat dans un domaine d'intérêt)",
+        "siteWebConcours": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/concours-externe-docteurs"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.insp.gouv.fr/concours/concours-de-la-voie-generale/concours-interne"
+      }
+    ]
+  },
+  {
+    "id": "insed",
+    "nom": "Ingénieur-e de la statistique, de l'économie et de la donnée",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "transition-ecologique-climat",
+      "energie",
+      "agriculture-alimentation",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.insee.fr/fr/information/4773299"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.insee.fr/fr/information/4773743"
+      },
+      {
+        "nomConcours": "Concours externe ENS",
+        "type": "externe",
+        "niveauRequis": "Élève en 3ème ou 4ème année d'une École normale supérieure",
+        "siteWebConcours": "https://www.insee.fr/fr/information/4774197"
+      },
+      {
+        "nomConcours": "Concours externe, parcours Talents",
+        "type": "externe",
+        "niveauRequis": "Bac+3 et inscription à un dispositif \"Prépa Talents\"",
+        "siteWebConcours": "https://www.insee.fr/fr/information/9031224"
+      },
+      {
+        "nomConcours": "Concours docteurs",
+        "type": "externe",
+        "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente). 34 ans au plus au 1er janvier de l'année du concours.",
+        "siteWebConcours": "https://www.insee.fr/fr/information/9031228"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-mines",
+    "nom": "Ingénieur-e des mines",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "sante-publique",
+      "travail-emploi",
+      "enseignement-superieur-recherche",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Liste d'aptitude",
+        "type": "liste-aptitude",
+        "niveauRequis": "Être ingénieur divisionnaire de l'industrie et des mines (6e échelon minimum) ou ingénieur IIM hors classe",
+        "siteWebConcours": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/liste-daptitude"
+      },
+      {
+        "nomConcours": "Concours externe sur titres et travaux",
+        "type": "externe",
+        "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente)",
+        "siteWebConcours": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/concours-externe"
+      },
+      {
+        "nomConcours": "Concours ENS",
+        "type": "externe",
+        "niveauRequis": "Élève en 3ème ou 4ème année d'une École normale supérieure",
+        "siteWebConcours": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/concours-ens"
+      },
+      {
+        "nomConcours": "Concours Mines-Télécom",
+        "type": "externe",
+        "niveauRequis": "Bac+5, dernière année du diplôme d'ingénieur de Mines Paris - PSL ou de Télécom Paris",
+        "siteWebConcours": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/concours-mines-telecom"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "Catégorie A (ou niveau équivalent) et 7 années de services effectifs dans des fonctions liées aux domaines de compétence du corps",
+        "siteWebConcours": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/concours-interne"
+      },
+      {
+        "nomConcours": "Examen professionnel",
+        "type": "examen-professionnel",
+        "niveauRequis": "Être ingénieur de l'industrie et des mines, ou ingénieur divisionnaire (au plus 5e échelon) avec 7 ans de service dans le corps des IIM",
+        "siteWebConcours": "https://www.economie.gouv.fr/cge/corps-des-mines/concours-et-examen-professionnel/examen-professionnel"
+      }
+    ]
+  },
+  {
+    "id": "commissaire-police",
+    "nom": "Commissaire de police",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "justice"
+    ],
+    "employeurs": [
+      "ministere-interieur"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+5",
+        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/ext"
+      },
+      {
+        "nomConcours": "Concours externe spécial, parcours Talents",
+        "type": "externe",
+        "niveauRequis": "Bac+5 et inscription à un dispositif \"Prépa Talents\"",
+        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/cs"
+      },
+      {
+        "nomConcours": "Premier concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public. 45 ans au plus au 1er janvier de l'année du concours",
+        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/CRE/commissaire-de-police-premier-concours-interne"
+      },
+      {
+        "nomConcours": "Second concours interne",
+        "type": "interne",
+        "niveauRequis": "4 ans d'ancienneté dans le grade de capitaine de police",
+        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/2int"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-chef-territorial",
+    "nom": "Ingénieur-e en chef territorial-e",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [
+      "ville-nanterre",
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+5 (Ingénierie)",
+        "siteWebConcours": "https://inet.cnfpt.fr/formation-initiale/scolarite-linet/une-formation-professionnalisante/formation-ingenieurs-en-chef"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "7 années de service public",
+        "siteWebConcours": "https://inet.cnfpt.fr/formation-initiale/scolarite-linet/une-formation-professionnalisante/formation-ingenieurs-en-chef"
+      },
+      {
+        "nomConcours": "Examen professionnel",
+        "type": "examen-professionnel",
+        "niveauRequis": "Appartenir au cadre d'emplois des Ingénieur-es territoriaux et avoir accompli 4 années de service dans un grade d'avancement OU avoir accompli 6 années sur un emploi fonctionnel",
+        "siteWebConcours": "https://www.cnfpt.fr/evoluer/preparation-aux-concours-concours-examens-professionnels/decouvrir-differents-types-concours-examens-professionnels/lexamen-professionnel-dingenieur-ou-ingenieure-territorial-chef/national"
+      }
+    ]
+  },
+  {
+    "id": "directeur-hopital",
+    "nom": "Directeur-ice d'hôpital",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "finances-publiques",
+      "ressources-humaines",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "6 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
+      }
+    ]
+  },
+  {
+    "id": "d3s",
+    "nom": "Directeur-ice d'établissement sanitaire, social et médico-social",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "finances-publiques",
+      "ressources-humaines",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "8 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-hospitalier",
+    "nom": "Ingénieur-e hospitalier-e",
+    "categorie": "A",
+    "filiere": "technique",
+    "versant": "FPH",
+    "secteur": [
+      "numerique",
+      "transition-ecologique-climat",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "finances-publiques",
+      "ressources-humaines",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+5 (Ingénierie)",
+        "siteWebConcours": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "7 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-hospitalier-chef",
+    "nom": "Ingénieur-e hospitalier-e en chef",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPH",
+    "secteur": [
+      "numerique",
+      "transition-ecologique-climat",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "finances-publiques",
+      "ressources-humaines",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+5 (Ingénierie)",
+        "siteWebConcours": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier-en-chef"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "5 années de service public",
+        "siteWebConcours": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier-en-chef"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "7 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.concours-fph.ars.sante.fr/concours/ingenieur-hospitalier-en-chef"
+      }
+    ]
+  },
+  {
+    "id": "administrateur-territorial",
+    "nom": "Administrateur-ice territorial-e",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPT",
+    "secteur": [],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "bac+3 minimum (licence) ; un master 2 en économie, gestion, administration ou IEP est fortement recommandé en pratique",
+        "siteWebConcours": "https://inet.cnfpt.fr"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "conditions d'ancienneté dans la fonction publique, sans condition de diplôme",
+        "siteWebConcours": "https://inet.cnfpt.fr"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-armement",
+    "nom": "Ingénieur-e de l'armement",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "energie",
+      "transports-infrastructures",
+      "mer-littoral",
+      "enseignement-superieur-recherche",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+5 (7 grandes écoles scientifiques habilitées). 27 ans au plus au 1er janvier de l'année du concours.",
+        "siteWebConcours": "https://www.defense.gouv.fr/dga"
+      },
+      {
+        "nomConcours": "Concours externe, voie docteurs",
+        "type": "externe",
+        "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente). 34 ans au plus au 1er janvier de l'année du concours.",
+        "siteWebConcours": "https://www.defense.gouv.fr/dga"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-territorial",
+    "nom": "Ingénieur-e territorial-e",
+    "categorie": "A",
+    "filiere": "technique",
+    "versant": "FPT",
+    "secteur": [
+      "amenagement-urbanisme",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "numerique"
+    ],
+    "employeurs": [
+      "ville-nanterre",
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Externe",
+        "type": "externe",
+        "niveauRequis": "bac+5 (diplôme d'ingénieur habilité par l'État ou équivalent)",
+        "siteWebConcours": "https://www.carrieres-publiques.com"
+      }
+    ]
+  },
+  {
+    "id": "attache-territorial",
+    "nom": "Attaché-e territorial-e",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPT",
+    "secteur": [],
+    "employeurs": [
+      "ville-nanterre",
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "bac+3 (licence)",
+        "siteWebConcours": "https://www.cnfpt.fr"
+      }
+    ]
+  },
+  {
+    "id": "administrateur-ville-paris",
+    "nom": "Administrateur-ice de la ville de Paris",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPVP",
+    "secteur": [],
+    "employeurs": [
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "recrutement via l'INSP, mêmes conditions que les administrateurs de l'État (bac+3 minimum)",
+        "siteWebConcours": "https://www.insp.gouv.fr"
+      }
+    ]
+  },
+  {
+    "id": "icsap",
+    "nom": "Ingénieur-e cadre supérieur-e d'administrations parisiennes",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPVP",
+    "secteur": [],
+    "employeurs": [
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "bac+5 (corps créé en homologie avec les IPEF de l'État, même échelonnement indiciaire)",
+        "siteWebConcours": "https://www.paris.fr"
+      }
+    ]
+  },
+  {
+    "id": "attache-administrations-parisiennes",
+    "nom": "Attaché-e d'administrations parisiennes",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPVP",
+    "secteur": [],
+    "employeurs": [
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "bac+3",
+        "siteWebConcours": "https://www.paris.fr"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-ville-paris",
+    "nom": "Ingénieur-e de la ville de Paris (EIVP)",
+    "categorie": "A",
+    "filiere": "technique",
+    "versant": "FPVP",
+    "secteur": [],
+    "employeurs": [
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "",
+    "voiesAcces": [
+      {
+        "nomConcours": "Élève-ingénieur-e, EIVP",
+        "type": "externe",
+        "niveauRequis": "accès post-bac via classe préparatoire intégrée, formation à l'École des ingénieurs de la Ville de Paris (EIVP)",
+        "siteWebConcours": "https://www.eivp-paris.fr"
+      }
+    ]
+  }
 ]

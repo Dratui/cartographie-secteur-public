@@ -6,42 +6,32 @@ import {
   chargerFilieres,
   chargerEmployeurs,
   chargerCategories,
-  chargerTypesConcours,
   chargerSecteurs,
   libelleVersant,
-  libelleFiliere,
-  libelleSecteur,
 } from "./data-loader.js";
 import { filtrerParCriteres, creerPredicatEgalite, creerPredicatIntersection } from "./filtres.js";
 import { initialiserMenuSecteurs, mettreAJourLibelleBoutonSecteurs } from "./menu-secteurs.js";
 
 let tousLesConcours = [];
 let versantsRef = [];
-let filieresRef = [];
-let employeursRef = [];
-let secteursRef = [];
 
 async function afficherConcours() {
   const conteneur = document.getElementById("liste-concours");
 
   try {
-    const [concours, versants, filieres, employeurs, categories, typesConcours, secteurs] = await Promise.all([
+    const [concours, versants, filieres, employeurs, categories, secteurs] = await Promise.all([
       chargerConcours(),
       chargerVersants(),
       chargerFilieres(),
       chargerEmployeurs(),
       chargerCategories(),
-      chargerTypesConcours(),
       chargerSecteurs(),
     ]);
 
     tousLesConcours = concours;
     versantsRef = versants;
-    filieresRef = filieres;
-    employeursRef = employeurs;
-    secteursRef = secteurs;
 
-    initialiserFiltres(filieres, versants, categories, typesConcours, secteurs);
+    initialiserFiltres(filieres, versants, categories, secteurs);
     appliquerFiltres();
   } catch (erreur) {
     conteneur.textContent = "Erreur lors du chargement des concours : " + erreur.message;
@@ -53,7 +43,7 @@ function rendererCartes(liste) {
   conteneur.textContent = "";
 
   document.getElementById("compteur-concours").textContent =
-    liste.length + (liste.length > 1 ? " concours affichés" : " concours affiché");
+    liste.length + (liste.length > 1 ? " corps affichés" : " corps affiché");
 
   if (liste.length === 0) {
     const message = document.createElement("p");
@@ -63,16 +53,13 @@ function rendererCartes(liste) {
   }
 
   liste.forEach((unConcours) => {
-    conteneur.appendChild(creerCarteConcours(unConcours, versantsRef, filieresRef, employeursRef, secteursRef));
+    conteneur.appendChild(creerCarteConcours(unConcours));
   });
 }
 
-function nomEmployeur(employeurs, id) {
-  const employeur = employeurs.find((element) => element.id === id);
-  return employeur ? employeur.nom : id;
-}
-
-function creerCarteConcours(concours, versants, filieres, employeurs, secteursRef) {
+// La carte reste volontairement minimale (nom, catégorie, versant) :
+// tout le détail (voies d'accès, secteurs, employeurs, description) est sur la fiche.
+function creerCarteConcours(concours) {
   const carte = document.createElement("a");
   carte.className = "carte-concours";
   carte.href = "concours-detail.html?id=" + encodeURIComponent(concours.id);
@@ -86,49 +73,25 @@ function creerCarteConcours(concours, versants, filieres, employeurs, secteursRe
   categorie.textContent = "Catégorie : " + concours.categorie;
   carte.appendChild(categorie);
 
-  const type = document.createElement("p");
-  type.textContent = "Type : " + concours.type;
-  carte.appendChild(type);
-
-  const filiere = document.createElement("p");
-  filiere.textContent = "Filière : " + libelleFiliere(filieres, concours.filiere);
-  carte.appendChild(filiere);
-
   const versant = document.createElement("p");
-  versant.textContent = "Versant : " + libelleVersant(versants, concours.versant);
+  versant.textContent = "Versant : " + libelleVersant(versantsRef, concours.versant);
   carte.appendChild(versant);
-
-  const niveau = document.createElement("p");
-  niveau.textContent = "Niveau requis : " + concours.niveauRequis;
-  carte.appendChild(niveau);
-
-  const secteurs = document.createElement("p");
-  const libellesSecteurs = concours.secteur.map((id) => libelleSecteur(secteursRef, id)).join(", ");
-  secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
-  carte.appendChild(secteurs);
-
-  const employeursListe = document.createElement("p");
-  const nomsEmployeurs = concours.employeurs.map((id) => nomEmployeur(employeurs, id)).join(", ");
-  employeursListe.textContent = "Employeurs : " + (nomsEmployeurs || "Non renseigné");
-  carte.appendChild(employeursListe);
 
   return carte;
 }
 
 // --- Contrôles de filtre ---
 
-function initialiserFiltres(filieres, versants, categories, typesConcours, secteurs) {
+function initialiserFiltres(filieres, versants, categories, secteurs) {
   remplirSelect(document.getElementById("filtre-filiere"), filieres);
   remplirSelect(document.getElementById("filtre-versant"), versants);
   remplirSelect(document.getElementById("filtre-categorie"), categories);
-  remplirSelect(document.getElementById("filtre-type"), typesConcours);
   remplirCasesSecteurs(document.getElementById("cases-secteurs"), secteurs);
   initialiserMenuSecteurs(document.getElementById("bouton-secteurs"), document.getElementById("filtre-secteurs"));
 
   document.getElementById("filtre-filiere").addEventListener("change", appliquerFiltres);
   document.getElementById("filtre-versant").addEventListener("change", appliquerFiltres);
   document.getElementById("filtre-categorie").addEventListener("change", appliquerFiltres);
-  document.getElementById("filtre-type").addEventListener("change", appliquerFiltres);
   document.getElementById("filtre-secteurs").addEventListener("change", () => {
     mettreAJourLibelleBoutonSecteurs(document.getElementById("bouton-secteurs"), obtenirSecteursSelectionnes().length);
     appliquerFiltres();
@@ -184,14 +147,12 @@ function appliquerFiltres() {
   const filiere = document.getElementById("filtre-filiere").value;
   const versant = document.getElementById("filtre-versant").value;
   const categorie = document.getElementById("filtre-categorie").value;
-  const type = document.getElementById("filtre-type").value;
   const secteurs = obtenirSecteursSelectionnes();
 
   const predicats = [
     creerPredicatEgalite("filiere", filiere),
     creerPredicatEgalite("versant", versant),
     creerPredicatEgalite("categorie", categorie),
-    creerPredicatEgalite("type", type),
     creerPredicatIntersection("secteur", secteurs),
   ];
 
@@ -202,7 +163,6 @@ function reinitialiserFiltres() {
   document.getElementById("filtre-filiere").value = "";
   document.getElementById("filtre-versant").value = "";
   document.getElementById("filtre-categorie").value = "";
-  document.getElementById("filtre-type").value = "";
   viderSecteurs();
   appliquerFiltres();
 }

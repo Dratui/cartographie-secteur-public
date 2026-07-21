@@ -81,6 +81,10 @@ export function libelleCategorie(categories, id) {
   return trouverLibelle(categories, id);
 }
 
+export function libelleTypeConcours(typesConcours, id) {
+  return trouverLibelle(typesConcours, id);
+}
+
 export function libelleSecteur(secteurs, id) {
   const secteur = secteurs.find((element) => element.id === id);
   if (!secteur) {

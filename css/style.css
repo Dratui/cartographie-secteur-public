@@ -203,6 +203,34 @@ nav a:hover {
   margin: 0.35rem 0;
 }
 
+.description-detaillee p {
+  margin: 0.4rem 0;
+}
+
+.liste-voies-acces {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.voie-acces {
+  margin: 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 6px;
+}
+
+.voie-acces p {
+  margin: 0.25rem 0;
+}
+
+.voie-acces-nom {
+  font-weight: 600;
+  color: var(--couleur-primaire);
+}
+
 /* Filtres (employeurs et concours) */
 #filtres {
   display: flex;
