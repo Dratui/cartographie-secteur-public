@@ -46,6 +46,19 @@ a:hover {
   color: var(--couleur-primaire-fonce);
 }
 
+/* Lien de retour vers l'accueil */
+.lien-retour {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--couleur-texte-clair);
+}
+
+.lien-retour:hover {
+  text-decoration: underline;
+}
+
 /* En-tête du site : titre + navigation principale (identiques sur toutes les pages) */
 .entete-site {
   display: flex;
