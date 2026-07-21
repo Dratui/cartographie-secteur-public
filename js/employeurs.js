@@ -10,6 +10,7 @@ import {
   libelleSecteur,
 } from "./data-loader.js";
 import { filtrerParCriteres, creerPredicatEgalite, creerPredicatIntersection } from "./filtres.js";
+import { initialiserMenuSecteurs, mettreAJourLibelleBoutonSecteurs } from "./menu-secteurs.js";
 
 let tousLesEmployeurs = [];
 let versantsRef = [];
@@ -56,6 +57,8 @@ function rendererCartes(liste) {
   liste.forEach((employeur) => {
     conteneur.appendChild(creerCarteEmployeur(employeur, versantsRef, typesRef, secteursRef));
   });
+
+  marquerContenusTronques(conteneur);
 }
 
 function creerCarteEmployeur(employeur, versants, types, secteursRef) {
@@ -68,20 +71,34 @@ function creerCarteEmployeur(employeur, versants, types, secteursRef) {
   titre.textContent = employeur.nom;
   carte.appendChild(titre);
 
+  const contenu = document.createElement("div");
+  contenu.className = "carte-contenu";
+
   const type = document.createElement("p");
   type.textContent = "Type : " + libelleTypeEmployeur(types, employeur.type);
-  carte.appendChild(type);
+  contenu.appendChild(type);
 
   const versant = document.createElement("p");
   versant.textContent = "Versant : " + libelleVersant(versants, employeur.versant);
-  carte.appendChild(versant);
+  contenu.appendChild(versant);
 
   const secteurs = document.createElement("p");
   const libellesSecteurs = employeur.secteur.map((id) => libelleSecteur(secteursRef, id)).join(", ");
   secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
-  carte.appendChild(secteurs);
+  contenu.appendChild(secteurs);
+
+  carte.appendChild(contenu);
 
   return carte;
+}
+
+// Ajoute un indicateur "..." sur les cartes dont le contenu dépasse la hauteur visible
+function marquerContenusTronques(conteneur) {
+  conteneur.querySelectorAll(".carte-contenu").forEach((contenu) => {
+    if (contenu.scrollHeight > contenu.clientHeight + 1) {
+      contenu.classList.add("carte-contenu--tronque");
+    }
+  });
 }
 
 // --- Contrôles de filtre ---
@@ -90,10 +107,14 @@ function initialiserFiltres(types, versants, secteurs) {
   remplirSelect(document.getElementById("filtre-type"), types);
   remplirSelect(document.getElementById("filtre-versant"), versants);
   remplirCasesSecteurs(document.getElementById("filtre-secteurs"), secteurs);
+  initialiserMenuSecteurs(document.getElementById("bouton-secteurs"), document.getElementById("filtre-secteurs"));
 
   document.getElementById("filtre-type").addEventListener("change", appliquerFiltres);
   document.getElementById("filtre-versant").addEventListener("change", appliquerFiltres);
-  document.getElementById("filtre-secteurs").addEventListener("change", appliquerFiltres);
+  document.getElementById("filtre-secteurs").addEventListener("change", () => {
+    mettreAJourLibelleBoutonSecteurs(document.getElementById("bouton-secteurs"), obtenirSecteursSelectionnes().length);
+    appliquerFiltres();
+  });
   document.getElementById("reinitialiser-filtres").addEventListener("click", reinitialiserFiltres);
 }
 
@@ -149,6 +170,7 @@ function reinitialiserFiltres() {
   document.querySelectorAll('#filtre-secteurs input[name="secteur"]').forEach((checkbox) => {
     checkbox.checked = false;
   });
+  mettreAJourLibelleBoutonSecteurs(document.getElementById("bouton-secteurs"), 0);
   appliquerFiltres();
 }
 
