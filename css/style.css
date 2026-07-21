@@ -10,7 +10,6 @@
   --couleur-texte-inverse: #ffffff;
   --couleur-bordure: #d9e0e6;
   --couleur-ombre: rgba(0, 0, 0, 0.06);
-  --couleur-carte-fond-transparent: rgba(255, 255, 255, 0);
   --espacement: 1.5rem;
 }
 
@@ -222,61 +221,17 @@ nav a:hover {
   max-width: 100%;
 }
 
-/* Menu déroulant "Secteurs" (bouton + panneau à cases à cocher) */
-.filtre-secteurs-groupe {
-  position: relative;
-}
-
-.filtre-secteurs-etiquette {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--couleur-texte);
-}
-
-.bouton-secteurs {
-  min-height: 44px;
-  min-width: 160px;
-  padding: 0.6rem 0.75rem;
-  border: 1px solid var(--couleur-bordure);
-  border-radius: 6px;
-  background-color: var(--couleur-carte-fond);
-  color: var(--couleur-texte);
-  font-size: 1rem;
-  text-align: left;
-  cursor: pointer;
-}
-
-.bouton-secteurs:hover {
-  border-color: var(--couleur-primaire);
-}
-
-.panneau-secteurs {
-  position: absolute;
-  top: calc(100% + 0.35rem);
-  left: 0;
-  z-index: 20;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  width: max-content;
-  max-width: min(480px, 90vw);
-  max-height: 260px;
-  overflow-y: auto;
-  margin: 0;
-  padding: 0.75rem;
-  border: 1px solid var(--couleur-bordure);
-  border-radius: 8px;
-  background-color: var(--couleur-carte-fond);
-  box-shadow: 0 4px 12px var(--couleur-ombre);
-}
-
-.panneau-secteurs legend {
+fieldset.filtre-groupe {
   flex-basis: 100%;
+  border: none;
   padding: 0;
-  margin-bottom: 0.35rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--couleur-texte);
+  margin: 0;
+  min-width: 0;
+}
+
+fieldset.filtre-groupe legend {
+  padding: 0;
+  margin-bottom: 0.5rem;
 }
 
 .case-secteur {
@@ -284,6 +239,7 @@ nav a:hover {
   align-items: center;
   gap: 0.4rem;
   min-height: 44px;
+  margin: 0 0.5rem 0.5rem 0;
   padding: 0.5rem 0.75rem;
   border: 1px solid var(--couleur-bordure);
   border-radius: 6px;
@@ -320,26 +276,20 @@ nav a:hover {
   margin: 1rem 0 0;
 }
 
-/* Grille de cartes (employeurs et concours) — 1 colonne sur mobile, 2 sur tablette, 3 maximum sur grand écran */
+/* Grille de cartes (employeurs et concours) */
 #liste-employeurs,
 #liste-concours {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: var(--espacement);
   margin-top: var(--espacement);
 }
 
-@media (min-width: 600px) {
+/* Mobile : une seule colonne, quelle que soit la largeur des cartes */
+@media (max-width: 599px) {
   #liste-employeurs,
   #liste-concours {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 900px) {
-  #liste-employeurs,
-  #liste-concours {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
@@ -373,29 +323,6 @@ nav a:hover {
 .carte-concours p {
   margin: 0.25rem 0;
   font-size: 1rem;
-}
-
-/* Troncature du contenu des cartes au-delà d'une hauteur raisonnable */
-.carte-contenu {
-  position: relative;
-  max-height: 190px;
-  overflow: hidden;
-}
-
-.carte-contenu--tronque::after {
-  content: "...";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 2.25rem;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-bottom: 0.15rem;
-  font-weight: 700;
-  color: var(--couleur-texte-clair);
-  background: linear-gradient(to bottom, var(--couleur-carte-fond-transparent), var(--couleur-carte-fond) 70%);
 }
 
 /* Petits écrans : laisse plus de largeur utile au contenu */
