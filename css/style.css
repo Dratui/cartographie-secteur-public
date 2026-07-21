@@ -134,12 +134,12 @@ nav a:hover {
 }
 
 .fil-ariane a {
-  color: var(--couleur-texte-clair);
+  color: var(--couleur-primaire);
   text-decoration: none;
 }
 
 .fil-ariane a:hover {
-  color: var(--couleur-primaire);
+  color: var(--couleur-primaire-fonce);
   text-decoration: underline;
 }
 
