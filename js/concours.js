@@ -159,8 +159,9 @@ function remplirCasesSecteurs(fieldset, secteurs) {
     checkbox.name = "secteur";
     checkbox.value = secteur.id;
 
+    const libelleAffiche = secteur.emoji ? secteur.emoji + " " + secteur.libelle : secteur.libelle;
     label.appendChild(checkbox);
-    label.appendChild(document.createTextNode(" " + secteur.emoji + " " + secteur.libelle));
+    label.appendChild(document.createTextNode(" " + libelleAffiche));
 
     fieldset.appendChild(label);
   });

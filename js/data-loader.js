@@ -6,7 +6,7 @@ async function chargerJSON(nomFichier) {
   const url = `${CHEMIN_DATA}${nomFichier}`;
   let reponse;
   try {
-    reponse = await fetch(url);
+    reponse = await fetch(url, { cache: "no-store" });
   } catch (erreur) {
     throw new Error(`Impossible de contacter ${url} : ${erreur.message}`);
   }
