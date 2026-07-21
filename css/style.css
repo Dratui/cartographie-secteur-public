@@ -233,6 +233,10 @@ nav a:hover {
 }
 
 .bouton-secteurs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
   min-height: 44px;
   min-width: 160px;
   padding: 0.6rem 0.75rem;
@@ -243,6 +247,17 @@ nav a:hover {
   font-size: 1rem;
   text-align: left;
   cursor: pointer;
+}
+
+.bouton-secteurs::after {
+  content: "▾";
+  color: var(--couleur-texte-clair);
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.bouton-secteurs[aria-expanded="true"]::after {
+  transform: rotate(180deg);
 }
 
 .bouton-secteurs:hover {
