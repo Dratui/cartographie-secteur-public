@@ -221,17 +221,87 @@ nav a:hover {
   max-width: 100%;
 }
 
-fieldset.filtre-groupe {
-  flex-basis: 100%;
-  border: none;
-  padding: 0;
-  margin: 0;
-  min-width: 0;
+/* Menu déroulant "Secteurs" (bouton + panneau à cases à cocher) */
+.filtre-secteurs-groupe {
+  position: relative;
 }
 
-fieldset.filtre-groupe legend {
+.filtre-secteurs-etiquette {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--couleur-texte);
+}
+
+.bouton-secteurs {
+  min-height: 44px;
+  min-width: 160px;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 6px;
+  background-color: var(--couleur-carte-fond);
+  color: var(--couleur-texte);
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.bouton-secteurs:hover {
+  border-color: var(--couleur-primaire);
+}
+
+.panneau-secteurs {
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  left: 0;
+  z-index: 20;
+  width: max-content;
+  max-width: min(480px, 90vw);
+  margin: 0;
+  padding: 0.75rem;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 8px;
+  background-color: var(--couleur-carte-fond);
+  box-shadow: 0 4px 12px var(--couleur-ombre);
+}
+
+.panneau-secteurs legend {
   padding: 0;
   margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--couleur-texte);
+}
+
+.panneau-secteurs-corps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.reinitialiser-secteurs {
+  align-self: flex-start;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 6px;
+  background-color: var(--couleur-carte-fond);
+  color: var(--couleur-primaire);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reinitialiser-secteurs:hover {
+  background-color: var(--couleur-primaire);
+  color: var(--couleur-texte-inverse);
+  border-color: var(--couleur-primaire);
+}
+
+.cases-secteurs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  max-height: 220px;
+  overflow-y: auto;
 }
 
 .case-secteur {
@@ -239,7 +309,6 @@ fieldset.filtre-groupe legend {
   align-items: center;
   gap: 0.4rem;
   min-height: 44px;
-  margin: 0 0.5rem 0.5rem 0;
   padding: 0.5rem 0.75rem;
   border: 1px solid var(--couleur-bordure);
   border-radius: 6px;

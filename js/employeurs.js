@@ -10,6 +10,7 @@ import {
   libelleSecteur,
 } from "./data-loader.js";
 import { filtrerParCriteres, creerPredicatEgalite, creerPredicatIntersection } from "./filtres.js";
+import { initialiserMenuSecteurs, mettreAJourLibelleBoutonSecteurs } from "./menu-secteurs.js";
 
 let tousLesEmployeurs = [];
 let versantsRef = [];
@@ -89,11 +90,19 @@ function creerCarteEmployeur(employeur, versants, types, secteursRef) {
 function initialiserFiltres(types, versants, secteurs) {
   remplirSelect(document.getElementById("filtre-type"), types);
   remplirSelect(document.getElementById("filtre-versant"), versants);
-  remplirCasesSecteurs(document.getElementById("filtre-secteurs"), secteurs);
+  remplirCasesSecteurs(document.getElementById("cases-secteurs"), secteurs);
+  initialiserMenuSecteurs(document.getElementById("bouton-secteurs"), document.getElementById("filtre-secteurs"));
 
   document.getElementById("filtre-type").addEventListener("change", appliquerFiltres);
   document.getElementById("filtre-versant").addEventListener("change", appliquerFiltres);
-  document.getElementById("filtre-secteurs").addEventListener("change", appliquerFiltres);
+  document.getElementById("filtre-secteurs").addEventListener("change", () => {
+    mettreAJourLibelleBoutonSecteurs(document.getElementById("bouton-secteurs"), obtenirSecteursSelectionnes().length);
+    appliquerFiltres();
+  });
+  document.getElementById("reinitialiser-secteurs").addEventListener("click", () => {
+    viderSecteurs();
+    appliquerFiltres();
+  });
   document.getElementById("reinitialiser-filtres").addEventListener("click", reinitialiserFiltres);
 }
 
@@ -129,6 +138,13 @@ function obtenirSecteursSelectionnes() {
   ).map((checkbox) => checkbox.value);
 }
 
+function viderSecteurs() {
+  document.querySelectorAll('#filtre-secteurs input[name="secteur"]').forEach((checkbox) => {
+    checkbox.checked = false;
+  });
+  mettreAJourLibelleBoutonSecteurs(document.getElementById("bouton-secteurs"), 0);
+}
+
 function appliquerFiltres() {
   const type = document.getElementById("filtre-type").value;
   const versant = document.getElementById("filtre-versant").value;
@@ -146,9 +162,7 @@ function appliquerFiltres() {
 function reinitialiserFiltres() {
   document.getElementById("filtre-type").value = "";
   document.getElementById("filtre-versant").value = "";
-  document.querySelectorAll('#filtre-secteurs input[name="secteur"]').forEach((checkbox) => {
-    checkbox.checked = false;
-  });
+  viderSecteurs();
   appliquerFiltres();
 }
 

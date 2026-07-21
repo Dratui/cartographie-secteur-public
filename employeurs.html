@@ -32,9 +32,23 @@
       </select>
     </div>
 
-    <fieldset id="filtre-secteurs" class="filtre-groupe">
-      <legend>Secteur</legend>
-    </fieldset>
+    <div class="filtre-groupe filtre-secteurs-groupe">
+      <span class="filtre-secteurs-etiquette">Secteur</span>
+      <button
+        type="button"
+        id="bouton-secteurs"
+        class="bouton-secteurs"
+        aria-expanded="false"
+        aria-controls="filtre-secteurs"
+      >Secteurs</button>
+      <fieldset id="filtre-secteurs" class="panneau-secteurs" hidden>
+        <legend>Secteur</legend>
+        <div class="panneau-secteurs-corps">
+          <button type="button" id="reinitialiser-secteurs" class="reinitialiser-secteurs">Réinitialiser</button>
+          <div id="cases-secteurs" class="cases-secteurs"></div>
+        </div>
+      </fieldset>
+    </div>
 
     <button type="button" id="reinitialiser-filtres">Réinitialiser les filtres</button>
   </section>

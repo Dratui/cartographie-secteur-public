@@ -13,6 +13,7 @@ import {
   libelleSecteur,
 } from "./data-loader.js";
 import { filtrerParCriteres, creerPredicatEgalite, creerPredicatIntersection } from "./filtres.js";
+import { initialiserMenuSecteurs, mettreAJourLibelleBoutonSecteurs } from "./menu-secteurs.js";
 
 let tousLesConcours = [];
 let versantsRef = [];
@@ -121,13 +122,21 @@ function initialiserFiltres(filieres, versants, categories, typesConcours, secte
   remplirSelect(document.getElementById("filtre-versant"), versants);
   remplirSelect(document.getElementById("filtre-categorie"), categories);
   remplirSelect(document.getElementById("filtre-type"), typesConcours);
-  remplirCasesSecteurs(document.getElementById("filtre-secteurs"), secteurs);
+  remplirCasesSecteurs(document.getElementById("cases-secteurs"), secteurs);
+  initialiserMenuSecteurs(document.getElementById("bouton-secteurs"), document.getElementById("filtre-secteurs"));
 
   document.getElementById("filtre-filiere").addEventListener("change", appliquerFiltres);
   document.getElementById("filtre-versant").addEventListener("change", appliquerFiltres);
   document.getElementById("filtre-categorie").addEventListener("change", appliquerFiltres);
   document.getElementById("filtre-type").addEventListener("change", appliquerFiltres);
-  document.getElementById("filtre-secteurs").addEventListener("change", appliquerFiltres);
+  document.getElementById("filtre-secteurs").addEventListener("change", () => {
+    mettreAJourLibelleBoutonSecteurs(document.getElementById("bouton-secteurs"), obtenirSecteursSelectionnes().length);
+    appliquerFiltres();
+  });
+  document.getElementById("reinitialiser-secteurs").addEventListener("click", () => {
+    viderSecteurs();
+    appliquerFiltres();
+  });
   document.getElementById("reinitialiser-filtres").addEventListener("click", reinitialiserFiltres);
 }
 
@@ -163,6 +172,13 @@ function obtenirSecteursSelectionnes() {
   ).map((checkbox) => checkbox.value);
 }
 
+function viderSecteurs() {
+  document.querySelectorAll('#filtre-secteurs input[name="secteur"]').forEach((checkbox) => {
+    checkbox.checked = false;
+  });
+  mettreAJourLibelleBoutonSecteurs(document.getElementById("bouton-secteurs"), 0);
+}
+
 function appliquerFiltres() {
   const filiere = document.getElementById("filtre-filiere").value;
   const versant = document.getElementById("filtre-versant").value;
@@ -186,9 +202,7 @@ function reinitialiserFiltres() {
   document.getElementById("filtre-versant").value = "";
   document.getElementById("filtre-categorie").value = "";
   document.getElementById("filtre-type").value = "";
-  document.querySelectorAll('#filtre-secteurs input[name="secteur"]').forEach((checkbox) => {
-    checkbox.checked = false;
-  });
+  viderSecteurs();
   appliquerFiltres();
 }
 
