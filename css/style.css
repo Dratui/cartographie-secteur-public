@@ -293,6 +293,14 @@ fieldset.filtre-groupe legend {
   }
 }
 
+/* Grand écran : jamais plus de 3 cartes par ligne */
+@media (min-width: 900px) {
+  #liste-employeurs,
+  #liste-concours {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .carte-employeur,
 .carte-concours {
   display: flex;
