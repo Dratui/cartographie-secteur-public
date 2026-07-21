@@ -134,11 +134,17 @@ nav a:hover {
 }
 
 .fil-ariane a {
+  display: inline;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  font-weight: normal;
   color: var(--couleur-primaire);
   text-decoration: none;
 }
 
 .fil-ariane a:hover {
+  background-color: transparent;
   color: var(--couleur-primaire-fonce);
   text-decoration: underline;
 }
