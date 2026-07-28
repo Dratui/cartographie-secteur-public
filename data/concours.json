@@ -113,7 +113,6 @@
       "statistiques-donnees-publiques"
     ],
     "employeurs": [
-      "ministere-interieur",
       "dgec"
     ],
     "siteWeb": "",
@@ -286,9 +285,7 @@
       "securite-interieure",
       "justice"
     ],
-    "employeurs": [
-      "ministere-interieur"
-    ],
+    "employeurs": [],
     "siteWeb": "",
     "descriptionDetaillee": "Cadre de conception et de direction de la police nationale, sous l'autorité du ministère de l'Intérieur. Dirige un commissariat ou un service spécialisé (police judiciaire, sécurité publique, renseignement, protection...), pilote les équipes et les opérations, et assure la sécurité publique dans sa circonscription. Formé pendant 24 mois à l'École nationale supérieure de la police (ENSP).",
     "voiesAcces": [
@@ -348,7 +345,6 @@
       "statistiques-donnees-publiques"
     ],
     "employeurs": [
-      "ville-nanterre",
       "ville-paris"
     ],
     "siteWeb": "",
@@ -605,7 +601,6 @@
       "numerique"
     ],
     "employeurs": [
-      "ville-nanterre",
       "ville-paris"
     ],
     "siteWeb": "",
@@ -627,7 +622,6 @@
     "versant": "FPT",
     "secteur": [],
     "employeurs": [
-      "ville-nanterre",
       "ville-paris"
     ],
     "siteWeb": "",

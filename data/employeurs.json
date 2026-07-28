@@ -1,8 +1,1739 @@
 [
-  { "id": "dgec", "nom": "Direction générale de l'énergie et du climat", "type": "administration-centrale", "versant": "FPE", "secteur": ["energie", "environnement-biodiversite", "transition-ecologique-climat"], "description": "", "siteWeb": "https://www.ecologie.gouv.fr" },
-  { "id": "ville-nanterre", "nom": "Ville de Nanterre", "type": "commune", "versant": "FPT", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "sante-publique", "industrie", "economie"], "description": "", "siteWeb": "https://www.nanterre.fr" },
-  { "id": "ville-paris", "nom": "Ville de Paris", "type": "collectivite-statut-particulier", "versant": "FPVP", "secteur": ["numerique", "environnement-biodiversite", "transition-ecologique-climat", "energie", "transports-infrastructures", "amenagement-urbanisme", "sante-publique", "industrie", "economie"], "description": "", "siteWeb": "https://www.paris.fr" },
-  { "id": "aphp", "nom": "Assistance publique - Hôpitaux de Paris", "type": "etablissement-public-sante", "versant": "FPH", "secteur": ["sante-publique"], "description": "", "siteWeb": "https://www.aphp.fr" },
-  { "id": "ratp", "nom": "RATP", "type": "epic", "versant": "HORS_FP", "secteur": ["transports-infrastructures"], "description": "", "siteWeb": "https://www.ratp.fr" },
-  { "id": "ministere-interieur", "nom": "Ministère de l'Intérieur", "type": "administration-centrale", "versant": "FPE", "secteur": ["defense", "securite-interieure"], "description": "", "siteWeb": "https://www.interieur.gouv.fr" }
+  {
+    "id": "ademe",
+    "nom": "Agence de l’environnement et de la maîtrise de l’énergie (Ademe)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Opérateur public chargé d'accompagner la transition écologique : énergie, économie circulaire, qualité de l'air et adaptation au changement climatique, via expertise, financement de projets et sensibilisation.",
+    "siteWeb": "https://www.ademe.fr/"
+  },
+  {
+    "id": "agence-biomédecine",
+    "nom": "Agence de la biomédecine",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "sante-publique"
+    ],
+    "description": "Agence sanitaire chargée d'encadrer les activités de prélèvement et de greffe d'organes, de procréation, d'embryologie et de génétique humaines, et de promouvoir le don d'organes.",
+    "siteWeb": "https://www.agence-biomedecine.fr/fr"
+  },
+  {
+    "id": "agence-francaise-developpement",
+    "nom": "Agence française de développement",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "finances-publiques",
+      "economie",
+      "international-diplomatie"
+    ],
+    "description": "Institution financière publique de développement qui met en œuvre la politique française d'aide au développement et de solidarité internationale, en France, en Outre-mer et à l'étranger.",
+    "siteWeb": "https://www.afd.fr/fr"
+  },
+  {
+    "id": "anah",
+    "nom": "Agence nationale de l’habitat (Anah) ",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "logement-habitat"
+    ],
+    "description": "Aide les propriétaires privés à rénover leur logement (lutte contre l'habitat indigne et la précarité énergétique), au service des politiques nationales de l'habitat.",
+    "siteWeb": "https://www.anah.gouv.fr/"
+  },
+  {
+    "id": "anct",
+    "nom": "Agence nationale pour la cohésion des territoires (ANCT)",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "amenagement-urbanisme"
+    ],
+    "description": "Appuie les collectivités territoriales dans leurs projets d'ingénierie, de numérique et de revitalisation (programmes Action cœur de ville, Petites villes de demain, France Services).",
+    "siteWeb": "https://anct.gouv.fr/"
+  },
+  {
+    "id": "anru",
+    "nom": "Agence nationale pour la rénovation urbaine (ANRU)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "affaires-sociales-solidarites"
+    ],
+    "description": "Finance et pilote les programmes nationaux de renouvellement urbain dans les quartiers prioritaires de la politique de la ville.",
+    "siteWeb": "https://www.anru.fr/"
+  },
+  {
+    "id": "ars",
+    "nom": "Agence régionale de santé",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "sante-publique"
+    ],
+    "description": "Pilote au niveau régional la politique de santé publique et l'organisation de l'offre de soins hospitaliers et médico-sociaux.",
+    "siteWeb": "https://www.ars.sante.fr/"
+  },
+  {
+    "id": "assemblee-nationale",
+    "nom": "Assemblée nationale",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "justice",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Chambre basse du Parlement français : vote la loi et contrôle l'action du Gouvernement. Dispose de services administratifs et législatifs propres, dont le recrutement se fait exclusivement par concours.",
+    "siteWeb": "https://www.assemblee-nationale.fr/"
+  },
+  {
+    "id": "aphp",
+    "nom": "Assistance publique - Hôpitaux de Paris",
+    "type": "etablissement-public-sante",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique"
+    ],
+    "description": "Plus grand centre hospitalo-universitaire d'Europe, regroupant les hôpitaux publics de Paris et d'Île-de-France, avec des missions de soins, d'enseignement et de recherche.",
+    "siteWeb": "https://www.aphp.fr"
+  },
+  {
+    "id": "arcom",
+    "nom": "Autorité de régulation de la communication audiovisuelle et numérique (ARCOM)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "culture-patrimoine",
+      "economie"
+    ],
+    "description": "Régule les médias audiovisuels et les plateformes numériques : protection des mineurs, lutte contre la désinformation, respect du pluralisme et de la propriété intellectuelle.",
+    "siteWeb": "https://www.arcom.fr/"
+  },
+  {
+    "id": "arcep",
+    "nom": "Autorité de régulation des communications électroniques, des postes et de la distribution de la presse (ARCEP)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "culture-patrimoine",
+      "economie"
+    ],
+    "description": "Régule les télécommunications, La Poste et la distribution de la presse ; veille à la concurrence sur ces marchés et à la couverture numérique du territoire.",
+    "siteWeb": "https://www.arcep.fr/"
+  },
+  {
+    "id": "art",
+    "nom": "Autorité de régulation des transports (ART)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "transports-infrastructures",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Régule la concurrence dans les secteurs des transports ferroviaires, routiers et aéroportuaires.",
+    "siteWeb": "https://www.autorite-transports.fr/"
+  },
+  {
+    "id": "asnr",
+    "nom": "Autorité de sûreté nucléaire et de radioprotection (ASNR)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "energie",
+      "securite-interieure"
+    ],
+    "description": "Contrôle la sûreté des installations nucléaires et la radioprotection en France, issue de la fusion en 2025 de l'ASN et de l'IRSN.",
+    "siteWeb": "https://www.asnr.fr/"
+  },
+  {
+    "id": "amf",
+    "nom": "Autorité des marchés financiers (AMF)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Régule les marchés financiers français, protège l'épargne et veille à la bonne information des investisseurs.",
+    "siteWeb": "https://www.amf-france.org/fr"
+  },
+  {
+    "id": "banque-France",
+    "nom": "Banque de France",
+    "type": "autorite-administrative-independante",
+    "versant": "HORS_FP",
+    "secteur": [
+      "finances-publiques",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Banque centrale nationale, membre de l'Eurosystème, chargée de la stratégie monétaire, de la stabilité financière et de services à l'économie (supervision bancaire et prudentielle via l'ACPR).",
+    "siteWeb": "https://www.banque-france.fr/"
+  },
+  {
+    "id": "bpifrance",
+    "nom": "Bpifrance",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "industrie",
+      "economie"
+    ],
+    "description": "Banque publique d'investissement qui finance et accompagne les entreprises françaises (PME, ETI) par des prêts, garanties et prises de participation.",
+    "siteWeb": "https://www.bpifrance.fr/"
+  },
+  {
+    "id": "business-france",
+    "nom": "Business France",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "industrie",
+      "economie",
+      "international-diplomatie"
+    ],
+    "description": "Agence de développement international des entreprises françaises, chargée de promouvoir l'export et d'attirer les investissements étrangers en France.",
+    "siteWeb": "https://www.businessfrance.fr/"
+  },
+  {
+    "id": "caisse-depots",
+    "nom": "Caisse des dépôts et consignations (CDC)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Groupe public au service de l'intérêt général et du développement économique, gestionnaire de fonds d'épargne et investisseur de long terme.",
+    "siteWeb": "https://www.caissedesdepots.fr/"
+  },
+  {
+    "id": "cnaf",
+    "nom": "Caisse nationale des allocations familiales (CNAF)",
+    "type": "operateur-etat",
+    "versant": "HORS_FP",
+    "secteur": [
+      "affaires-sociales-solidarites"
+    ],
+    "description": "Pilote le réseau des Caisses d'allocations familiales (CAF) et verse les prestations familiales et sociales.",
+    "siteWeb": "https://www.caf.fr/"
+  },
+  {
+    "id": "cpam",
+    "nom": "Caisse primaire d'assurance maladie (CPAM)",
+    "type": "operateur-etat",
+    "versant": "HORS_FP",
+    "secteur": [
+      "affaires-sociales-solidarites"
+    ],
+    "description": "Gère l'assurance maladie obligatoire au niveau local : remboursements, prévention, relations avec les professionnels de santé.",
+    "siteWeb": "https://www.assurance-maladie.ameli.fr/carrieres"
+  },
+  {
+    "id": "cdg",
+    "nom": "Centre de gestion de la fonction publique territoriale",
+    "type": "epa",
+    "versant": "FPT",
+    "secteur": [
+      "ressources-humaines"
+    ],
+    "description": "Organise les concours et assure certaines missions de gestion des ressources humaines pour le compte des collectivités territoriales affiliées.",
+    "siteWeb": "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/fonction-publique-territoriale/les-partenaires-institutionnels/les-centres-de-gestion"
+  },
+  {
+    "id": "cerema",
+    "nom": "Centre d'études et d'expertise sur les risques, l'environnement, la mobilité et l'aménagement (Cerema)",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Apporte une expertise technique à l'État et aux collectivités sur l'aménagement du territoire, les infrastructures, les risques et la mobilité.",
+    "siteWeb": "https://www.cerema.fr/fr"
+  },
+  {
+    "id": "cnfpt",
+    "nom": "Centre national de la fonction publique territoriale",
+    "type": "epa",
+    "versant": "FPT",
+    "secteur": [
+      "ressources-humaines"
+    ],
+    "description": "Organise la formation professionnelle et certains concours des agents de la fonction publique territoriale.",
+    "siteWeb": "https://www.cnfpt.fr/"
+  },
+  {
+    "id": "cnrs",
+    "nom": "Centre national de la recherche scientifique (CNRS)",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Premier organisme public de recherche français, couvrant l'ensemble des disciplines scientifiques.",
+    "siteWeb": "https://www.cnrs.fr/fr"
+  },
+  {
+    "id": "cnes",
+    "nom": "Centre national d'études spatiales (CNES)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "enseignement-superieur-recherche",
+      "espace-aeronautique"
+    ],
+    "description": "Agence spatiale française, conçoit et pilote les programmes spatiaux civils et militaires.",
+    "siteWeb": "https://cnes.fr/"
+  },
+  {
+    "id": "crous",
+    "nom": "Centre régional des œuvres universitaires et scolaires (Crous)",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "logement-habitat",
+      "affaires-sociales-solidarites",
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Gère les bourses, le logement et la restauration universitaires pour les étudiants.",
+    "siteWeb": "https://www.lescrous.fr/les-crous/les-crous-un-reseau-unique-au-service-de-tous-les-etudiants/"
+  },
+  {
+    "id": "cstb",
+    "nom": "Centre scientifique et technique du bâtiment (CSTB)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transition-ecologique-climat",
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Centre de recherche et d'expertise sur la construction, l'énergie et la qualité du bâtiment.",
+    "siteWeb": "https://www.cstb.fr/"
+  },
+  {
+    "id": "chambre-agriculture",
+    "nom": "Chambre d'agriculture",
+    "type": "chambre-consulaire",
+    "versant": "HORS_FP",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation",
+      "travail-emploi",
+      "industrie",
+      "economie"
+    ],
+    "description": "Représente et accompagne les agriculteurs sur le plan technique et économique.",
+    "siteWeb": "https://chambres-agriculture.fr/"
+  },
+  {
+    "id": "chambre-commerce-industrie",
+    "nom": "Chambre de commerce et d'industrie (CCI)",
+    "type": "chambre-consulaire",
+    "versant": "HORS_FP",
+    "secteur": [
+      "travail-emploi",
+      "enseignement-superieur-recherche",
+      "industrie",
+      "economie"
+    ],
+    "description": "Représente les entreprises, accompagne la création et le développement d'entreprise, et gère des établissements de formation.",
+    "siteWeb": "https://www.cci.fr/"
+  },
+  {
+    "id": "chambre-métiers-artisanat",
+    "nom": "Chambre de métiers et de l'artisanat",
+    "type": "chambre-consulaire",
+    "versant": "HORS_FP",
+    "secteur": [
+      "travail-emploi",
+      "enseignement-superieur-recherche",
+      "industrie",
+      "economie"
+    ],
+    "description": "Représente et accompagne les artisans (formation, immatriculation, conseil).",
+    "siteWeb": "https://www.artisanat.fr/"
+  },
+  {
+    "id": "crtc",
+    "nom": "Chambres régionales et territoriales des comptes",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Contrôlent la gestion financière des collectivités territoriales et de leurs établissements publics au niveau régional.",
+    "siteWeb": "https://www.ccomptes.fr/fr/chambres-regionales-et-territoriales/role-et-activites"
+  },
+  {
+    "id": "cea",
+    "nom": "Commissariat à l'énergie atomique et aux énergies alternatives (CEA)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "energie",
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Organisme de recherche publique dans le nucléaire, les nouvelles technologies de l'énergie et la défense.",
+    "siteWeb": "https://www.cea.fr/"
+  },
+  {
+    "id": "cgdd",
+    "nom": "Commissariat général au développement durable (CGDD)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "finances-publiques",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Élabore les statistiques, évaluations et prospectives environnementales pour le ministère de la Transition écologique.",
+    "siteWeb": "https://www.ecologie.gouv.fr/commissariat-general-au-developpement-durable-cgdd"
+  },
+  {
+    "id": "cre",
+    "nom": "Commission de régulation de l'énergie (CRE)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "energie",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Régule les marchés de l'électricité et du gaz et garantit un accès équitable aux réseaux.",
+    "siteWeb": "https://www.cre.fr/"
+  },
+  {
+    "id": "cnil",
+    "nom": "Commission nationale de l'informatique et des libertés (CNIL)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "justice"
+    ],
+    "description": "Protège les données personnelles et contrôle le respect du RGPD en France.",
+    "siteWeb": "https://www.cnil.fr/"
+  },
+  {
+    "id": "commune",
+    "nom": "Commune",
+    "type": "commune",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Collectivité territoriale de base, compétente notamment en urbanisme, état civil, écoles primaires et action sociale de proximité.",
+    "siteWeb": "https://www.vie-publique.fr/fiches/19613-quest-ce-quune-commune"
+  },
+  {
+    "id": "conseil-etat",
+    "nom": "Conseil d'Etat",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "justice"
+    ],
+    "description": "Juridiction administrative suprême et conseiller juridique du Gouvernement.",
+    "siteWeb": "https://www.conseil-etat.fr/"
+  },
+  {
+    "id": "cour-des-comptes",
+    "nom": "Cour des comptes",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Contrôle l'emploi des fonds publics par l'État et ses organismes, et certifie les comptes publics.",
+    "siteWeb": "https://www.ccomptes.fr/"
+  },
+  {
+    "id": "numerique-sante",
+    "nom": "Délégation du numérique en santé",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "sante-publique"
+    ],
+    "description": "Pilote la stratégie de numérisation du système de santé (Mon espace santé, Ségur numérique).",
+    "siteWeb": "https://sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-delegation-au-numerique-en-sante"
+  },
+  {
+    "id": "dgefp",
+    "nom": "Délégation générale à l'emploi et à la formation professionnelle (DGEFP)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "travail-emploi",
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Conçoit et pilote les politiques nationales d'emploi et de formation professionnelle.",
+    "siteWeb": "https://travail-emploi.gouv.fr/la-delegation-generale-lemploi-et-la-formation-professionnelle-dgefp"
+  },
+  {
+    "id": "departement",
+    "nom": "Département",
+    "type": "departement",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "finances-publiques",
+      "ressources-humaines",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Collectivité territoriale intermédiaire, compétente notamment en action sociale (RSA, protection de l'enfance), collèges et routes départementales.",
+    "siteWeb": "https://www.vie-publique.fr/fiches/19620-quelles-sont-les-competences-exercees-par-les-departements"
+  },
+  {
+    "id": "djepva",
+    "nom": "Direction de la jeunesse, de l'éducation populaire et de la vie associative (DJEPVA)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "jeunesse-vie-associative"
+    ],
+    "description": "Élabore les politiques publiques en matière de jeunesse, d'éducation populaire et de vie associative.",
+    "siteWeb": "https://www.jeunes.gouv.fr/la-direction-de-la-jeunesse-de-l-education-populaire-et-de-la-vie-associative-97"
+  },
+  {
+    "id": "dares",
+    "nom": "Direction de l'animation de la recherche, des études et des statistiques (DARES)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "travail-emploi",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Produit les études et statistiques du ministère du Travail sur l'emploi, le chômage et les conditions de travail.",
+    "siteWeb": "https://dares.travail-emploi.gouv.fr/"
+  },
+  {
+    "id": "ddetspp",
+    "nom": "Direction départementale de l'emploi, du travail, des solidarités et de la protection des populations (DDETSPP)",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "securite-interieure",
+      "industrie",
+      "economie"
+    ],
+    "description": "Service déconcentré départemental regroupant les missions de l'emploi, du travail, des solidarités et de la protection des populations.",
+    "siteWeb": "https://www.cher.gouv.fr/Services-de-l-Etat/Presentation-des-services/DDETSPP-Direction-Departementale-de-l-Emploi-du-Travail-des-Solidarites-et-de-la-Protection-des-Populations"
+  },
+  {
+    "id": "ddt",
+    "nom": "Direction départementale des territoires et de la mer (DDT/DDTM)",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral"
+    ],
+    "description": "Service déconcentré de l'État chargé de l'urbanisme, de l'environnement, de l'agriculture et du logement au niveau départemental.",
+    "siteWeb": "https://www.ariege.gouv.fr/Services-de-l-Etat/Direction-departementale-des-territoires/Direction-departementale-des-territoires"
+  },
+  {
+    "id": "dae",
+    "nom": "Direction des achats de l'Etat (DAE)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques"
+    ],
+    "description": "Pilote la politique d'achat public de l'État.",
+    "siteWeb": "https://www.economie.gouv.fr/dae"
+  },
+  {
+    "id": "dir-sports",
+    "nom": "Direction des sports (Ministère des sports)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "sport"
+    ],
+    "description": "Élabore et met en œuvre la politique sportive nationale.",
+    "siteWeb": "https://www.sports.gouv.fr/direction-des-sports-ds-618"
+  },
+  {
+    "id": "direction-budget",
+    "nom": "Direction du budget (DB)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Prépare et exécute le budget de l'État, au sein du ministère de l'Économie et des Finances.",
+    "siteWeb": "https://www.budget.gouv.fr/"
+  },
+  {
+    "id": "dger",
+    "nom": "Direction générale de l’enseignement et de la recherche (DGER, Ministère de l'Agriculture)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "education",
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Pilote l'enseignement agricole et la recherche agronomique au ministère de l'Agriculture.",
+    "siteWeb": "https://agriculture.gouv.fr/administration-centrale"
+  },
+  {
+    "id": "dgcs",
+    "nom": "Direction générale de la cohésion sociale (DGCS)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi"
+    ],
+    "description": "Élabore les politiques de solidarité, de lutte contre l'exclusion, de handicap et de protection de la famille.",
+    "siteWeb": "https://solidarites.gouv.fr/la-direction-generale-de-la-cohesion-sociale-dgcs"
+  },
+  {
+    "id": "dgccrf",
+    "nom": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Protège les consommateurs, régule la concurrence et contrôle la conformité et la sécurité des produits et services.",
+    "siteWeb": "https://www.economie.gouv.fr/dgccrf"
+  },
+  {
+    "id": "dgca",
+    "nom": "Direction générale de la création artistique (DGCA)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "culture-patrimoine",
+      "finances-publiques",
+      "economie"
+    ],
+    "description": "Soutient la création artistique et les institutions culturelles relevant du ministère de la Culture.",
+    "siteWeb": "https://www.culture.gouv.fr/nous-connaitre/organisation-du-ministere/la-direction-generale-de-la-creation-artistique"
+  },
+  {
+    "id": "dggn",
+    "nom": "Direction générale de la gendarmerie nationale (DGGN)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "justice"
+    ],
+    "description": "Pilote la gendarmerie nationale, force de sécurité à statut militaire.",
+    "siteWeb": "https://www.gendarmerie.interieur.gouv.fr/"
+  },
+  {
+    "id": "dgpe",
+    "nom": "Direction générale de la performance économique et environnementale des entreprises (DGPE, Ministère de l'Agriculture)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "industrie",
+      "economie"
+    ],
+    "description": "Élabore les politiques économiques et environnementales agricoles au ministère de l'Agriculture.",
+    "siteWeb": "https://agriculture.gouv.fr/administration-centrale"
+  },
+  {
+    "id": "dgpn",
+    "nom": "Direction générale de la police nationale (DGPN)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "justice"
+    ],
+    "description": "Pilote l'ensemble des services de la police nationale.",
+    "siteWeb": "https://www.police-nationale.interieur.gouv.fr/nous-decouvrir/notre-organisation"
+  },
+  {
+    "id": "dgpr",
+    "nom": "Direction générale de la prévention des risques (DGPR)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "securite-interieure",
+      "industrie"
+    ],
+    "description": "Élabore la prévention des risques naturels, technologiques et industriels.",
+    "siteWeb": "https://www.ecologie.gouv.fr/direction-generale-prevention-risques-dgpr"
+  },
+  {
+    "id": "dgri",
+    "nom": "Direction générale de la recherche et de l'innovation (DGRI)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Pilote la politique nationale de recherche et d'innovation.",
+    "siteWeb": "https://www.enseignementsup-recherche.gouv.fr/fr/direction-generale-de-la-recherche-et-de-l-innovation-dgri-83753"
+  },
+  {
+    "id": "dg-sante",
+    "nom": "Direction générale de la santé (DGS)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "sante-publique",
+      "securite-interieure"
+    ],
+    "description": "Élabore la politique de santé publique française.",
+    "siteWeb": "https://sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-generale-de-la-sante-dgs"
+  },
+  {
+    "id": "dgscgc",
+    "nom": "Direction générale de la sécurité civile et de la gestion des crises (DGSCGC)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure"
+    ],
+    "description": "Pilote la sécurité civile française : sapeurs-pompiers et gestion des crises.",
+    "siteWeb": "https://www.interieur.gouv.fr/ministere/securite-civile-0"
+  },
+  {
+    "id": "dgse",
+    "nom": "Direction générale de la sécurité extérieure (DGSE)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "defense",
+      "international-diplomatie",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Service de renseignement extérieur de la France.",
+    "siteWeb": "https://www.dgse.gouv.fr/fr"
+  },
+  {
+    "id": "dgsi",
+    "nom": "Direction générale de la sécurité intérieure (DGSI)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "defense",
+      "securite-interieure",
+      "justice"
+    ],
+    "description": "Service de renseignement intérieur, chargé de la lutte contre le terrorisme et l'espionnage.",
+    "siteWeb": "https://www.dgsi.interieur.gouv.fr/"
+  },
+  {
+    "id": "dgafp",
+    "nom": "Direction générale de l'administration et de la fonction publique (DGAFP)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "travail-emploi",
+      "finances-publiques",
+      "ressources-humaines",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Pilote la gestion interministérielle de la fonction publique de l'État.",
+    "siteWeb": "https://www.fonction-publique.gouv.fr/"
+  },
+  {
+    "id": "dgap",
+    "nom": "Direction générale de l'administration pénitentiaire (DGAP)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "securite-interieure",
+      "justice"
+    ],
+    "description": "Gère les établissements pénitentiaires et les politiques d'insertion des personnes condamnées.",
+    "siteWeb": "https://www.justice.gouv.fr/ministere-justice/missions-organisation/direction-ladministration-penitentiaire"
+  },
+  {
+    "id": "dgal",
+    "nom": "Direction générale de l'alimentation",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation",
+      "mer-littoral"
+    ],
+    "description": "Assure la sécurité sanitaire de l'alimentation et la santé animale et végétale.",
+    "siteWeb": "https://agriculture.gouv.fr/administration-centrale"
+  },
+  {
+    "id": "dgaln",
+    "nom": "Direction générale de l'aménagement, du logement et de la nature (DGALN)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral"
+    ],
+    "description": "Élabore les politiques d'aménagement, de logement et de protection de la nature.",
+    "siteWeb": "https://www.ecologie.gouv.fr/direction-generale-lamenagement-du-logement-et-nature-dgaln-0"
+  },
+  {
+    "id": "dg-armement",
+    "nom": "Direction générale de l'armement (DGA)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "defense",
+      "industrie",
+      "espace-aeronautique"
+    ],
+    "description": "Conçoit, développe et acquiert les équipements de défense pour les armées françaises.",
+    "siteWeb": "https://www.defense.gouv.fr/dga"
+  },
+  {
+    "id": "dgac",
+    "nom": "Direction générale de l'aviation civile (DGAC)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "transports-infrastructures"
+    ],
+    "description": "Régule et contrôle l'aviation civile française.",
+    "siteWeb": "https://www.ecologie.gouv.fr/direction-generale-laviation-civile-dgac-0"
+  },
+  {
+    "id": "dgec",
+    "nom": "Direction générale de l'énergie et du climat",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "energie",
+      "environnement-biodiversite",
+      "transition-ecologique-climat"
+    ],
+    "description": "Élabore les politiques publiques de l'énergie et du climat pour le ministère de la Transition écologique.",
+    "siteWeb": "https://www.ecologie.gouv.fr"
+  },
+  {
+    "id": "dgesco",
+    "nom": "Direction générale de l'enseignement scolaire (DGESCO) ",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "education",
+      "ressources-humaines"
+    ],
+    "description": "Pilote les programmes et l'organisation de l'enseignement primaire et secondaire.",
+    "siteWeb": "https://www.education.gouv.fr/la-direction-generale-de-l-enseignement-scolaire-dgesco-7517"
+  },
+  {
+    "id": "dgesip",
+    "nom": "Direction générale de l'enseignement supérieur et de l'insertion professionnelle (DGESIP)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "travail-emploi",
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Pilote l'enseignement supérieur et l'insertion professionnelle des étudiants.",
+    "siteWeb": "https://www.enseignementsup-recherche.gouv.fr/fr/direction-generale-de-l-enseignement-superieur-et-de-l-insertion-professionnelle-dgesip-83714"
+  },
+  {
+    "id": "dgos",
+    "nom": "Direction générale de l'offre de soin (DGOS)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "sante-publique",
+      "ressources-humaines",
+      "finances-publiques"
+    ],
+    "description": "Organise l'offre de soins hospitaliers en France.",
+    "siteWeb": "https://sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-direction-generale-de-l-offre-de-soins-dgos"
+  },
+  {
+    "id": "dgampa",
+    "nom": "Direction générale des affaires maritimes, de la pêche et de l'aquaculture (DGAMPA)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "agriculture-alimentation",
+      "mer-littoral"
+    ],
+    "description": "Pilote les politiques publiques maritimes, de pêche et d'aquaculture.",
+    "siteWeb": "https://www.mer.gouv.fr/direction-generale-des-affaires-maritimes-de-la-peche-et-de-laquaculture-dgampa"
+  },
+  {
+    "id": "dgcl",
+    "nom": "Direction générale des collectivités territoriales",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "amenagement-urbanisme",
+      "finances-publiques",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Apporte un appui juridique et financier aux collectivités territoriales.",
+    "siteWeb": "https://www.collectivites-locales.gouv.fr/"
+  },
+  {
+    "id": "dgddi",
+    "nom": "Direction générale des douanes et droits indirects",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Contrôle les marchandises et les flux commerciaux, lutte contre la fraude et perçoit les droits et taxes aux frontières.",
+    "siteWeb": "https://www.douane.gouv.fr/"
+  },
+  {
+    "id": "dge",
+    "nom": "Direction générale des entreprises (DGE)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "travail-emploi",
+      "industrie",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Soutient la compétitivité des entreprises françaises et l'innovation industrielle.",
+    "siteWeb": "https://www.entreprises.gouv.fr/"
+  },
+  {
+    "id": "dgef",
+    "nom": "Direction générale des étrangers en France (DGEF)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "justice",
+      "international-diplomatie"
+    ],
+    "description": "Pilote la politique d'immigration, d'asile et d'intégration des étrangers en France.",
+    "siteWeb": "https://www.immigration.interieur.gouv.fr/"
+  },
+  {
+    "id": "dgfip",
+    "nom": "Direction générale des finances publiques",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "finances-publiques",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Gère l'impôt, la comptabilité publique et le contrôle fiscal en France.",
+    "siteWeb": "https://www.economie.gouv.fr/dgfip"
+  },
+  {
+    "id": "dgitm",
+    "nom": "Direction générale des infrastructures, des transports et des mobilités (DGITM)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "transports-infrastructures"
+    ],
+    "description": "Élabore les politiques d'infrastructures de transport et de mobilité.",
+    "siteWeb": "https://www.ecologie.gouv.fr/direction-generale-des-infrastructures-des-transports-et-des-mobilites-dgitm"
+  },
+  {
+    "id": "dgmic",
+    "nom": "Direction générale des médias et des industries culturelles (DGMIC)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "culture-patrimoine",
+      "economie"
+    ],
+    "description": "Élabore les politiques publiques des médias et des industries culturelles.",
+    "siteWeb": "https://www.culture.gouv.fr/nous-connaitre/organisation-du-ministere/la-direction-generale-des-medias-et-des-industries-culturelles"
+  },
+  {
+    "id": "dgom",
+    "nom": "Direction générale des Outre-mer (DGOM)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "amenagement-urbanisme",
+      "securite-interieure",
+      "finances-publiques",
+      "economie"
+    ],
+    "description": "Coordonne les politiques publiques applicables aux territoires d'Outre-mer.",
+    "siteWeb": "https://www.outre-mer.gouv.fr/ministere/la-dgom-direction-generale-des-outre-mer"
+  },
+  {
+    "id": "dgpa",
+    "nom": "Direction générale des patrimoines et de l'architecture (DGPA)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "culture-patrimoine"
+    ],
+    "description": "Protège et valorise le patrimoine et l'architecture en France.",
+    "siteWeb": "https://www.culture.gouv.fr/nous-connaitre/organisation-du-ministere/la-direction-generale-des-patrimoines-et-de-l-architecture"
+  },
+  {
+    "id": "dgris",
+    "nom": "Direction générale des relations internationales et de la stratégie (DGRIS)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "international-diplomatie",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Élabore la stratégie de défense et les relations internationales du ministère des Armées.",
+    "siteWeb": "https://www.defense.gouv.fr/dgris"
+  },
+  {
+    "id": "dg-travail",
+    "nom": "Direction générale du travail (DGTravail)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "travail-emploi",
+      "ressources-humaines"
+    ],
+    "description": "Élabore le droit du travail et anime l'action de l'inspection du travail.",
+    "siteWeb": "https://travail-emploi.gouv.fr/la-direction-generale-du-travail-dgt"
+  },
+  {
+    "id": "dg-tresor",
+    "nom": "Direction générale du Trésor (DGT)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Assure l'analyse économique, le financement de l'économie et les relations économiques internationales de la France.",
+    "siteWeb": "https://www.tresor.economie.gouv.fr/"
+  },
+  {
+    "id": "dir",
+    "nom": "Direction interdépartementale des routes (Dir)",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "transports-infrastructures",
+      "amenagement-urbanisme"
+    ],
+    "description": "Assure l'entretien et l'exploitation du réseau routier national dans sa zone de compétence.",
+    "siteWeb": "https://www.dir.ile-de-france.developpement-durable.gouv.fr/"
+  },
+  {
+    "id": "ditp",
+    "nom": "Direction interministérielle de la transformation publique",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "ressources-humaines"
+    ],
+    "description": "Pilote la modernisation et la transformation de l'action publique.",
+    "siteWeb": "https://www.modernisation.gouv.fr/"
+  },
+  {
+    "id": "dinum",
+    "nom": "Direction interministérielle du numérique",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique"
+    ],
+    "description": "Pilote la stratégie numérique interministérielle de l'État.",
+    "siteWeb": "https://www.numerique.gouv.fr/numerique-etat/dinum/"
+  },
+  {
+    "id": "draaf",
+    "nom": "Direction régionale de l'alimentation, de l'agriculture et de la forêt (DRAAF) ",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation",
+      "mer-littoral"
+    ],
+    "description": "Service déconcentré régional du ministère de l'Agriculture.",
+    "siteWeb": "https://draaf.occitanie.agriculture.gouv.fr/"
+  },
+  {
+    "id": "dreets",
+    "nom": "Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS) ",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "industrie",
+      "economie"
+    ],
+    "description": "Service déconcentré régional regroupant les missions de l'emploi, du travail et des solidarités.",
+    "siteWeb": "https://dreets.gouv.fr/"
+  },
+  {
+    "id": "dreal",
+    "nom": "Direction régionale de l'environnement, de l'aménagement et du logement (DREAL)",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral"
+    ],
+    "description": "Service déconcentré régional pour l'environnement, l'aménagement et le logement.",
+    "siteWeb": "https://www.occitanie.developpement-durable.gouv.fr/"
+  },
+  {
+    "id": "drac",
+    "nom": "Direction régionale des affaires culturelles (DRAC)",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "culture-patrimoine"
+    ],
+    "description": "Service déconcentré régional du ministère de la Culture.",
+    "siteWeb": "https://www.culture.gouv.fr/regions/drac-grand-est"
+  },
+  {
+    "id": "edf",
+    "nom": "EDF",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "energie"
+    ],
+    "description": "Entreprise publique de production et de distribution d'électricité, premier producteur nucléaire mondial.",
+    "siteWeb": "https://www.edf.fr/"
+  },
+  {
+    "id": "enedis",
+    "nom": "Enedis",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "energie"
+    ],
+    "description": "Gestionnaire du réseau public de distribution d'électricité en France.",
+    "siteWeb": "https://www.enedis.fr/"
+  },
+  {
+    "id": "etat-major-armées",
+    "nom": "Etat-major des armées",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense"
+    ],
+    "description": "Planifie et conduit les opérations militaires des armées françaises.",
+    "siteWeb": "https://www.defense.gouv.fr/ema"
+  },
+  {
+    "id": "france-tv",
+    "nom": "France Télévisions",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "numerique",
+      "culture-patrimoine"
+    ],
+    "description": "Groupe audiovisuel public français (chaînes de télévision).",
+    "siteWeb": "https://recrutement.francetelevisions.fr/"
+  },
+  {
+    "id": "france-travail",
+    "nom": "France Travail",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "ressources-humaines"
+    ],
+    "description": "Accompagne les demandeurs d'emploi et gère l'indemnisation chômage (ex-Pôle emploi).",
+    "siteWeb": "https://www.francetravail.fr/accueil/"
+  },
+  {
+    "id": "geodis",
+    "nom": "Geodis",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transports-infrastructures"
+    ],
+    "description": "Entreprise de transport et de logistique, filiale du groupe SNCF.",
+    "siteWeb": "https://geodis.com/fr"
+  },
+  {
+    "id": "hceres",
+    "nom": "Haut Conseil de l'évaluation de la recherche et de l'enseignement supérieur (HCERES)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "enseignement-superieur-recherche",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Évalue les établissements et unités de recherche et d'enseignement supérieur.",
+    "siteWeb": "https://www.hceres.fr/fr"
+  },
+  {
+    "id": "haut-commissariat-plan",
+    "nom": "Haut-commissariat à la Stratégie et au Plan",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Conduit la réflexion prospective économique et sociale de long terme pour l'État.",
+    "siteWeb": "https://www.strategie-plan.gouv.fr/"
+  },
+  {
+    "id": "has",
+    "nom": "Haute autorité de santé (HAS)",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "sante-publique"
+    ],
+    "description": "Évalue les produits, pratiques et parcours de santé et émet des recommandations de santé publique.",
+    "siteWeb": "https://www.has-sante.fr/"
+  },
+  {
+    "id": "insee",
+    "nom": "INSEE",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Produit et diffuse les statistiques officielles françaises (démographie, économie, société).",
+    "siteWeb": "https://www.insee.fr/fr/information/1302230"
+  },
+  {
+    "id": "ign",
+    "nom": "Institut national de l'information géographique et forestière",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "amenagement-urbanisme",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Produit la cartographie et l'information géographique et forestière nationale de référence.",
+    "siteWeb": "https://www.ign.fr/"
+  },
+  {
+    "id": "keolis",
+    "nom": "Keolis",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transports-infrastructures"
+    ],
+    "description": "Opérateur de transport public de voyageurs, filiale du groupe SNCF.",
+    "siteWeb": "https://www.keolis.com/"
+  },
+  {
+    "id": "poste",
+    "nom": "La Poste",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "numerique",
+      "transports-infrastructures",
+      "economie"
+    ],
+    "description": "Entreprise publique historique du courrier et des colis, diversifiée dans la banque (La Banque Postale) et le numérique.",
+    "siteWeb": "https://www.laposte.fr/"
+  },
+  {
+    "id": "meteo-France",
+    "nom": "Météo France",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "transition-ecologique-climat",
+      "enseignement-superieur-recherche",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Établit les prévisions météorologiques et mène la recherche climatique nationale.",
+    "siteWeb": "https://meteofrance.com/"
+  },
+  {
+    "id": "onf",
+    "nom": "Office national des forêts (ONF)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation"
+    ],
+    "description": "Gère et protège les forêts publiques françaises (domaniales et communales).",
+    "siteWeb": "https://www.onf.fr/"
+  },
+  {
+    "id": "onera",
+    "nom": "Office national d'études et de recherches aérospatiales (ONERA)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "enseignement-superieur-recherche",
+      "espace-aeronautique"
+    ],
+    "description": "Centre de recherche public dans l'aéronautique, l'espace et la défense.",
+    "siteWeb": "https://www.onera.fr/fr"
+  },
+  {
+    "id": "oph",
+    "nom": "Offices publics de l'habitat (OPH)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "logement-habitat"
+    ],
+    "description": "Offices publics de l'habitat, gèrent le parc de logements sociaux des collectivités territoriales.",
+    "siteWeb": "https://www.foph.fr/"
+  },
+  {
+    "id": "prefecture",
+    "nom": "Préfecture",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "securite-interieure"
+    ],
+    "description": "Représente l'État dans le département, coordonne les services déconcentrés, veille à la sécurité et à la légalité.",
+    "siteWeb": "https://www.interieur.gouv.fr/prefectures"
+  },
+  {
+    "id": "radio-France",
+    "nom": "Radio France",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "culture-patrimoine"
+    ],
+    "description": "Groupe radiophonique public français.",
+    "siteWeb": "https://www.radiofrance.com/lentreprise"
+  },
+  {
+    "id": "ratp",
+    "nom": "RATP",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transports-infrastructures"
+    ],
+    "description": "Exploite les transports publics urbains (métro, RER, bus, tramway) en Île-de-France et à l'international.",
+    "siteWeb": "https://www.ratp.fr"
+  },
+  {
+    "id": "rectorat",
+    "nom": "Rectorat",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "education",
+      "enseignement-superieur-recherche",
+      "ressources-humaines"
+    ],
+    "description": "Administre le système éducatif au niveau académique (écoles, collèges, lycées).",
+    "siteWeb": "https://www.ac-versailles.fr/"
+  },
+  {
+    "id": "region",
+    "nom": "Région",
+    "type": "region",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Collectivité territoriale compétente en développement économique, formation professionnelle, lycées et transports régionaux.",
+    "siteWeb": "https://www.vie-publique.fr/fiches/19625-quest-ce-que-la-region"
+  },
+  {
+    "id": "rte",
+    "nom": "RTE",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "energie"
+    ],
+    "description": "Gestionnaire du réseau public de transport d'électricité à haute et très haute tension.",
+    "siteWeb": "https://www.rte-france.com/"
+  },
+  {
+    "id": "sgpe",
+    "nom": "Secrétariat général à la planification écologique (SGPE)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Coordonne la planification écologique interministérielle de l'État.",
+    "siteWeb": "https://www.planification-ecologique.gouv.fr/"
+  },
+  {
+    "id": "sg-mae",
+    "nom": "Secrétariat général du ministère de l'Europe et des Affaires étrangères",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "international-diplomatie",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Assure la coordination administrative du ministère de l'Europe et des Affaires étrangères.",
+    "siteWeb": "https://lannuaire.service-public.gouv.fr/gouvernement/6363b210-6838-4dec-b4db-d0492b4fba3b"
+  },
+  {
+    "id": "sgpi",
+    "nom": "Secrétariat général pour l'investissement (SGPI)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "travail-emploi",
+      "finances-publiques",
+      "industrie",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Pilote les investissements d'avenir et la stratégie d'investissement public de l'État.",
+    "siteWeb": "https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi"
+  },
+  {
+    "id": "senat",
+    "nom": "Sénat",
+    "type": "autorite-administrative-independante",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "justice",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Chambre haute du Parlement français, représente les collectivités territoriales et vote la loi. Dispose de services propres, recrutant par concours.",
+    "siteWeb": "https://www.senat.fr/"
+  },
+  {
+    "id": "sncf-gares-connexions",
+    "nom": "SNCF Gares & Connexions",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transports-infrastructures",
+      "amenagement-urbanisme"
+    ],
+    "description": "Gère et développe les gares ferroviaires françaises.",
+    "siteWeb": "https://www.garesetconnexions.sncf/fr"
+  },
+  {
+    "id": "sncf-reseau",
+    "nom": "SNCF Réseau",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transports-infrastructures"
+    ],
+    "description": "Gère et entretient l'infrastructure ferroviaire nationale.",
+    "siteWeb": "https://www.sncf-reseau.com/fr"
+  },
+  {
+    "id": "sncf-voyageurs",
+    "nom": "SNCF Voyageurs",
+    "type": "entreprise-publique",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transports-infrastructures"
+    ],
+    "description": "Exploite les services de transport ferroviaire de voyageurs en France.",
+    "siteWeb": "https://www.sncf-voyageurs.com/fr/"
+  },
+  {
+    "id": "sgp",
+    "nom": "Société des Grands Projets (SGP)",
+    "type": "epic",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transports-infrastructures",
+      "amenagement-urbanisme"
+    ],
+    "description": "Conçoit et réalise le Grand Paris Express et d'autres grands projets d'infrastructure.",
+    "siteWeb": "https://www.societedesgrandsprojets.fr/"
+  },
+  {
+    "id": "sous-prefecture",
+    "nom": "Sous-préfecture",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "securite-interieure"
+    ],
+    "description": "Représente l'État à l'échelle infra-départementale (arrondissement).",
+    "siteWeb": "https://www.marne.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Les-sous-prefectures"
+  },
+  {
+    "id": "tracfin",
+    "nom": "Traitement du renseignement et action contre les circuits financiers clandestins (TRACFIN)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Lutte contre le blanchiment d'argent et le financement du terrorisme.",
+    "siteWeb": "https://www.economie.gouv.fr/tracfin"
+  },
+  {
+    "id": "ville-paris",
+    "nom": "Ville de Paris",
+    "type": "collectivite-statut-particulier",
+    "versant": "FPVP",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "sante-publique",
+      "industrie",
+      "economie"
+    ],
+    "description": "Collectivité à statut particulier cumulant les compétences d'une commune et d'un département.",
+    "siteWeb": "https://www.paris.fr"
+  },
+  {
+    "id": "vnf",
+    "nom": "Voies navigables de France (VNF)",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "transports-infrastructures",
+      "amenagement-urbanisme"
+    ],
+    "description": "Gère et entretient le réseau des voies navigables et fluviales françaises.",
+    "siteWeb": "https://www.vnf.fr/vnf/"
+  }
 ]
