@@ -156,7 +156,11 @@ function appliquerFiltres() {
     creerPredicatIntersection("secteur", secteurs),
   ];
 
-  rendererCartes(filtrerParCriteres(tousLesConcours, predicats));
+  rendererCartes(trierParNom(filtrerParCriteres(tousLesConcours, predicats)));
+}
+
+function trierParNom(liste) {
+  return [...liste].sort((a, b) => a.nom.localeCompare(b.nom, "fr", { sensitivity: "base" }));
 }
 
 function reinitialiserFiltres() {
