@@ -7,7 +7,6 @@ import {
   chargerSecteurs,
   libelleVersant,
   libelleTypeEmployeur,
-  libelleSecteur,
 } from "./data-loader.js";
 import { filtrerParCriteres, creerPredicatEgalite, creerPredicatIntersection } from "./filtres.js";
 import { initialiserMenuSecteurs, mettreAJourLibelleBoutonSecteurs } from "./menu-secteurs.js";
@@ -15,7 +14,6 @@ import { initialiserMenuSecteurs, mettreAJourLibelleBoutonSecteurs } from "./men
 let tousLesEmployeurs = [];
 let versantsRef = [];
 let typesRef = [];
-let secteursRef = [];
 
 async function afficherEmployeurs() {
   const conteneur = document.getElementById("liste-employeurs");
@@ -31,7 +29,6 @@ async function afficherEmployeurs() {
     tousLesEmployeurs = employeurs;
     versantsRef = versants;
     typesRef = types;
-    secteursRef = secteurs;
 
     initialiserFiltres(types, versants, secteurs);
     appliquerFiltres();
@@ -55,11 +52,11 @@ function rendererCartes(liste) {
   }
 
   liste.forEach((employeur) => {
-    conteneur.appendChild(creerCarteEmployeur(employeur, versantsRef, typesRef, secteursRef));
+    conteneur.appendChild(creerCarteEmployeur(employeur, versantsRef, typesRef));
   });
 }
 
-function creerCarteEmployeur(employeur, versants, types, secteursRef) {
+function creerCarteEmployeur(employeur, versants, types) {
   const carte = document.createElement("a");
   carte.className = "carte-employeur";
   carte.href = "employeur-detail.html?id=" + encodeURIComponent(employeur.id);
@@ -76,11 +73,6 @@ function creerCarteEmployeur(employeur, versants, types, secteursRef) {
   const versant = document.createElement("p");
   versant.textContent = "Versant : " + libelleVersant(versants, employeur.versant);
   carte.appendChild(versant);
-
-  const secteurs = document.createElement("p");
-  const libellesSecteurs = employeur.secteur.map((id) => libelleSecteur(secteursRef, id)).join(", ");
-  secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
-  carte.appendChild(secteurs);
 
   return carte;
 }
