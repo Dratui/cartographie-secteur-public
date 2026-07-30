@@ -1,5 +1,17 @@
 [
   {
+    "id": "euratom",
+    "nom": "Agence d'approvisionnement d'Euratom",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "energie",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Organisme de l'Union européenne chargé de garantir un approvisionnement régulier et équitable des utilisateurs en minerais, matières brutes et matières fissiles spéciales pour l'industrie nucléaire civile européenne.",
+    "siteWeb": "https://euratom-supply.ec.europa.eu/index_en"
+  },
+  {
     "id": "ademe",
     "nom": "Agence de l’environnement et de la maîtrise de l’énergie (Ademe)",
     "type": "epic",
@@ -15,6 +27,70 @@
     ],
     "description": "Opérateur public chargé d'accompagner la transition écologique : énergie, économie circulaire, qualité de l'air et adaptation au changement climatique, via expertise, financement de projets et sensibilisation.",
     "siteWeb": "https://www.ademe.fr/"
+  },
+  {
+    "id": "acer",
+    "nom": "Agence de l’Union européenne pour la coopération des régulateurs de l’énergie (ACER)",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "energie",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Agence chargée de faciliter la coordination entre les régulateurs nationaux de l'énergie et de contribuer à la création d'un marché intérieur de l'électricité et du gaz intégré et concurrentiel.",
+    "siteWeb": "https://www.acer.europa.eu/"
+  },
+  {
+    "id": "enisa",
+    "nom": "Agence de l’Union européenne pour la cybersécurité  (ENISA)",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "numerique",
+      "defense",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence chargée de renforcer la cybersécurité au sein de l'Union en accompagnant les États membres, les institutions et les entreprises face aux menaces numériques, notamment via la certification et la préparation aux crises.",
+    "siteWeb": "https://www.enisa.europa.eu/"
+  },
+  {
+    "id": "easa",
+    "nom": "Agence de l’Union européenne pour la sécurité aérienne",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "defense",
+      "espace-aeronautique",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence chargée de garantir un niveau élevé et uniforme de sécurité et de protection environnementale dans l'aviation civile européenne, notamment par la certification des aéronefs.",
+    "siteWeb": "https://www.easa.europa.eu/"
+  },
+  {
+    "id": "euspa",
+    "nom": "Agence de l’Union européenne pour le programme spatial",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "espace-aeronautique",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence chargée de la gestion opérationnelle des programmes spatiaux européens (Galileo, Copernicus, EGNOS) et de la valorisation de leurs services auprès des utilisateurs publics et privés.",
+    "siteWeb": "https://www.euspa.europa.eu/"
+  },
+  {
+    "id": "era",
+    "nom": "Agence de l’Union européenne pour les chemins de fer",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "transports-infrastructures",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence chargée de promouvoir l'interopérabilité et la sécurité du système ferroviaire européen, notamment par la délivrance d'autorisations de véhicules et de certificats de sécurité uniques.",
+    "siteWeb": "https://www.era.europa.eu/"
   },
   {
     "id": "agence-biomédecine",
@@ -38,6 +114,82 @@
     ],
     "description": "Etablissement chargé de la gestion et de la préservation de la ressource en eau et des milieux aquatiques sur chaque bassin versant, notamment via le financement de projets liés à l'eau et à l'assainissement.",
     "siteWeb": "https://www.lesagencesdeleau.fr/"
+  },
+  {
+    "id": "aed",
+    "nom": "Agence européenne de défense",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "defense",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence intergouvernementale chargée de soutenir les États membres dans le développement de leurs capacités de défense et de favoriser la coopération en matière d'armement et de recherche militaire.",
+    "siteWeb": "https://www.eda.europa.eu/"
+  },
+  {
+    "id": "ema",
+    "nom": "Agence européenne des médicaments",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "sante-publique",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence chargée de l'évaluation scientifique, de la surveillance et de la pharmacovigilance des médicaments à usage humain et vétérinaire en vue de leur autorisation sur le marché européen.",
+    "siteWeb": "https://www.ema.europa.eu/en"
+  },
+  {
+    "id": "eea",
+    "nom": "Agence européenne pour l’environnement",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Agence chargée de fournir des données et analyses fiables et indépendantes sur l'état de l'environnement en Europe afin d'appuyer les politiques environnementales et le développement durable.",
+    "siteWeb": "https://www.eea.europa.eu/fr"
+  },
+  {
+    "id": "rea",
+    "nom": "Agence exécutive européenne pour la recherche",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "enseignement-superieur-recherche",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence chargée de la gestion opérationnelle de plusieurs programmes de financement de la recherche et de l'innovation de l'Union européenne, notamment certains volets d'Horizon Europe.",
+    "siteWeb": "https://rea.ec.europa.eu/index_en?prefLang=fr"
+  },
+  {
+    "id": "hadea",
+    "nom": "Agence exécutive européenne pour la santé et le numérique",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "numerique",
+      "sante-publique",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence chargée de la mise en œuvre de programmes européens dans les domaines de la santé, du numérique, de l'industrie et de l'espace, tels qu'EU4Health et le programme pour une Europe numérique.",
+    "siteWeb": "https://hadea.ec.europa.eu/"
+  },
+  {
+    "id": "cinea",
+    "nom": "Agence exécutive européenne pour le climat, les infrastructures et l’environnement",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Agence chargée de gérer des programmes de financement européens liés au climat, aux infrastructures de transport et d'énergie, et à l'environnement, tels que le Mécanisme pour l'interconnexion en Europe et LIFE.",
+    "siteWeb": "https://cinea.ec.europa.eu/"
   },
   {
     "id": "agence-francaise-developpement",
@@ -151,8 +303,19 @@
     "siteWeb": "https://www.assemblee-nationale.fr/"
   },
   {
+    "id": "aphm",
+    "nom": "Assistance publique - Hôpitaux de Marseille (AP-HM)",
+    "type": "etablissement-public-sante",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique"
+    ],
+    "description": "Centre hospitalier universitaire de Marseille, établissement public de santé regroupant plusieurs hôpitaux et assurant des missions de soins, d'enseignement et de recherche à l'échelle de la métropole marseillaise.",
+    "siteWeb": "https://fr.ap-hm.fr/"
+  },
+  {
     "id": "aphp",
-    "nom": "Assistance publique - Hôpitaux de Paris",
+    "nom": "Assistance publique - Hôpitaux de Paris (AP-HP)",
     "type": "etablissement-public-sante",
     "versant": "FPH",
     "secteur": [
@@ -226,6 +389,20 @@
     "siteWeb": "https://www.amf-france.org/fr"
   },
   {
+    "id": "bce",
+    "nom": "Banque centrale européenne",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Institution responsable de la politique monétaire de la zone euro, chargée de maintenir la stabilité des prix et de superviser le système bancaire européen.",
+    "siteWeb": "https://www.ecb.europa.eu/home/html/index.fr.html"
+  },
+  {
     "id": "banque-France",
     "nom": "Banque de France",
     "type": "autorite-administrative-independante",
@@ -237,6 +414,33 @@
     ],
     "description": "Banque centrale nationale, membre de l'Eurosystème, chargée de la stratégie monétaire, de la stabilité financière et de services à l'économie (supervision bancaire et prudentielle via l'ACPR).",
     "siteWeb": "https://www.banque-france.fr/"
+  },
+  {
+    "id": "bei",
+    "nom": "Banque européenne d'investissement",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "finances-publiques",
+      "economie",
+      "europe-affaires-europeennes",
+      "international-diplomatie"
+    ],
+    "description": "l'institution financière de l'Union européenne qui finance, par l'emprunt et le prêt, des projets contribuant aux objectifs économiques et politiques européens, notamment en matière d'infrastructures, d'innovation et de transition climatique.",
+    "siteWeb": "https://www.eib.org/fr/index"
   },
   {
     "id": "bpifrance",
@@ -498,6 +702,38 @@
     "siteWeb": "https://www.cre.fr/"
   },
   {
+    "id": "commission-europeenne",
+    "nom": "Commission européenne",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Institution exécutive de l'Union européenne, chargée de proposer la législation, de veiller à l'application des traités et de mettre en œuvre les politiques et le budget communautaires.",
+    "siteWeb": "https://commission.europa.eu/index_fr"
+  },
+  {
     "id": "cnil",
     "nom": "Commission nationale de l'informatique et des libertés (CNIL)",
     "type": "autorite-administrative-independante",
@@ -603,6 +839,44 @@
     "siteWeb": "https://www.conseil-etat.fr/"
   },
   {
+    "id": "cgaaer",
+    "nom": "Conseil général de l’alimentation, de l’agriculture et des espaces ruraux (CGAAER)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "agriculture-alimentation",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Organisme de conseil et d'expertise du ministère de l'Agriculture, chargé d'évaluer les politiques publiques relatives à l'agriculture, l'alimentation, la forêt et les territoires ruraux.",
+    "siteWeb": "https://agriculture.gouv.fr/cgaaer"
+  },
+  {
+    "id": "cge",
+    "nom": "Conseil général de l'économie (CGE)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Organisme de conseil et d'expertise du ministère de l'Économie et des Finances, chargé d'évaluer les politiques industrielles, économiques et numériques et de conseiller les pouvoirs publics en la matière.",
+    "siteWeb": "https://www.economie.gouv.fr/cge"
+  },
+  {
+    "id": "cga",
+    "nom": "Contrôle général des armées (CGA)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale rattachée au ministre des Armées, chargé d'inspecter la gestion administrative, financière et disciplinaire des services et organismes du ministère.",
+    "siteWeb": "https://www.defense.gouv.fr/cga"
+  },
+  {
     "id": "cour-des-comptes",
     "nom": "Cour des comptes",
     "type": "autorite-administrative-independante",
@@ -613,6 +887,19 @@
     ],
     "description": "Contrôle l'emploi des fonds publics par l'État et ses organismes, et certifie les comptes publics.",
     "siteWeb": "https://www.ccomptes.fr/"
+  },
+  {
+    "id": "cour-comptes-europeenne",
+    "nom": "Cour des comptes européenne",
+    "type": "institution-europeenne",
+    "versant": "HORS_FP",
+    "secteur": [
+      "finances-publiques",
+      "statistiques-donnees-publiques",
+      "europe-affaires-europeennes"
+    ],
+    "description": "Institution chargée du contrôle de la légalité, de la régularité et de la bonne gestion financière des recettes et dépenses de l'Union européenne.",
+    "siteWeb": "https://www.eca.europa.eu/fr"
   },
   {
     "id": "dgefp",
@@ -1434,6 +1721,17 @@
     "siteWeb": "https://www.has-sante.fr/"
   },
   {
+    "id": "hcl",
+    "nom": "Hospices civils de Lyon (HCL)",
+    "type": "etablissement-public-sante",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique"
+    ],
+    "description": "Etablissement public de santé rassemblant plusieurs hôpitaux et assurant des missions de soins, d'urgence, d'enseignement médical et de recherche pour l'agglomération lyonnaise.",
+    "siteWeb": "https://www.chu-lyon.fr/"
+  },
+  {
     "id": "idfm",
     "nom": "Ile-de-France mobilités",
     "type": "epa",
@@ -1454,6 +1752,112 @@
     ],
     "description": "Produit et diffuse les statistiques officielles françaises (démographie, économie, société).",
     "siteWeb": "https://www.insee.fr/fr/information/1302230"
+  },
+  {
+    "id": "igj",
+    "nom": "Inspection générale de la justice (IGJ)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "justice",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale de contrôle du ministère de la Justice chargé d'inspecter le fonctionnement des juridictions et services judiciaires et d'évaluer les politiques publiques de la justice.",
+    "siteWeb": "https://www.justice.gouv.fr/ministere-justice/missions-organisation/inspection-generale-justice"
+  },
+  {
+    "id": "iga",
+    "nom": "Inspection générale de l'administration (IGA)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "securite-interieure",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale chargée d'évaluer l'organisation et le fonctionnement des services déconcentrés de l'État, des collectivités territoriales et des politiques de sécurité et d'administration.",
+    "siteWeb": "https://www.interieur.gouv.fr/ministere/organisation/inspection-generale-de-l-administration"
+  },
+  {
+    "id": "igesr",
+    "nom": "Inspection générale de l'Education, du sport et de la recherche (IGESR)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "education",
+      "enseignement-superieur-recherche",
+      "sport",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale de contrôle et d'évaluation du ministère de l'Éducation nationale et de l'Enseignement supérieur, chargée d'inspecter les établissements et politiques d'éducation, de sport, de jeunesse et de recherche.",
+    "siteWeb": "https://www.education.gouv.fr/igesr"
+  },
+  {
+    "id": "igedd",
+    "nom": "Inspection générale de l'environnement et du développement durable (IGEDD)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale de contrôle et de conseil du ministère de la Transition écologique, chargée d'évaluer les politiques d'environnement, d'aménagement, de logement et de développement durable.",
+    "siteWeb": "https://www.igedd.developpement-durable.gouv.fr/"
+  },
+  {
+    "id": "igac",
+    "nom": "Inspection générale des affaires culturelles (IGAC)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "culture-patrimoine",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale du ministère de la Culture chargée d'évaluer les politiques, institutions et établissements culturels ainsi que la gestion des services placés sous sa tutelle.",
+    "siteWeb": "https://www.culture.gouv.fr/nous-connaitre/organisation-du-ministere/inspection-generale-des-affaires-culturelles"
+  },
+  {
+    "id": "igae",
+    "nom": "Inspection générale des affaires étrangères (IGAE)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "europe-affaires-europeennes",
+      "international-diplomatie",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale de contrôle du ministère de l'Europe et des Affaires étrangères, chargée d'inspecter le réseau diplomatique et consulaire et d'évaluer la mise en œuvre de la politique étrangère française.",
+    "siteWeb": "https://www.diplomatie.gouv.fr/fr/le-ministere/administration/l-inspection-generale-des-affaires-etrangeres"
+  },
+  {
+    "id": "igas",
+    "nom": "Inspection générale des affaires sociales (IGAS)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale chargée d'auditer et d'évaluer les politiques et organismes des domaines sanitaire, social, du travail et de l'emploi.",
+    "siteWeb": "https://www.igas.gouv.fr/"
+  },
+  {
+    "id": "igf",
+    "nom": "Inspection générale des finances (IGF)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "finances-publiques",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Inspection générale chargée d'auditer la gestion des services de l'État, d'évaluer les politiques publiques et de conseiller le gouvernement en matière économique et financière.",
+    "siteWeb": "https://www.igf.finances.gouv.fr/sites/igf/accueil.html"
   },
   {
     "id": "ign",
