@@ -762,7 +762,7 @@
       "jeunesse-vie-associative"
     ],
     "description": "Concernent les ensembles de plus de 50 000 habitants autour d'une ville-centre. Elles exercent des compétences plus étendues que les communautés de communes : développement économique, aménagement, équilibre social de l'habitat (PLH), politique de la ville, et souvent eau/assainissement, collecte des déchets.",
-    "siteWeb": "https://www.grandparissud.fr/"
+    "siteWeb": "https://www.intercommunalites.fr/"
   },
   {
     "id": "com-commune",
@@ -776,7 +776,7 @@
       "travail-emploi"
     ],
     "description": "Forme la plus simple d'intercommunalité, généralement en milieu rural ou périurbain. Compétences obligatoires : aménagement de l'espace, développement économique. Des compétences optionnelles et facultatives (eau, assainissement, tourisme, voirie, etc.) peuvent être ajoutées selon les statuts.",
-    "siteWeb": "https://bretagneromantique.fr/"
+    "siteWeb": "https://www.intercommunalites.fr/"
   },
   {
     "id": "com-urbaine",
@@ -795,7 +795,7 @@
       "jeunesse-vie-associative"
     ],
     "description": "Réservées aux grands ensembles urbains (plus de 250 000 habitants en général), elles disposent d'un bloc de compétences très large incluant la voirie, les transports urbains, l'eau, l'assainissement, les déchets et l'aménagement, avec un degré d'intégration supérieur aux communautés d'agglomérations.",
-    "siteWeb": "https://www.creusot-montceau.org/"
+    "siteWeb": "https://www.intercommunalites.fr/"
   },
   {
     "id": "commune",
@@ -825,7 +825,7 @@
       "statistiques-donnees-publiques"
     ],
     "description": "Échelon de base de l'administration territoriale, les communes disposent d'une clause de compétence générale. Elles gèrent l'état civil, les écoles primaires et maternelles, l'urbanisme (PLU, permis de construire), la voirie communale, l'action sociale de proximité (CCAS), ainsi que de nombreux services de proximité (crèches, bibliothèques, équipements sportifs et culturels).",
-    "siteWeb": "https://www.vie-publique.fr/fiches/19613-quest-ce-quune-commune"
+    "siteWeb": "https://www.amf.asso.fr/"
   },
   {
     "id": "conseil-etat",
@@ -935,7 +935,7 @@
       "statistiques-donnees-publiques"
     ],
     "description": "Chefs de file de l'action sociale, les départements gèrent le RSA, l'aide sociale à l'enfance, l'APA (allocation personnalisée d'autonomie) et le handicap. Ils sont également responsables des collèges et de la voirie départementale.",
-    "siteWeb": "https://www.vie-publique.fr/fiches/19620-quelles-sont-les-competences-exercees-par-les-departements"
+    "siteWeb": "https://departements.fr/"
   },
   {
     "id": "djepva",
@@ -1649,6 +1649,20 @@
     "siteWeb": "https://www.defense.gouv.fr/ema"
   },
   {
+    "id": "fnccr",
+    "nom": "Fédération nationale des collectivités concédantes et régies (FNCCR)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie"
+    ],
+    "description": "Groupement des collectivités territoriales en charge de la gestion de services publics essentiels, notamment la distribution d'électricité, de gaz, de chaleur, de froid, d'eau, d'assainissement, de communications électroniques, ainsi que la collecte et la valorisation des déchets, et qui représente ses adhérents auprès des pouvoirs publics.",
+    "siteWeb": "https://www.fnccr.asso.fr/"
+  },
+  {
     "id": "france-tv",
     "nom": "France Télévisions",
     "type": "entreprise-publique",
@@ -1926,7 +1940,7 @@
       "jeunesse-vie-associative"
     ],
     "description": "Statut le plus intégré, créé pour les grandes agglomérations (plus de 400 000 habitants, avec des cas particuliers comme le Grand Paris, Lyon ou Aix-Marseille). Elles cumulent les compétences des communautés urbaines et récupèrent souvent des compétences départementales (voirie, action sociale) et régionales par délégation, avec un rôle affirmé en matière de développement économique, d'innovation et de rayonnement international.",
-    "siteWeb": "https://www.lillemetropole.fr/"
+    "siteWeb": "https://www.intercommunalites.fr/"
   },
   {
     "id": "onf",
@@ -2051,7 +2065,7 @@
       "statistiques-donnees-publiques"
     ],
     "description": "Les régions ont pour compétences phares le développement économique, l'aménagement du territoire, les lycées, la formation professionnelle et l'apprentissage, ainsi que les transports (TER, cars interurbains depuis la loi NOTRe). Elles élaborent également le SRADDET, document de planification régionale.",
-    "siteWeb": "https://www.vie-publique.fr/fiches/19625-quest-ce-que-la-region"
+    "siteWeb": "https://regions-france.org/"
   },
   {
     "id": "rte",
@@ -2253,6 +2267,17 @@
     ],
     "description": "Organisme public responsable de la collecte et du traitement des eaux usées et pluviales de la zone dense francilienne.",
     "siteWeb": "https://www.siaap.fr/"
+  },
+  {
+    "id": "sde",
+    "nom": "Syndicat départemental d'énergie",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "energie"
+    ],
+    "description": "Autorité organisatrice de la distribution d'énergie (AODE) qui exerce par contrat de concession une mission de contrôle de la distribution d'électricité et accompagne les communes membres dans l'électrification, l'éclairage public, la production d'énergies renouvelables et la mobilité durable, tout en pouvant exercer des compétences optionnelles comme le gaz, les réseaux de chaleur ou le numérique.",
+    "siteWeb": "https://www.territoire-energie.com/le-reseau/"
   },
   {
     "id": "syctom",
