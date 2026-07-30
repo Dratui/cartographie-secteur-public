@@ -28,6 +28,18 @@
     "siteWeb": "https://www.agence-biomedecine.fr/fr"
   },
   {
+    "id": "agence-eau",
+    "nom": "Agence de l'eau",
+    "type": "epa",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat"
+    ],
+    "description": "Etablissement chargé de la gestion et de la préservation de la ressource en eau et des milieux aquatiques sur chaque bassin versant, notamment via le financement de projets liés à l'eau et à l'assainissement.",
+    "siteWeb": "https://www.lesagencesdeleau.fr/"
+  },
+  {
     "id": "agence-francaise-developpement",
     "nom": "Agence française de développement",
     "type": "epic",
@@ -55,7 +67,7 @@
   },
   {
     "id": "anah",
-    "nom": "Agence nationale de l’habitat (Anah) ",
+    "nom": "Agence nationale de l’habitat (Anah)",
     "type": "epa",
     "versant": "FPE",
     "secteur": [
@@ -487,6 +499,58 @@
     "siteWeb": "https://www.cnil.fr/"
   },
   {
+    "id": "com-agglomeration",
+    "nom": "Communauté d'agglomération (CA)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "travail-emploi",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative"
+    ],
+    "description": "Concernent les ensembles de plus de 50 000 habitants autour d'une ville-centre. Elles exercent des compétences plus étendues que les communautés de communes : développement économique, aménagement, équilibre social de l'habitat (PLH), politique de la ville, et souvent eau/assainissement, collecte des déchets.",
+    "siteWeb": "https://www.grandparissud.fr/"
+  },
+  {
+    "id": "com-commune",
+    "nom": "Communauté de communes (CC)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "amenagement-urbanisme",
+      "travail-emploi"
+    ],
+    "description": "Forme la plus simple d'intercommunalité, généralement en milieu rural ou périurbain. Compétences obligatoires : aménagement de l'espace, développement économique. Des compétences optionnelles et facultatives (eau, assainissement, tourisme, voirie, etc.) peuvent être ajoutées selon les statuts.",
+    "siteWeb": "https://bretagneromantique.fr/"
+  },
+  {
+    "id": "com-urbaine",
+    "nom": "Communauté urbaine (CU)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "travail-emploi",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative"
+    ],
+    "description": "Réservées aux grands ensembles urbains (plus de 250 000 habitants en général), elles disposent d'un bloc de compétences très large incluant la voirie, les transports urbains, l'eau, l'assainissement, les déchets et l'aménagement, avec un degré d'intégration supérieur aux communautés d'agglomérations.",
+    "siteWeb": "https://www.creusot-montceau.org/"
+  },
+  {
     "id": "commune",
     "nom": "Commune",
     "type": "commune",
@@ -513,7 +577,7 @@
       "economie",
       "statistiques-donnees-publiques"
     ],
-    "description": "Collectivité territoriale de base, compétente notamment en urbanisme, état civil, écoles primaires et action sociale de proximité.",
+    "description": "Échelon de base de l'administration territoriale, les communes disposent d'une clause de compétence générale. Elles gèrent l'état civil, les écoles primaires et maternelles, l'urbanisme (PLU, permis de construire), la voirie communale, l'action sociale de proximité (CCAS), ainsi que de nombreux services de proximité (crèches, bibliothèques, équipements sportifs et culturels).",
     "siteWeb": "https://www.vie-publique.fr/fiches/19613-quest-ce-quune-commune"
   },
   {
@@ -584,7 +648,7 @@
       "ressources-humaines",
       "statistiques-donnees-publiques"
     ],
-    "description": "Collectivité territoriale intermédiaire, compétente notamment en action sociale (RSA, protection de l'enfance), collèges et routes départementales.",
+    "description": "Chefs de file de l'action sociale, les départements gèrent le RSA, l'aide sociale à l'enfance, l'APA (allocation personnalisée d'autonomie) et le handicap. Ils sont également responsables des collèges et de la voirie départementale.",
     "siteWeb": "https://www.vie-publique.fr/fiches/19620-quelles-sont-les-competences-exercees-par-les-departements"
   },
   {
@@ -950,7 +1014,7 @@
   },
   {
     "id": "dgesco",
-    "nom": "Direction générale de l'enseignement scolaire (DGESCO) ",
+    "nom": "Direction générale de l'enseignement scolaire (DGESCO)",
     "type": "administration-centrale",
     "versant": "FPE",
     "secteur": [
@@ -1198,7 +1262,7 @@
   },
   {
     "id": "draaf",
-    "nom": "Direction régionale de l'alimentation, de l'agriculture et de la forêt (DRAAF) ",
+    "nom": "Direction régionale de l'alimentation, de l'agriculture et de la forêt (DRAAF)",
     "type": "administration-deconcentree",
     "versant": "FPE",
     "secteur": [
@@ -1212,7 +1276,7 @@
   },
   {
     "id": "dreets",
-    "nom": "Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS) ",
+    "nom": "Direction régionale de l'économie, de l'emploi, du travail et des solidarités (DREETS)",
     "type": "administration-deconcentree",
     "versant": "FPE",
     "secteur": [
@@ -1359,6 +1423,17 @@
     "siteWeb": "https://www.has-sante.fr/"
   },
   {
+    "id": "idfm",
+    "nom": "Ile-de-France mobilités",
+    "type": "epa",
+    "versant": "FPT",
+    "secteur": [
+      "transports-infrastructures"
+    ],
+    "description": "Île-de-France Mobilités est l'autorité organisatrice des transports en commun (métro, RER, bus, tramway) de la région Île-de-France, chargée de définir l'offre, les tarifs et la politique de mobilité pour l'ensemble du territoire francilien.",
+    "siteWeb": "https://www.iledefrance-mobilites.fr/decouvrir/nos-missions"
+  },
+  {
     "id": "insee",
     "nom": "INSEE",
     "type": "administration-centrale",
@@ -1418,6 +1493,25 @@
     ],
     "description": "Établit les prévisions météorologiques et mène la recherche climatique nationale.",
     "siteWeb": "https://meteofrance.com/"
+  },
+  {
+    "id": "metropole",
+    "nom": "Métropole",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "travail-emploi",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative"
+    ],
+    "description": "Statut le plus intégré, créé pour les grandes agglomérations (plus de 400 000 habitants, avec des cas particuliers comme le Grand Paris, Lyon ou Aix-Marseille). Elles cumulent les compétences des communautés urbaines et récupèrent souvent des compétences départementales (voirie, action sociale) et régionales par délégation, avec un rôle affirmé en matière de développement économique, d'innovation et de rayonnement international.",
+    "siteWeb": "https://www.lillemetropole.fr/"
   },
   {
     "id": "onf",
@@ -1530,7 +1624,7 @@
       "europe-affaires-europeennes",
       "statistiques-donnees-publiques"
     ],
-    "description": "Collectivité territoriale compétente en développement économique, formation professionnelle, lycées et transports régionaux.",
+    "description": "Les régions ont pour compétences phares le développement économique, l'aménagement du territoire, les lycées, la formation professionnelle et l'apprentissage, ainsi que les transports (TER, cars interurbains depuis la loi NOTRe). Elles élaborent également le SRADDET, document de planification régionale.",
     "siteWeb": "https://www.vie-publique.fr/fiches/19625-quest-ce-que-la-region"
   },
   {
@@ -1686,6 +1780,43 @@
     ],
     "description": "Représente l'État à l'échelle infra-départementale (arrondissement).",
     "siteWeb": "https://www.marne.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Les-sous-prefectures"
+  },
+  {
+    "id": "sedif",
+    "nom": "Syndicat des eaux d'Ile-de-France (SEDIF)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat"
+    ],
+    "description": "Chargé de la production et de la distribution de l'eau potable pour une large partie des communes franciliennes.",
+    "siteWeb": "https://www.sedif.com/"
+  },
+  {
+    "id": "siaap",
+    "nom": "Syndicat interdépartemental pour l'assainissement de l'agglomération parisienne (SIAAP)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat"
+    ],
+    "description": "Organisme public responsable de la collecte et du traitement des eaux usées et pluviales de la zone dense francilienne.",
+    "siteWeb": "https://www.siaap.fr/"
+  },
+  {
+    "id": "syctom",
+    "nom": "Syndicat mixte central de traitement des ordures ménagères (Syctom)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie"
+    ],
+    "description": "Agence métropolitaine chargée du traitement et de la valorisation des déchets ménagers pour la majeure partie de l'agglomération parisienne.",
+    "siteWeb": "https://www.syctom-paris.fr/accueil.html"
   },
   {
     "id": "tracfin",
