@@ -277,17 +277,6 @@
     "siteWeb": "https://www.caissedesdepots.fr/"
   },
   {
-    "id": "centre-hospitalier",
-    "nom": "Centre hospitalier et centre hospitalier universitaire",
-    "type": "etablissement-public-sante",
-    "versant": "FPH",
-    "secteur": [
-      "sante-publique"
-    ],
-    "description": "Etablissement public de santé assurant des missions de diagnostic, de soins, de prévention et d'urgence. Lorsqu'il s'agit d'un centre hospitalier universitaire, il assure des fonctions d'enseignement médical et de recherche en lien avec une université.",
-    "siteWeb": "https://www.fhf.fr/"
-  },
-  {
     "id": "cnaf",
     "nom": "Caisse nationale des allocations familiales (CNAF)",
     "type": "operateur-etat",
@@ -338,6 +327,17 @@
     ],
     "description": "Apporte une expertise technique à l'État et aux collectivités sur l'aménagement du territoire, les infrastructures, les risques et la mobilité.",
     "siteWeb": "https://www.cerema.fr/fr"
+  },
+  {
+    "id": "centre-hospitalier",
+    "nom": "Centre hospitalier et centre hospitalier universitaire",
+    "type": "etablissement-public-sante",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique"
+    ],
+    "description": "Etablissement public de santé assurant des missions de diagnostic, de soins, de prévention et d'urgence. Lorsqu'il s'agit d'un centre hospitalier universitaire, il assure des fonctions d'enseignement médical et de recherche en lien avec une université.",
+    "siteWeb": "https://www.fhf.fr/"
   },
   {
     "id": "cnfpt",
@@ -615,18 +615,6 @@
     "siteWeb": "https://www.ccomptes.fr/"
   },
   {
-    "id": "numerique-sante",
-    "nom": "Délégation du numérique en santé",
-    "type": "administration-centrale",
-    "versant": "FPE",
-    "secteur": [
-      "numerique",
-      "sante-publique"
-    ],
-    "description": "Pilote la stratégie de numérisation du système de santé (Mon espace santé, Ségur numérique).",
-    "siteWeb": "https://sante.gouv.fr/ministere/organisation/organisation-des-directions-et-services/article/organisation-de-la-delegation-au-numerique-en-sante"
-  },
-  {
     "id": "dgefp",
     "nom": "Délégation générale à l'emploi et à la formation professionnelle (DGEFP)",
     "type": "administration-centrale",
@@ -877,6 +865,18 @@
     ],
     "description": "Pilote la politique nationale de recherche et d'innovation.",
     "siteWeb": "https://www.enseignementsup-recherche.gouv.fr/fr/direction-generale-de-la-recherche-et-de-l-innovation-dgri-83753"
+  },
+  {
+    "id": "dgrines",
+    "nom": "Direction générale de la recherche, de l’innovation et du numérique en santé (DGRINES)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "sante-publique"
+    ],
+    "description": "Elabore, met en œuvre et coordonne la politique des ministères chargés de la santé, de l'action sociale et de la sécurité sociale dans les domaines du numérique, de la recherche et de l'innovation dans les secteurs sanitaire et médico-social. Elle concourt à l'élaboration et à la mise en œuvre de la politique de santé.",
+    "siteWeb": "https://bulletins-officiels.social.gouv.fr/note-dinformation-ndeg-dgrinesri12026101-du-20-juillet-2026-relative-aux-programmes-de-recherche-sur-les-soins-et-loffre-de-soins-pour-la-campagne-2026-2027"
   },
   {
     "id": "dg-sante",
@@ -1746,29 +1746,6 @@
     "siteWeb": "https://www.senat.fr/"
   },
   {
-    "id": "sigeif",
-    "nom": "Syndicat intercommunal pour le gaz et l'électricité en Île-de-France (SIGEIF)",
-    "type": "epci",
-    "versant": "FPT",
-    "secteur": [
-      "energie"
-    ],
-    "description": "Syndicat mixte chargé de l'organisation et du contrôle des réseaux publics de distribution d'énergie (gaz et électricité) pour le compte des communes franciliennes adhérentes.",
-    "siteWeb": "https://www.sigeif.fr/"
-  },
-  {
-    "id": "sipperec",
-    "nom": "Syndicat intercommunal de la périphérie de Paris pour l'électricité et les réseaux de communication (SIPPEREC)",
-    "type": "epci",
-    "versant": "FPT",
-    "secteur": [
-      "numerique",
-      "energie"
-    ],
-    "description": "Syndicat mixte francilien compétent en matière de distribution d'électricité, de réseaux de communication (fibre optique) et de développement des infrastructures énergétiques et numériques, pour le compte de ses collectivités membres",
-    "siteWeb": "https://www.sipperec.fr/"
-  },
-  {
     "id": "sncf-gares-connexions",
     "nom": "SNCF Gares & Connexions",
     "type": "entreprise-publique",
@@ -1837,6 +1814,29 @@
     ],
     "description": "Chargé de la production et de la distribution de l'eau potable pour une large partie des communes franciliennes.",
     "siteWeb": "https://www.sedif.com/"
+  },
+  {
+    "id": "sipperec",
+    "nom": "Syndicat intercommunal de la périphérie de Paris pour l'électricité et les réseaux de communication (SIPPEREC)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "energie"
+    ],
+    "description": "Syndicat mixte francilien compétent en matière de distribution d'électricité, de réseaux de communication (fibre optique) et de développement des infrastructures énergétiques et numériques, pour le compte de ses collectivités membres",
+    "siteWeb": "https://www.sipperec.fr/"
+  },
+  {
+    "id": "sigeif",
+    "nom": "Syndicat intercommunal pour le gaz et l'électricité en Île-de-France (SIGEIF)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "energie"
+    ],
+    "description": "Syndicat mixte chargé de l'organisation et du contrôle des réseaux publics de distribution d'énergie (gaz et électricité) pour le compte des communes franciliennes adhérentes.",
+    "siteWeb": "https://www.sigeif.fr/"
   },
   {
     "id": "siaap",
