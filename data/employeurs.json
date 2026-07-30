@@ -1561,6 +1561,17 @@
     "siteWeb": "https://www.foph.fr/"
   },
   {
+    "id": "peren",
+    "nom": "Pôle d'expertise de la régulation numérique (PEReN)",
+    "type": "administration-centrale",
+    "versant": "FPE",
+    "secteur": [
+      "numerique"
+    ],
+    "description": "Service d'expertise technique rattaché aux ministères économiques et financiers, chargé d'appuyer les autorités publiques dans la régulation des plateformes et algorithmes numériques, notamment par l'analyse de données et le développement d'outils techniques",
+    "siteWeb": "https://www.peren.gouv.fr/fr/"
+  },
+  {
     "id": "prefecture",
     "nom": "Préfecture",
     "type": "administration-deconcentree",
