@@ -277,6 +277,17 @@
     "siteWeb": "https://www.caissedesdepots.fr/"
   },
   {
+    "id": "centre-hospitalier",
+    "nom": "Centre hospitalier et centre hospitalier universitaire",
+    "type": "etablissement-public-sante",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique"
+    ],
+    "description": "Etablissement public de santé assurant des missions de diagnostic, de soins, de prévention et d'urgence. Lorsqu'il s'agit d'un centre hospitalier universitaire, il assure des fonctions d'enseignement médical et de recherche en lien avec une université.",
+    "siteWeb": "https://www.fhf.fr/"
+  },
+  {
     "id": "cnaf",
     "nom": "Caisse nationale des allocations familiales (CNAF)",
     "type": "operateur-etat",
@@ -1722,6 +1733,29 @@
     ],
     "description": "Chambre haute du Parlement français, représente les collectivités territoriales et vote la loi. Dispose de services propres, recrutant par concours.",
     "siteWeb": "https://www.senat.fr/"
+  },
+  {
+    "id": "sigeif",
+    "nom": "Syndicat intercommunal pour le gaz et l'électricité en Île-de-France (SIGEIF)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "energie"
+    ],
+    "description": "Syndicat mixte chargé de l'organisation et du contrôle des réseaux publics de distribution d'énergie (gaz et électricité) pour le compte des communes franciliennes adhérentes.",
+    "siteWeb": "https://www.sigeif.fr/"
+  },
+  {
+    "id": "sipperec",
+    "nom": "Syndicat intercommunal de la périphérie de Paris pour l'électricité et les réseaux de communication (SIPPEREC)",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "energie"
+    ],
+    "description": "Syndicat mixte francilien compétent en matière de distribution d'électricité, de réseaux de communication (fibre optique) et de développement des infrastructures énergétiques et numériques, pour le compte de ses collectivités membres",
+    "siteWeb": "https://www.sipperec.fr/"
   },
   {
     "id": "sncf-gares-connexions",
