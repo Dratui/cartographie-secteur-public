@@ -42,7 +42,9 @@ async function afficherFicheConcours() {
     document.getElementById("fil-ariane-nom").textContent = concours.nom;
 
     conteneur.textContent = "";
-    conteneur.appendChild(creerFiche(concours, versants, filieres, categories, secteurs));
+    conteneur.appendChild(creerFiche(concours, versants, filieres, categories));
+    conteneur.appendChild(creerSectionSecteurs(concours.secteur, secteurs));
+    conteneur.appendChild(creerSectionDescription(concours.descriptionDetaillee));
     conteneur.appendChild(creerSectionVoiesAcces(concours, typesConcours));
     conteneur.appendChild(creerSectionEmployeurs(concours, employeurs));
   } catch (erreur) {
@@ -63,7 +65,7 @@ function afficherConcoursIntrouvable(conteneur) {
   conteneur.appendChild(lien);
 }
 
-function creerFiche(concours, versants, filieres, categories, secteursRef) {
+function creerFiche(concours, versants, filieres, categories) {
   const fiche = document.createElement("section");
   fiche.className = "fiche";
 
@@ -83,13 +85,6 @@ function creerFiche(concours, versants, filieres, categories, secteursRef) {
   versant.textContent = "Versant : " + libelleVersant(versants, concours.versant);
   fiche.appendChild(versant);
 
-  const secteurs = document.createElement("p");
-  const libellesSecteurs = concours.secteur.map((id) => libelleSecteur(secteursRef, id)).join(", ");
-  secteurs.textContent = "Secteurs : " + (libellesSecteurs || "Non renseigné");
-  fiche.appendChild(secteurs);
-
-  fiche.appendChild(creerBlocDescription(concours.descriptionDetaillee));
-
   if (concours.siteWeb) {
     const lien = document.createElement("a");
     lien.className = "lien-siteweb";
@@ -103,6 +98,45 @@ function creerFiche(concours, versants, filieres, categories, secteursRef) {
   return fiche;
 }
 
+function creerSectionSecteurs(secteurIds, secteursRef) {
+  const section = document.createElement("section");
+  section.className = "fiche-liens";
+
+  const titre = document.createElement("h2");
+  titre.textContent = "Secteurs";
+  section.appendChild(titre);
+
+  if (!secteurIds || secteurIds.length === 0) {
+    const message = document.createElement("p");
+    message.textContent = "Non renseigné";
+    section.appendChild(message);
+    return section;
+  }
+
+  const liste = document.createElement("ul");
+  secteurIds.forEach((id) => {
+    const item = document.createElement("li");
+    item.textContent = libelleSecteur(secteursRef, id);
+    liste.appendChild(item);
+  });
+  section.appendChild(liste);
+
+  return section;
+}
+
+function creerSectionDescription(descriptionDetaillee) {
+  const section = document.createElement("section");
+  section.className = "fiche-liens";
+
+  const titre = document.createElement("h2");
+  titre.textContent = "Description";
+  section.appendChild(titre);
+
+  section.appendChild(creerBlocDescription(descriptionDetaillee));
+
+  return section;
+}
+
 // Rendu de la description longue : un paragraphe par bloc séparé par un
 // saut de ligne double ("\n\n"), pour permettre une mise en forme lisible
 // sans avoir besoin de markdown.
@@ -112,7 +146,7 @@ function creerBlocDescription(descriptionDetaillee) {
 
   if (!descriptionDetaillee || descriptionDetaillee.trim() === "") {
     const vide = document.createElement("p");
-    vide.textContent = "Description : Non renseignée";
+    vide.textContent = "Non renseignée";
     bloc.appendChild(vide);
     return bloc;
   }
