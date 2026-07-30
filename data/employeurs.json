@@ -3,7 +3,7 @@
     "id": "euratom",
     "nom": "Agence d'approvisionnement d'Euratom",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "energie",
       "europe-affaires-europeennes"
@@ -32,7 +32,7 @@
     "id": "acer",
     "nom": "Agence de l’Union européenne pour la coopération des régulateurs de l’énergie (ACER)",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "energie",
       "economie",
@@ -46,7 +46,7 @@
     "id": "enisa",
     "nom": "Agence de l’Union européenne pour la cybersécurité  (ENISA)",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "numerique",
       "defense",
@@ -59,7 +59,7 @@
     "id": "easa",
     "nom": "Agence de l’Union européenne pour la sécurité aérienne",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "defense",
       "espace-aeronautique",
@@ -72,7 +72,7 @@
     "id": "euspa",
     "nom": "Agence de l’Union européenne pour le programme spatial",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "espace-aeronautique",
       "europe-affaires-europeennes"
@@ -84,7 +84,7 @@
     "id": "era",
     "nom": "Agence de l’Union européenne pour les chemins de fer",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "transports-infrastructures",
       "europe-affaires-europeennes"
@@ -119,7 +119,7 @@
     "id": "aed",
     "nom": "Agence européenne de défense",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "defense",
       "europe-affaires-europeennes"
@@ -131,7 +131,7 @@
     "id": "ema",
     "nom": "Agence européenne des médicaments",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "sante-publique",
       "europe-affaires-europeennes"
@@ -143,7 +143,7 @@
     "id": "eea",
     "nom": "Agence européenne pour l’environnement",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "environnement-biodiversite",
       "transition-ecologique-climat",
@@ -157,7 +157,7 @@
     "id": "rea",
     "nom": "Agence exécutive européenne pour la recherche",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "enseignement-superieur-recherche",
       "europe-affaires-europeennes"
@@ -169,7 +169,7 @@
     "id": "hadea",
     "nom": "Agence exécutive européenne pour la santé et le numérique",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "numerique",
       "sante-publique",
@@ -182,7 +182,7 @@
     "id": "cinea",
     "nom": "Agence exécutive européenne pour le climat, les infrastructures et l’environnement",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "environnement-biodiversite",
       "transition-ecologique-climat",
@@ -392,7 +392,7 @@
     "id": "bce",
     "nom": "Banque centrale européenne",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "economie",
       "international-diplomatie",
@@ -419,7 +419,7 @@
     "id": "bei",
     "nom": "Banque européenne d'investissement",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "environnement-biodiversite",
       "transition-ecologique-climat",
@@ -705,7 +705,7 @@
     "id": "commission-europeenne",
     "nom": "Commission européenne",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "numerique",
       "environnement-biodiversite",
@@ -892,7 +892,7 @@
     "id": "cour-comptes-europeenne",
     "nom": "Cour des comptes européenne",
     "type": "institution-europeenne",
-    "versant": "HORS_FP",
+    "versant": "FPUE",
     "secteur": [
       "finances-publiques",
       "statistiques-donnees-publiques",

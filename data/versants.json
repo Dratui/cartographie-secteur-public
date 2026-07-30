@@ -4,6 +4,7 @@
     { "id": "FPT", "libelle": "Fonction publique territoriale" },
     { "id": "FPH", "libelle": "Fonction publique hospitalière" },
     { "id": "FPVP", "libelle": "Fonction publique de la Ville de Paris" },
+    { "id": "FPUE", "libelle": "Fonction publique européenne" },
     { "id": "HORS_FP", "libelle": "Secteur public hors fonction publique" }
   ]
 }
