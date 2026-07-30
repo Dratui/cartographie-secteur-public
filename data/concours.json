@@ -1396,5 +1396,53 @@
         "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-lindustrie-mines-iim-concours-interne"
       }
     ]
+  },
+  {
+    "id": "ad5",
+    "nom": "Administrateur-ice européen-ne (AD5)",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPUE",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "justice",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Le rôle général des administrateurs est d’aider les décideurs à remplir la mission de leur institution ou organe, en contribuant aux politiques et aux programmes qui ont une incidence sur des millions de personnes dans toute l’Europe. Les lauréats travaillent généralement dans l’un des domaines suivants au sein d’une équipe multiculturelle : élaboration et formulation des politiques, mise en œuvre des politiques et prestation opérationnelle, gestion des ressources.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://eu-careers.europa.eu/fr/apply-graduate-administrators-competition-ad5"
+      }
+    ]
   }
 ]
