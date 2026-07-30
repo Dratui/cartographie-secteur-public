@@ -34,6 +34,14 @@ h1 {
   padding-bottom: 0.5rem;
 }
 
+.logo-accueil {
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  margin: 1rem auto 1.5rem;
+}
+
 p {
   color: var(--couleur-texte-clair);
 }
