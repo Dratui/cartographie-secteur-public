@@ -1,78 +1,44 @@
 [
   {
-    "id": "ipef",
-    "nom": "Ingénieur-e des ponts, des eaux et des forêts (IPEF)",
+    "id": "administrateur-ville-paris",
+    "nom": "Administrateur-ice de la ville de Paris",
     "categorie": "A+",
-    "filiere": "technique",
-    "versant": "FPE",
+    "filiere": "administrative",
+    "versant": "FPVP",
     "secteur": [
+      "numerique",
       "environnement-biodiversite",
       "transition-ecologique-climat",
-      "agriculture-alimentation",
       "energie",
       "transports-infrastructures",
       "amenagement-urbanisme",
       "logement-habitat",
+      "agriculture-alimentation",
       "mer-littoral",
-      "enseignement-superieur-recherche",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
       "economie",
-      "international-diplomatie",
       "europe-affaires-europeennes",
       "statistiques-donnees-publiques"
     ],
     "employeurs": [
-      "dgec"
+      "ville-paris"
     ],
     "siteWeb": "",
-    "descriptionDetaillee": "Corps technique interministériel de haut niveau (environ 3 000 ingénieurs), vivier d'expertise de l'État dans les sciences du vivant et le développement durable : aménagement des territoires, transports, transition écologique, agriculture, forêt, alimentation, mer, climat et énergie. Recruté et employé principalement par les ministères de la Transition écologique, de l'Aménagement du territoire, des Transports, de la Ville et du Logement.",
+    "descriptionDetaillee": "Corps de catégorie A+ de la fonction publique parisienne, homologue de l'administrateur de l'État, recruté selon des conditions proches de celles de l'INSP. Exerce des fonctions de direction et d'encadrement supérieur au sein des services de la Ville de Paris.",
     "voiesAcces": [
       {
-        "nomConcours": "Concours externe AGES",
+        "nomConcours": "Concours externe",
         "type": "externe",
-        "niveauRequis": "Bac+4 (grande école scientifique habilitée)",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr"
-      },
-      {
-        "nomConcours": "Concours externe ENS",
-        "type": "externe",
-        "niveauRequis": "Bac+4 (ENS)",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-eleve-ponts-eaux-forets-ipef-concours-externe-ecoles-normales-superieures"
-      },
-      {
-        "nomConcours": "Concours externe Agro Paris Tech - Institut des Sciences et Industries du Vivant et de l'Environnement",
-        "type": "externe",
-        "niveauRequis": "Bac+4 (Agro Paris Tech ou Institut des Sciences et Industries du Vivant et de l'Environnement)",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieure-eleve-ponts-eaux-forets-ipef-concours-externe-agro-paris-tech-isive"
-      },
-      {
-        "nomConcours": "Concours externe AGES, parcours Talents",
-        "type": "externe",
-        "niveauRequis": "Bac+4 (grande école scientifique habilitée et inscription à un dispositif \"Prépa Talents\")",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-eleve-ponts-eaux-forets-ipef-concours-externe-autres-grandes-ecoles"
-      },
-      {
-        "nomConcours": "Concours externe Agro Paris Tech - Institut des Sciences et Industries du Vivant et de l'Environnement, parcours Talents",
-        "type": "externe",
-        "niveauRequis": "Bac+4 (Agro Paris Tech ou Institut des Sciences et Industries du Vivant et de l'Environnement et inscription à un dispositif \"Prépa Talents\")",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-eleve-ponts-eaux-forets-ipef-concours-externe-institut-sciences-industries-du"
-      },
-      {
-        "nomConcours": "Liste d'aptitude",
-        "type": "liste-aptitude",
-        "niveauRequis": "Bac+5 et 12 ans d'ancienneté dans un des corps spécifique (ITPE…)",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-ponts-eaux-forets-ipef-liste-daptitude"
-      },
-      {
-        "nomConcours": "Concours externe sur titres et travaux",
-        "type": "externe",
-        "niveauRequis": "Bac+8 (doctorat dans un domaine d'intérêt)",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-pontsdes-eaux-forets-ipef-concours-externe-titres-travaux"
-      },
-      {
-        "nomConcours": "Concours interne à caractère professionnel",
-        "type": "interne",
-        "niveauRequis": "Bac+5 et 5 ans d'ancienneté dans un des corps spécifique (ITPE…)",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-ponts-eaux-forets-ipef-concours-interne-caractere-professionnel"
+        "niveauRequis": "recrutement via l'INSP, mêmes conditions que les administrateurs de l'État (bac+3 minimum)",
+        "siteWebConcours": "https://www.insp.gouv.fr"
       }
     ]
   },
@@ -151,6 +117,653 @@
     ]
   },
   {
+    "id": "administrateur-affaires-maritimes",
+    "nom": "Administrateur-ice des affaires maritimes",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "mer-littoral",
+      "enseignement-superieur-recherche",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps militaire d'officiers de la Marine nationale relevant du ministère chargé de la Mer, chargé de la direction et de l'administration des services de l'État sur le littoral : sécurité et sûreté maritime, pêche, plaisance, gens de mer, protection de l'environnement marin, gestion du domaine public maritime. Environ 335 administrateurs, affectés à Paris et sur l'ensemble du littoral métropolitain et ultramarin.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3, 26 ans au plus au 1er janvier du concours",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/eleve-administrateur-trice-affaires-maritimes-2e-classe-article-41-aam-concours-externe"
+      }
+    ]
+  },
+  {
+    "id": "administrateur-assemblee-nationale",
+    "nom": "Administrateur-ice des services de l'Assemblée nationale",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "justice",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps de catégorie A+ de la fonction publique parlementaire, apportant une assistance juridique et technique aux députés dans l'élaboration de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques. Recrutement exclusivement externe, environ tous les deux ans, sur un nombre très restreint de postes.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.assemblee-nationale.fr/dyn/travailler-a-l-assemblee-nationale/concours/administrateur-2026"
+      }
+    ]
+  },
+  {
+    "id": "administrateur-senat",
+    "nom": "Administrateur-ice des services du Sénat",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "justice",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps de catégorie A+ de la fonction publique parlementaire sénatoriale, apportant conseil, expertise et aide à la décision aux sénateurs dans l'exercice de leur mandat (initiative parlementaire, élaboration de la loi, contrôle du Gouvernement). Concours très sélectif organisé tous les deux ans, environ cinq postes par session.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.senat.fr/le-senat-et-vous/travailler-au-senat/recrutement-des-fonctionnaires-par-concours/concours-administrateur-2025.html"
+      }
+    ]
+  },
+  {
+    "id": "ad5",
+    "nom": "Administrateur-ice européen-ne (AD5)",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPUE",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "justice",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Le rôle général des administrateurs est d’aider les décideurs à remplir la mission de leur institution ou organe, en contribuant aux politiques et aux programmes qui ont une incidence sur des millions de personnes dans toute l’Europe. Les lauréats travaillent généralement dans l’un des domaines suivants au sein d’une équipe multiculturelle : élaboration et formulation des politiques, mise en œuvre des politiques et prestation opérationnelle, gestion des ressources.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://eu-careers.europa.eu/fr/apply-graduate-administrators-competition-ad5"
+      }
+    ]
+  },
+  {
+    "id": "administrateur-territorial",
+    "nom": "Administrateur-ice territorial-e",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Cadre d'emplois de direction (catégorie A+) de la fonction publique territoriale, chargé de fonctions de direction générale au sein des grandes collectivités (régions, départements, grandes villes, intercommunalités). Formation initiale à l'Institut national des études territoriales (INET, CNFPT).",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "bac+3 minimum (licence) ; un master 2 en économie, gestion, administration ou IEP est fortement recommandé en pratique",
+        "siteWebConcours": "https://inet.cnfpt.fr"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "conditions d'ancienneté dans la fonction publique, sans condition de diplôme",
+        "siteWebConcours": "https://inet.cnfpt.fr"
+      }
+    ]
+  },
+  {
+    "id": "attache-administration-etat",
+    "nom": "Attaché-e d'administration de l'État",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "travail-emploi",
+      "education",
+      "enseignement-superieur-recherche",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "justice",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps administratif interministériel de catégorie A, exerçant des missions variées selon l'affectation : études, expertise, conseil, conduite de projet, gestion, élaboration de textes réglementaires. Employé par l'ensemble des ministères ; formation initiale dans les Instituts régionaux d'administration (IRA).",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://ira-inscription.fonction-publique.gouv.fr/presentation.html"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://ira-inscription.fonction-publique.gouv.fr/presentation.html"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "5 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://ira-inscription.fonction-publique.gouv.fr/presentation.html"
+      }
+    ]
+  },
+  {
+    "id": "attache-administrations-parisiennes",
+    "nom": "Attaché-e d'administrations parisiennes",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPVP",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps administratif généraliste (catégorie A) de la fonction publique parisienne, homologue de l'attaché territorial, exerçant des missions de gestion et d'encadrement administratif au sein des services de la Ville de Paris.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "bac+3",
+        "siteWebConcours": "https://www.paris.fr"
+      }
+    ]
+  },
+  {
+    "id": "attache-dgse",
+    "nom": "Attaché-e de la DGSE",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "defense",
+      "securite-interieure",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps de catégorie A de la Direction générale de la sécurité extérieure (DGSE), chargé de fonctions de conception, d'expertise, de gestion et de pilotage au service des opérations de renseignement extérieur : analyse et diffusion du renseignement, ressources humaines, finances, logistique, juridique, innovation technologique.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.dgse.gouv.fr/fr/le-recrutement/nous-rejoindre/les-concours/concours-categorie-a"
+      }
+    ]
+  },
+  {
+    "id": "attache-territorial",
+    "nom": "Attaché-e territorial-e",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPT",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "Cadre d'emplois administratif généraliste (catégorie A) de la fonction publique territoriale, exerçant des missions de gestion, d'encadrement et d'expertise administrative, financière ou juridique au sein des collectivités territoriales.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "bac+3 (licence)",
+        "siteWebConcours": "https://www.cnfpt.fr"
+      }
+    ]
+  },
+  {
+    "id": "cadre-direction-banque-france",
+    "nom": "Cadre de direction de la Banque de France",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "HORS_FP",
+    "secteur": [
+      "economie",
+      "finances-publiques",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Concours de catégorie A+, le plus élevé de la Banque de France, recrutant des experts et futurs cadres dirigeants sur des postes stratégiques : stratégie monétaire, stabilité financière, supervision prudentielle (ACPR), audit, contrôle des banques et assurances, économie. Statut de fonctionnaire assimilé, distinct du statut classique de la fonction publique (hors des trois versants FPE/FPT/FPH).",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours",
+        "type": "externe",
+        "niveauRequis": "Bac+5",
+        "siteWebConcours": "https://www.recrutement.banque-france.fr/fr/nos-concours/le-concours-cadre-de-direction-de-la-banque-de-france"
+      },
+      {
+        "nomConcours": "Concours",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.recrutement.banque-france.fr/fr/nos-concours/le-concours-cadre-de-la-banque-de-france"
+      }
+    ]
+  },
+  {
+    "id": "capitaine-sp",
+    "nom": "Capitaine de sapeurs-pompiers",
+    "categorie": "A",
+    "filiere": "sapeur-pompier",
+    "versant": "FPT",
+    "secteur": [
+      "securite-interieure"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Officier supérieur intermédiaire (catégorie A) qui commande généralement une compagnie ou un centre d'incendie et de secours (CIS) de taille importante, assurant l'encadrement opérationnel et administratif d'une équipe de sapeurs-pompiers professionnels ou volontaires.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=404"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=404"
+      }
+    ]
+  },
+  {
+    "id": "colonel-sp",
+    "nom": "Colonel de sapeurs-pompiers",
+    "categorie": "A+",
+    "filiere": "sapeur-pompier",
+    "versant": "FPT",
+    "secteur": [
+      "securite-interieure"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Officier supérieur de haut rang qui occupe généralement les fonctions de directeur départemental des services d'incendie et de secours (DDSIS) ou de directeur adjoint, pilotant la stratégie, l'organisation et la gestion globale des secours à l'échelle d'un département.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=413"
+      }
+    ]
+  },
+  {
+    "id": "commissaire-police",
+    "nom": "Commissaire de police",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "justice"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Cadre de conception et de direction de la police nationale, sous l'autorité du ministère de l'Intérieur. Dirige un commissariat ou un service spécialisé (police judiciaire, sécurité publique, renseignement, protection...), pilote les équipes et les opérations, et assure la sécurité publique dans sa circonscription. Formé pendant 24 mois à l'École nationale supérieure de la police (ENSP).",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+5",
+        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/ext"
+      },
+      {
+        "nomConcours": "Concours externe spécial, parcours Talents",
+        "type": "externe",
+        "niveauRequis": "Bac+5 et inscription à un dispositif \"Prépa Talents\"",
+        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/cs"
+      },
+      {
+        "nomConcours": "Premier concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public. 45 ans au plus au 1er janvier de l'année du concours",
+        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/CRE/commissaire-de-police-premier-concours-interne"
+      },
+      {
+        "nomConcours": "Second concours interne",
+        "type": "interne",
+        "niveauRequis": "4 ans d'ancienneté dans le grade de capitaine de police",
+        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/2int"
+      }
+    ]
+  },
+  {
+    "id": "commissaire-armees",
+    "nom": "Commissaire des armées",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "numerique"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Officier issu du service du commissariat des armées chargé du soutien administratif, financier, juridique et logistique interarmées (achats, solde, contentieux, gestion des ressources humaines et matérielles) au profit des forces armées françaises.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe sur épreuves",
+        "type": "externe",
+        "niveauRequis": "Bac+3 et 22 ans au plus",
+        "siteWebConcours": "https://www.defense.gouv.fr/commissariat/recrutement/commissaire-armees/nos-concours/concours-externe-epreuves"
+      },
+      {
+        "nomConcours": "Concours externe sur titres",
+        "type": "externe",
+        "niveauRequis": "Bac+5 et 27 ans au plus",
+        "siteWebConcours": "https://www.defense.gouv.fr/commissariat/recrutement/commissaire-armees/nos-concours/concours-externe-titres"
+      }
+    ]
+  },
+  {
+    "id": "cpe",
+    "nom": "Conseiller-e principal-e d'éducation (CPE)",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "education"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps de catégorie A de l'Éducation nationale chargé du suivi de la vie scolaire et de l'encadrement éducatif des élèves en collège et lycée (vie collective, absentéisme, discipline, accompagnement des élèves), en lien avec les équipes pédagogiques et les familles.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3 (ou Bac+5, transitoirement)",
+        "siteWebConcours": "https://www.education.gouv.fr/les-concours-de-recrutement-de-conseillers-principaux-d-education-cpe-6719"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "Bac+3 et 3 années de service public",
+        "siteWebConcours": "https://www.education.gouv.fr/les-concours-de-recrutement-de-conseillers-principaux-d-education-cpe-6719"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "5 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.education.gouv.fr/les-concours-de-recrutement-de-conseillers-principaux-d-education-cpe-6719"
+      }
+    ]
+  },
+  {
+    "id": "d3s",
+    "nom": "Directeur-ice d'établissement sanitaire, social et médico-social",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "finances-publiques",
+      "ressources-humaines",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Cadre de direction de la fonction publique hospitalière chargé de diriger des établissements et services sociaux et médico-sociaux : foyers de l'enfance, maisons d'enfants à caractère social, EHPAD, centres d'hébergement et de réinsertion sociale. Géré par le Centre national de gestion (CNG) et formé à l'EHESP.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "8 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
+      }
+    ]
+  },
+  {
+    "id": "directeur-hopital",
+    "nom": "Directeur-ice d'hôpital",
+    "categorie": "A+",
+    "filiere": "administrative",
+    "versant": "FPH",
+    "secteur": [
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "finances-publiques",
+      "ressources-humaines",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Cadre de direction de la fonction publique hospitalière, chargé de diriger un établissement de santé : stratégie, gestion administrative, financière et RH, qualité et sécurité des soins. Géré par le Centre national de gestion (CNG) et formé à l'École des hautes études en santé publique (EHESP) à Rennes.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "6 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
+      }
+    ]
+  },
+  {
+    "id": "icsap",
+    "nom": "Ingénieur-e cadre supérieur-e d'administrations parisiennes",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPVP",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps technique de catégorie A+ de la fonction publique parisienne, créé en homologie avec le corps des IPEF de l'État. Exerce des fonctions d'encadrement technique supérieur au sein des services de la Ville de Paris.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "bac+5 (corps créé en homologie avec les IPEF de l'État, même échelonnement indiciaire)",
+        "siteWebConcours": "https://www.paris.fr"
+      }
+    ]
+  },
+  {
     "id": "insed",
     "nom": "Ingénieur-e de la statistique, de l'économie et de la donnée",
     "categorie": "A+",
@@ -203,6 +816,129 @@
         "type": "externe",
         "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente). 34 ans au plus au 1er janvier de l'année du concours.",
         "siteWebConcours": "https://www.insee.fr/fr/information/9031228"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-ville-paris",
+    "nom": "Ingénieur-e de la ville de Paris (EIVP)",
+    "categorie": "A",
+    "filiere": "technique",
+    "versant": "FPVP",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "agriculture-alimentation",
+      "mer-littoral",
+      "sante-publique",
+      "affaires-sociales-solidarites",
+      "education",
+      "culture-patrimoine",
+      "sport",
+      "jeunesse-vie-associative",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "economie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [
+      "ville-paris"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "Ingénieur technique (catégorie A) de la Ville de Paris, formé à l'École des ingénieurs de la Ville de Paris (EIVP), intervenant sur les infrastructures, l'urbanisme et l'environnement urbain parisien.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Élève-ingénieur-e, EIVP",
+        "type": "externe",
+        "niveauRequis": "accès post-bac via classe préparatoire intégrée, formation à l'École des ingénieurs de la Ville de Paris (EIVP)",
+        "siteWebConcours": "https://www.eivp-paris.fr"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-armement",
+    "nom": "Ingénieur-e de l'armement",
+    "categorie": "A+",
+    "filiere": "technique",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "energie",
+      "transports-infrastructures",
+      "mer-littoral",
+      "enseignement-superieur-recherche",
+      "defense",
+      "securite-interieure",
+      "finances-publiques",
+      "ressources-humaines",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps militaire technique de l'État, l'un des quatre grands corps techniques et le seul à statut militaire. Chargé de la conception, la définition, la direction et le contrôle des programmes d'armement, ainsi que de missions scientifiques, techniques et industrielles au service de la défense et de la souveraineté technologique. Environ la moitié de ses membres sont employés par la Direction générale de l'armement (DGA).",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+5 (7 grandes écoles scientifiques habilitées). 27 ans au plus au 1er janvier de l'année du concours.",
+        "siteWebConcours": "https://www.defense.gouv.fr/dga"
+      },
+      {
+        "nomConcours": "Concours externe, voie docteurs",
+        "type": "externe",
+        "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente). 34 ans au plus au 1er janvier de l'année du concours.",
+        "siteWebConcours": "https://www.defense.gouv.fr/dga"
+      }
+    ]
+  },
+  {
+    "id": "ingenieur-industrie-mines",
+    "nom": "Ingénieur-e de l'industrie et des mines",
+    "categorie": "A",
+    "filiere": "technique",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "energie",
+      "transports-infrastructures",
+      "sante-publique",
+      "defense",
+      "securite-interieure",
+      "industrie",
+      "economie",
+      "espace-aeronautique",
+      "international-diplomatie",
+      "europe-affaires-europeennes"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps technique de catégorie A rattaché au ministère de l'Économie, exerçant au sein des ministères et administrations en charge de l'économie, l'industrie, l'énergie, l'environnement, la prévention des risques et la sécurité industrielle ; forme notamment l'ossature technique de l'Autorité de sûreté nucléaire et de radioprotection (ASNR).",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+5",
+        "siteWebConcours": "https://www.economie.gouv.fr/rejoignez-nous/ingenieur-de-lindustrie-et-des-mines-sur-titres-et-epreuve-externe-secretariat-general-des-mef"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "7 années de service public sur des missons de catégorie A",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-lindustrie-mines-iim-concours-interne"
       }
     ]
   },
@@ -275,43 +1011,124 @@
     ]
   },
   {
-    "id": "commissaire-police",
-    "nom": "Commissaire de police",
+    "id": "ipef",
+    "nom": "Ingénieur-e des ponts, des eaux et des forêts (IPEF)",
     "categorie": "A+",
-    "filiere": "administrative",
+    "filiere": "technique",
     "versant": "FPE",
     "secteur": [
-      "defense",
-      "securite-interieure",
-      "justice"
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "mer-littoral",
+      "enseignement-superieur-recherche",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [
+      "dgec"
+    ],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps technique interministériel de haut niveau (environ 3 000 ingénieurs), vivier d'expertise de l'État dans les sciences du vivant et le développement durable : aménagement des territoires, transports, transition écologique, agriculture, forêt, alimentation, mer, climat et énergie. Recruté et employé principalement par les ministères de la Transition écologique, de l'Aménagement du territoire, des Transports, de la Ville et du Logement.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe AGES",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (grande école scientifique habilitée)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr"
+      },
+      {
+        "nomConcours": "Concours externe ENS",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (ENS)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-eleve-ponts-eaux-forets-ipef-concours-externe-ecoles-normales-superieures"
+      },
+      {
+        "nomConcours": "Concours externe Agro Paris Tech - Institut des Sciences et Industries du Vivant et de l'Environnement",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (Agro Paris Tech ou Institut des Sciences et Industries du Vivant et de l'Environnement)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieure-eleve-ponts-eaux-forets-ipef-concours-externe-agro-paris-tech-isive"
+      },
+      {
+        "nomConcours": "Concours externe AGES, parcours Talents",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (grande école scientifique habilitée et inscription à un dispositif \"Prépa Talents\")",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-eleve-ponts-eaux-forets-ipef-concours-externe-autres-grandes-ecoles"
+      },
+      {
+        "nomConcours": "Concours externe Agro Paris Tech - Institut des Sciences et Industries du Vivant et de l'Environnement, parcours Talents",
+        "type": "externe",
+        "niveauRequis": "Bac+4 (Agro Paris Tech ou Institut des Sciences et Industries du Vivant et de l'Environnement et inscription à un dispositif \"Prépa Talents\")",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-eleve-ponts-eaux-forets-ipef-concours-externe-institut-sciences-industries-du"
+      },
+      {
+        "nomConcours": "Liste d'aptitude",
+        "type": "liste-aptitude",
+        "niveauRequis": "Bac+5 et 12 ans d'ancienneté dans un des corps spécifique (ITPE…)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-ponts-eaux-forets-ipef-liste-daptitude"
+      },
+      {
+        "nomConcours": "Concours externe sur titres et travaux",
+        "type": "externe",
+        "niveauRequis": "Bac+8 (doctorat dans un domaine d'intérêt)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-pontsdes-eaux-forets-ipef-concours-externe-titres-travaux"
+      },
+      {
+        "nomConcours": "Concours interne à caractère professionnel",
+        "type": "interne",
+        "niveauRequis": "Bac+5 et 5 ans d'ancienneté dans un des corps spécifique (ITPE…)",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-ponts-eaux-forets-ipef-concours-interne-caractere-professionnel"
+      }
+    ]
+  },
+  {
+    "id": "itpe",
+    "nom": "Ingénieur-e des travaux publics de l'État (ITPE)",
+    "categorie": "A",
+    "filiere": "technique",
+    "versant": "FPE",
+    "secteur": [
+      "environnement-biodiversite",
+      "transition-ecologique-climat",
+      "agriculture-alimentation",
+      "energie",
+      "transports-infrastructures",
+      "amenagement-urbanisme",
+      "logement-habitat",
+      "mer-littoral",
+      "enseignement-superieur-recherche",
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
     ],
     "employeurs": [],
     "siteWeb": "",
-    "descriptionDetaillee": "Cadre de conception et de direction de la police nationale, sous l'autorité du ministère de l'Intérieur. Dirige un commissariat ou un service spécialisé (police judiciaire, sécurité publique, renseignement, protection...), pilote les équipes et les opérations, et assure la sécurité publique dans sa circonscription. Formé pendant 24 mois à l'École nationale supérieure de la police (ENSP).",
+    "descriptionDetaillee": "Corps technique de catégorie A du ministère de la Transition écologique et de l'Aménagement du territoire, intervenant sur les infrastructures, les transports, l'aménagement, l'environnement et le numérique, en administration centrale, dans les services déconcentrés ou les établissements publics.",
     "voiesAcces": [
       {
         "nomConcours": "Concours externe",
         "type": "externe",
         "niveauRequis": "Bac+5",
-        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/ext"
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-travaux-publics-letat-itpe-concours-externe-titres"
       },
       {
-        "nomConcours": "Concours externe spécial, parcours Talents",
-        "type": "externe",
-        "niveauRequis": "Bac+5 et inscription à un dispositif \"Prépa Talents\"",
-        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/cs"
-      },
-      {
-        "nomConcours": "Premier concours interne",
+        "nomConcours": "Concours externe",
         "type": "interne",
-        "niveauRequis": "4 années de service public. 45 ans au plus au 1er janvier de l'année du concours",
-        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/CRE/commissaire-de-police-premier-concours-interne"
+        "niveauRequis": "3 années de service public",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/eleve-ingenieur-e-travaux-publics-letat-itpe-concours-interne"
       },
       {
-        "nomConcours": "Second concours interne",
-        "type": "interne",
-        "niveauRequis": "4 ans d'ancienneté dans le grade de capitaine de police",
-        "siteWebConcours": "https://www.police-nationale.interieur.gouv.fr/nous-rejoindre/nos-voies-dacces/devenir-policier/cre/2int"
+        "nomConcours": "Examen professionnel",
+        "type": "examen-professionnel",
+        "niveauRequis": "8 années de service public, statut de fonctionnaire",
+        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-travaux-publics-letat-itpe-examen-professionnel"
       }
     ]
   },
@@ -365,80 +1182,6 @@
         "type": "examen-professionnel",
         "niveauRequis": "Appartenir au cadre d'emplois des Ingénieur-es territoriaux et avoir accompli 4 années de service dans un grade d'avancement OU avoir accompli 6 années sur un emploi fonctionnel",
         "siteWebConcours": "https://www.cnfpt.fr/evoluer/preparation-aux-concours-concours-examens-professionnels/decouvrir-differents-types-concours-examens-professionnels/lexamen-professionnel-dingenieur-ou-ingenieure-territorial-chef/national"
-      }
-    ]
-  },
-  {
-    "id": "directeur-hopital",
-    "nom": "Directeur-ice d'hôpital",
-    "categorie": "A+",
-    "filiere": "administrative",
-    "versant": "FPH",
-    "secteur": [
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "finances-publiques",
-      "ressources-humaines",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Cadre de direction de la fonction publique hospitalière, chargé de diriger un établissement de santé : stratégie, gestion administrative, financière et RH, qualité et sécurité des soins. Géré par le Centre national de gestion (CNG) et formé à l'École des hautes études en santé publique (EHESP) à Rennes.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
-      },
-      {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "4 années de service public",
-        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
-      },
-      {
-        "nomConcours": "Troisième concours",
-        "type": "troisieme-concours",
-        "niveauRequis": "6 années dans le secteur privé, associatif ou élu",
-        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-dh"
-      }
-    ]
-  },
-  {
-    "id": "d3s",
-    "nom": "Directeur-ice d'établissement sanitaire, social et médico-social",
-    "categorie": "A+",
-    "filiere": "administrative",
-    "versant": "FPH",
-    "secteur": [
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "finances-publiques",
-      "ressources-humaines",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Cadre de direction de la fonction publique hospitalière chargé de diriger des établissements et services sociaux et médico-sociaux : foyers de l'enfance, maisons d'enfants à caractère social, EHPAD, centres d'hébergement et de réinsertion sociale. Géré par le Centre national de gestion (CNG) et formé à l'EHESP.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
-      },
-      {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "4 années de service public",
-        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
-      },
-      {
-        "nomConcours": "Troisième concours",
-        "type": "troisieme-concours",
-        "niveauRequis": "8 années dans le secteur privé, associatif ou élu",
-        "siteWebConcours": "https://www.cng.sante.fr/candidats/devenir-dh-d3s-ds/concours-d3s"
       }
     ]
   },
@@ -521,94 +1264,6 @@
     ]
   },
   {
-    "id": "administrateur-territorial",
-    "nom": "Administrateur-ice territorial-e",
-    "categorie": "A+",
-    "filiere": "administrative",
-    "versant": "FPT",
-    "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "agriculture-alimentation",
-      "mer-littoral",
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "education",
-      "culture-patrimoine",
-      "sport",
-      "jeunesse-vie-associative",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "economie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Cadre d'emplois de direction (catégorie A+) de la fonction publique territoriale, chargé de fonctions de direction générale au sein des grandes collectivités (régions, départements, grandes villes, intercommunalités). Formation initiale à l'Institut national des études territoriales (INET, CNFPT).",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "bac+3 minimum (licence) ; un master 2 en économie, gestion, administration ou IEP est fortement recommandé en pratique",
-        "siteWebConcours": "https://inet.cnfpt.fr"
-      },
-      {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "conditions d'ancienneté dans la fonction publique, sans condition de diplôme",
-        "siteWebConcours": "https://inet.cnfpt.fr"
-      }
-    ]
-  },
-  {
-    "id": "ingenieur-armement",
-    "nom": "Ingénieur-e de l'armement",
-    "categorie": "A+",
-    "filiere": "technique",
-    "versant": "FPE",
-    "secteur": [
-      "numerique",
-      "energie",
-      "transports-infrastructures",
-      "mer-littoral",
-      "enseignement-superieur-recherche",
-      "defense",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "industrie",
-      "economie",
-      "espace-aeronautique",
-      "international-diplomatie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps militaire technique de l'État, l'un des quatre grands corps techniques et le seul à statut militaire. Chargé de la conception, la définition, la direction et le contrôle des programmes d'armement, ainsi que de missions scientifiques, techniques et industrielles au service de la défense et de la souveraineté technologique. Environ la moitié de ses membres sont employés par la Direction générale de l'armement (DGA).",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+5 (7 grandes écoles scientifiques habilitées). 27 ans au plus au 1er janvier de l'année du concours.",
-        "siteWebConcours": "https://www.defense.gouv.fr/dga"
-      },
-      {
-        "nomConcours": "Concours externe, voie docteurs",
-        "type": "externe",
-        "niveauRequis": "Bac+8 (doctorat dans un domaine de compétence du corps, ou qualification reconnue équivalente). 34 ans au plus au 1er janvier de l'année du concours.",
-        "siteWebConcours": "https://www.defense.gouv.fr/dga"
-      }
-    ]
-  },
-  {
     "id": "ingenieur-territorial",
     "nom": "Ingénieur-e territorial-e",
     "categorie": "A",
@@ -631,484 +1286,6 @@
         "type": "externe",
         "niveauRequis": "bac+5 (diplôme d'ingénieur habilité par l'État ou équivalent)",
         "siteWebConcours": "https://www.carrieres-publiques.com"
-      }
-    ]
-  },
-  {
-    "id": "attache-territorial",
-    "nom": "Attaché-e territorial-e",
-    "categorie": "A",
-    "filiere": "administrative",
-    "versant": "FPT",
-    "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "agriculture-alimentation",
-      "mer-littoral",
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "education",
-      "culture-patrimoine",
-      "sport",
-      "jeunesse-vie-associative",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "economie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [
-      "ville-paris"
-    ],
-    "siteWeb": "",
-    "descriptionDetaillee": "Cadre d'emplois administratif généraliste (catégorie A) de la fonction publique territoriale, exerçant des missions de gestion, d'encadrement et d'expertise administrative, financière ou juridique au sein des collectivités territoriales.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "bac+3 (licence)",
-        "siteWebConcours": "https://www.cnfpt.fr"
-      }
-    ]
-  },
-  {
-    "id": "administrateur-ville-paris",
-    "nom": "Administrateur-ice de la ville de Paris",
-    "categorie": "A+",
-    "filiere": "administrative",
-    "versant": "FPVP",
-    "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "agriculture-alimentation",
-      "mer-littoral",
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "education",
-      "culture-patrimoine",
-      "sport",
-      "jeunesse-vie-associative",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "economie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [
-      "ville-paris"
-    ],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps de catégorie A+ de la fonction publique parisienne, homologue de l'administrateur de l'État, recruté selon des conditions proches de celles de l'INSP. Exerce des fonctions de direction et d'encadrement supérieur au sein des services de la Ville de Paris.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "recrutement via l'INSP, mêmes conditions que les administrateurs de l'État (bac+3 minimum)",
-        "siteWebConcours": "https://www.insp.gouv.fr"
-      }
-    ]
-  },
-  {
-    "id": "icsap",
-    "nom": "Ingénieur-e cadre supérieur-e d'administrations parisiennes",
-    "categorie": "A+",
-    "filiere": "technique",
-    "versant": "FPVP",
-    "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "agriculture-alimentation",
-      "mer-littoral",
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "education",
-      "culture-patrimoine",
-      "sport",
-      "jeunesse-vie-associative",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "economie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [
-      "ville-paris"
-    ],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps technique de catégorie A+ de la fonction publique parisienne, créé en homologie avec le corps des IPEF de l'État. Exerce des fonctions d'encadrement technique supérieur au sein des services de la Ville de Paris.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "bac+5 (corps créé en homologie avec les IPEF de l'État, même échelonnement indiciaire)",
-        "siteWebConcours": "https://www.paris.fr"
-      }
-    ]
-  },
-  {
-    "id": "attache-administrations-parisiennes",
-    "nom": "Attaché-e d'administrations parisiennes",
-    "categorie": "A",
-    "filiere": "administrative",
-    "versant": "FPVP",
-    "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "agriculture-alimentation",
-      "mer-littoral",
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "education",
-      "culture-patrimoine",
-      "sport",
-      "jeunesse-vie-associative",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "economie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [
-      "ville-paris"
-    ],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps administratif généraliste (catégorie A) de la fonction publique parisienne, homologue de l'attaché territorial, exerçant des missions de gestion et d'encadrement administratif au sein des services de la Ville de Paris.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "bac+3",
-        "siteWebConcours": "https://www.paris.fr"
-      }
-    ]
-  },
-  {
-    "id": "ingenieur-ville-paris",
-    "nom": "Ingénieur-e de la ville de Paris (EIVP)",
-    "categorie": "A",
-    "filiere": "technique",
-    "versant": "FPVP",
-    "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "agriculture-alimentation",
-      "mer-littoral",
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "education",
-      "culture-patrimoine",
-      "sport",
-      "jeunesse-vie-associative",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "economie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [
-      "ville-paris"
-    ],
-    "siteWeb": "",
-    "descriptionDetaillee": "Ingénieur technique (catégorie A) de la Ville de Paris, formé à l'École des ingénieurs de la Ville de Paris (EIVP), intervenant sur les infrastructures, l'urbanisme et l'environnement urbain parisien.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Élève-ingénieur-e, EIVP",
-        "type": "externe",
-        "niveauRequis": "accès post-bac via classe préparatoire intégrée, formation à l'École des ingénieurs de la Ville de Paris (EIVP)",
-        "siteWebConcours": "https://www.eivp-paris.fr"
-      }
-    ]
-  },
-  {
-    "id": "administrateur-affaires-maritimes",
-    "nom": "Administrateur-ice des affaires maritimes",
-    "categorie": "A+",
-    "filiere": "administrative",
-    "versant": "FPE",
-    "secteur": [
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "mer-littoral",
-      "enseignement-superieur-recherche",
-      "defense",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "economie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps militaire d'officiers de la Marine nationale relevant du ministère chargé de la Mer, chargé de la direction et de l'administration des services de l'État sur le littoral : sécurité et sûreté maritime, pêche, plaisance, gens de mer, protection de l'environnement marin, gestion du domaine public maritime. Environ 335 administrateurs, affectés à Paris et sur l'ensemble du littoral métropolitain et ultramarin.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3, 26 ans au plus au 1er janvier du concours",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/eleve-administrateur-trice-affaires-maritimes-2e-classe-article-41-aam-concours-externe"
-      }
-    ]
-  },
-  {
-    "id": "cadre-direction-banque-france",
-    "nom": "Cadre de direction de la Banque de France",
-    "categorie": "A+",
-    "filiere": "administrative",
-    "versant": "HORS_FP",
-    "secteur": [
-      "economie",
-      "finances-publiques",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Concours de catégorie A+, le plus élevé de la Banque de France, recrutant des experts et futurs cadres dirigeants sur des postes stratégiques : stratégie monétaire, stabilité financière, supervision prudentielle (ACPR), audit, contrôle des banques et assurances, économie. Statut de fonctionnaire assimilé, distinct du statut classique de la fonction publique (hors des trois versants FPE/FPT/FPH).",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours",
-        "type": "externe",
-        "niveauRequis": "Bac+5",
-        "siteWebConcours": "https://www.recrutement.banque-france.fr/fr/nos-concours/le-concours-cadre-de-direction-de-la-banque-de-france"
-      },
-      {
-        "nomConcours": "Concours",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.recrutement.banque-france.fr/fr/nos-concours/le-concours-cadre-de-la-banque-de-france"
-      }
-    ]
-  },
-  {
-    "id": "administrateur-assemblee-nationale",
-    "nom": "Administrateur-ice des services de l'Assemblée nationale",
-    "categorie": "A+",
-    "filiere": "administrative",
-    "versant": "FPE",
-    "secteur": [
-      "justice",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps de catégorie A+ de la fonction publique parlementaire, apportant une assistance juridique et technique aux députés dans l'élaboration de la loi, le contrôle du Gouvernement et l'évaluation des politiques publiques. Recrutement exclusivement externe, environ tous les deux ans, sur un nombre très restreint de postes.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.assemblee-nationale.fr/dyn/travailler-a-l-assemblee-nationale/concours/administrateur-2026"
-      }
-    ]
-  },
-  {
-    "id": "administrateur-senat",
-    "nom": "Administrateur-ice des services du Sénat",
-    "categorie": "A+",
-    "filiere": "administrative",
-    "versant": "FPE",
-    "secteur": [
-      "justice",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps de catégorie A+ de la fonction publique parlementaire sénatoriale, apportant conseil, expertise et aide à la décision aux sénateurs dans l'exercice de leur mandat (initiative parlementaire, élaboration de la loi, contrôle du Gouvernement). Concours très sélectif organisé tous les deux ans, environ cinq postes par session.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.senat.fr/le-senat-et-vous/travailler-au-senat/recrutement-des-fonctionnaires-par-concours/concours-administrateur-2025.html"
-      }
-    ]
-  },
-  {
-    "id": "attache-administration-etat",
-    "nom": "Attaché-e d'administration de l'État",
-    "categorie": "A",
-    "filiere": "administrative",
-    "versant": "FPE",
-    "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "agriculture-alimentation",
-      "mer-littoral",
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "travail-emploi",
-      "education",
-      "enseignement-superieur-recherche",
-      "culture-patrimoine",
-      "sport",
-      "jeunesse-vie-associative",
-      "justice",
-      "defense",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "industrie",
-      "economie",
-      "espace-aeronautique",
-      "international-diplomatie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps administratif interministériel de catégorie A, exerçant des missions variées selon l'affectation : études, expertise, conseil, conduite de projet, gestion, élaboration de textes réglementaires. Employé par l'ensemble des ministères ; formation initiale dans les Instituts régionaux d'administration (IRA).",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://ira-inscription.fonction-publique.gouv.fr/presentation.html"
-      },
-      {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "4 années de service public",
-        "siteWebConcours": "https://ira-inscription.fonction-publique.gouv.fr/presentation.html"
-      },
-      {
-        "nomConcours": "Troisième concours",
-        "type": "troisieme-concours",
-        "niveauRequis": "5 années dans le secteur privé, associatif ou élu",
-        "siteWebConcours": "https://ira-inscription.fonction-publique.gouv.fr/presentation.html"
-      }
-    ]
-  },
-  {
-    "id": "attache-dgse",
-    "nom": "Attaché-e de la DGSE",
-    "categorie": "A",
-    "filiere": "administrative",
-    "versant": "FPE",
-    "secteur": [
-      "numerique",
-      "defense",
-      "securite-interieure",
-      "industrie",
-      "economie",
-      "espace-aeronautique",
-      "international-diplomatie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps de catégorie A de la Direction générale de la sécurité extérieure (DGSE), chargé de fonctions de conception, d'expertise, de gestion et de pilotage au service des opérations de renseignement extérieur : analyse et diffusion du renseignement, ressources humaines, finances, logistique, juridique, innovation technologique.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.dgse.gouv.fr/fr/le-recrutement/nous-rejoindre/les-concours/concours-categorie-a"
-      }
-    ]
-  },
-  {
-    "id": "secretaire-affaires-etrangeres",
-    "nom": "Secrétaire des affaires étrangères",
-    "categorie": "A",
-    "filiere": "administrative",
-    "versant": "FPE",
-    "secteur": [
-      "defense",
-      "securite-interieure",
-      "economie",
-      "international-diplomatie",
-      "europe-affaires-europeennes"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps diplomatique de catégorie A du ministère de l'Europe et des Affaires étrangères, chargé de la conception et de la mise en œuvre de la politique étrangère de la France (analyses géopolitiques, négociations internationales, affaires économiques, juridiques, consulaires ou culturelles). Deux cadres coexistent : le cadre général et le cadre d'Orient, spécialisé sur une zone géographique et ses langues. Exerce en administration centrale (Paris, Nantes) et dans le réseau diplomatique et consulaire à l'étranger.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.diplomatie.gouv.fr/fr/concours/secretaire-des-affaires-etrangeres-cadre-general"
-      },
-      {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "4 années de service public",
-        "siteWebConcours": "https://www.diplomatie.gouv.fr/fr/concours/secretaire-des-affaires-etrangeres-cadre-general"
-      },
-      {
-        "nomConcours": "Troisième concours",
-        "type": "troisieme-concours",
-        "niveauRequis": "5 années dans le secteur privé, associatif ou élu",
-        "siteWebConcours": "https://www.diplomatie.gouv.fr/fr/concours/secretaire-des-affaires-etrangeres-cadre-general"
-      }
-    ]
-  },
-  {
-    "id": "inspecteur-finances-publiques",
-    "nom": "Inspecteur-ice des finances publiques",
-    "categorie": "A",
-    "filiere": "administrative",
-    "versant": "FPE",
-    "secteur": [
-      "numerique",
-      "finances-publiques",
-      "economie",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps de catégorie A de la Direction générale des finances publiques (DGFiP, ministère de l'Économie et des Finances), chargé du contrôle fiscal, de la gestion de l'impôt, de la gestion publique locale et de missions d'encadrement au sein des services fiscaux et du Trésor public.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.economie.gouv.fr/rejoignez-nous/inspecteur-des-finances-publiques-externe-dgfip"
-      },
-      {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "4 années de service public",
-        "siteWebConcours": "https://www.economie.gouv.fr/rejoignez-nous/inspecteur-des-finances-publiques-interne-dgfip"
       }
     ]
   },
@@ -1171,6 +1348,36 @@
         "type": "interne",
         "niveauRequis": "4 années de service public",
         "siteWebConcours": "https://www.douane.gouv.fr/fiche/inspecteur-des-douanes-categorie-a"
+      }
+    ]
+  },
+  {
+    "id": "inspecteur-finances-publiques",
+    "nom": "Inspecteur-ice des finances publiques",
+    "categorie": "A",
+    "filiere": "administrative",
+    "versant": "FPE",
+    "secteur": [
+      "numerique",
+      "finances-publiques",
+      "economie",
+      "statistiques-donnees-publiques"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Corps de catégorie A de la Direction générale des finances publiques (DGFiP, ministère de l'Économie et des Finances), chargé du contrôle fiscal, de la gestion de l'impôt, de la gestion publique locale et de missions d'encadrement au sein des services fiscaux et du Trésor public.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.economie.gouv.fr/rejoignez-nous/inspecteur-des-finances-publiques-externe-dgfip"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.economie.gouv.fr/rejoignez-nous/inspecteur-des-finances-publiques-interne-dgfip"
       }
     ]
   },
@@ -1281,215 +1488,81 @@
     ]
   },
   {
-    "id": "cpe",
-    "nom": "Conseiller-e principal-e d'éducation (CPE)",
+    "id": "secretaire-affaires-etrangeres",
+    "nom": "Secrétaire des affaires étrangères",
     "categorie": "A",
     "filiere": "administrative",
     "versant": "FPE",
     "secteur": [
-      "education"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps de catégorie A de l'Éducation nationale chargé du suivi de la vie scolaire et de l'encadrement éducatif des élèves en collège et lycée (vie collective, absentéisme, discipline, accompagnement des élèves), en lien avec les équipes pédagogiques et les familles.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3 (ou Bac+5, transitoirement)",
-        "siteWebConcours": "https://www.education.gouv.fr/les-concours-de-recrutement-de-conseillers-principaux-d-education-cpe-6719"
-      },
-      {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "Bac+3 et 3 années de service public",
-        "siteWebConcours": "https://www.education.gouv.fr/les-concours-de-recrutement-de-conseillers-principaux-d-education-cpe-6719"
-      },
-      {
-        "nomConcours": "Troisième concours",
-        "type": "troisieme-concours",
-        "niveauRequis": "5 années dans le secteur privé, associatif ou élu",
-        "siteWebConcours": "https://www.education.gouv.fr/les-concours-de-recrutement-de-conseillers-principaux-d-education-cpe-6719"
-      }
-    ]
-  },
-  {
-    "id": "itpe",
-    "nom": "Ingénieur-e des travaux publics de l'État (ITPE)",
-    "categorie": "A",
-    "filiere": "technique",
-    "versant": "FPE",
-    "secteur": [
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "agriculture-alimentation",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "mer-littoral",
-      "enseignement-superieur-recherche",
-      "economie",
-      "international-diplomatie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Corps technique de catégorie A du ministère de la Transition écologique et de l'Aménagement du territoire, intervenant sur les infrastructures, les transports, l'aménagement, l'environnement et le numérique, en administration centrale, dans les services déconcentrés ou les établissements publics.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+5",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-travaux-publics-letat-itpe-concours-externe-titres"
-      },
-      {
-        "nomConcours": "Concours externe",
-        "type": "interne",
-        "niveauRequis": "3 années de service public",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/eleve-ingenieur-e-travaux-publics-letat-itpe-concours-interne"
-      },
-      {
-        "nomConcours": "Examen professionnel",
-        "type": "examen-professionnel",
-        "niveauRequis": "8 années de service public, statut de fonctionnaire",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-travaux-publics-letat-itpe-examen-professionnel"
-      }
-    ]
-  },
-  {
-    "id": "ingenieur-industrie-mines",
-    "nom": "Ingénieur-e de l'industrie et des mines",
-    "categorie": "A",
-    "filiere": "technique",
-    "versant": "FPE",
-    "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "sante-publique",
       "defense",
       "securite-interieure",
-      "industrie",
       "economie",
-      "espace-aeronautique",
       "international-diplomatie",
       "europe-affaires-europeennes"
     ],
     "employeurs": [],
     "siteWeb": "",
-    "descriptionDetaillee": "Corps technique de catégorie A rattaché au ministère de l'Économie, exerçant au sein des ministères et administrations en charge de l'économie, l'industrie, l'énergie, l'environnement, la prévention des risques et la sécurité industrielle ; forme notamment l'ossature technique de l'Autorité de sûreté nucléaire et de radioprotection (ASNR).",
+    "descriptionDetaillee": "Corps diplomatique de catégorie A du ministère de l'Europe et des Affaires étrangères, chargé de la conception et de la mise en œuvre de la politique étrangère de la France (analyses géopolitiques, négociations internationales, affaires économiques, juridiques, consulaires ou culturelles). Deux cadres coexistent : le cadre général et le cadre d'Orient, spécialisé sur une zone géographique et ses langues. Exerce en administration centrale (Paris, Nantes) et dans le réseau diplomatique et consulaire à l'étranger.",
     "voiesAcces": [
       {
         "nomConcours": "Concours externe",
         "type": "externe",
-        "niveauRequis": "Bac+5",
-        "siteWebConcours": "https://www.economie.gouv.fr/rejoignez-nous/ingenieur-de-lindustrie-et-des-mines-sur-titres-et-epreuve-externe-secretariat-general-des-mef"
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.diplomatie.gouv.fr/fr/concours/secretaire-des-affaires-etrangeres-cadre-general"
       },
       {
         "nomConcours": "Concours interne",
         "type": "interne",
-        "niveauRequis": "7 années de service public sur des missons de catégorie A",
-        "siteWebConcours": "https://recrutement.ecologie.gouv.fr/concours/ingenieur-e-lindustrie-mines-iim-concours-interne"
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.diplomatie.gouv.fr/fr/concours/secretaire-des-affaires-etrangeres-cadre-general"
+      },
+      {
+        "nomConcours": "Troisième concours",
+        "type": "troisieme-concours",
+        "niveauRequis": "5 années dans le secteur privé, associatif ou élu",
+        "siteWebConcours": "https://www.diplomatie.gouv.fr/fr/concours/secretaire-des-affaires-etrangeres-cadre-general"
       }
     ]
   },
   {
-    "id": "ad5",
-    "nom": "Administrateur-ice européen-ne (AD5)",
-    "categorie": "A+",
+    "id": "maitre-conference",
+    "nom": "Maître de conférence",
+    "categorie": "A",
     "filiere": "administrative",
-    "versant": "FPUE",
+    "versant": "FPE",
     "secteur": [
-      "numerique",
-      "environnement-biodiversite",
-      "transition-ecologique-climat",
-      "energie",
-      "transports-infrastructures",
-      "amenagement-urbanisme",
-      "logement-habitat",
-      "agriculture-alimentation",
-      "mer-littoral",
-      "sante-publique",
-      "affaires-sociales-solidarites",
-      "travail-emploi",
-      "education",
-      "enseignement-superieur-recherche",
-      "culture-patrimoine",
-      "sport",
-      "jeunesse-vie-associative",
-      "justice",
-      "defense",
-      "securite-interieure",
-      "finances-publiques",
-      "ressources-humaines",
-      "industrie",
-      "economie",
-      "espace-aeronautique",
-      "international-diplomatie",
-      "europe-affaires-europeennes",
-      "statistiques-donnees-publiques"
+      "enseignement-superieur-recherche"
     ],
     "employeurs": [],
     "siteWeb": "",
-    "descriptionDetaillee": "Le rôle général des administrateurs est d’aider les décideurs à remplir la mission de leur institution ou organe, en contribuant aux politiques et aux programmes qui ont une incidence sur des millions de personnes dans toute l’Europe. Les lauréats travaillent généralement dans l’un des domaines suivants au sein d’une équipe multiculturelle : élaboration et formulation des politiques, mise en œuvre des politiques et prestation opérationnelle, gestion des ressources.",
+    "descriptionDetaillee": "Enseignant-chercheur titulaire de catégorie A de la fonction publique d'État, il partage son activité entre enseignement (192h TD/an) et recherche au sein d'un laboratoire universitaire. On y accède après un doctorat, une qualification par le Conseil National des Universités (CNU), puis un concours de recrutement organisé par chaque établissement via un comité de sélection.",
     "voiesAcces": [
       {
         "nomConcours": "Concours",
         "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://eu-careers.europa.eu/fr/apply-graduate-administrators-competition-ad5"
+        "niveauRequis": "Bac+8 et qualification décernée par le Conseil national des universités",
+        "siteWebConcours": "https://www.enseignementsup-recherche.gouv.fr/fr/maitres-de-conferences-et-professeurs-des-universites-recrutement-agregation-detachement-mutation-46265"
       }
     ]
   },
   {
-    "id": "capitaine-sp",
-    "nom": "Capitaine de sapeurs-pompiers",
-    "categorie": "A",
-    "filiere": "sapeur-pompier",
-    "versant": "FPT",
-    "secteur": [
-      "securite-interieure"
-    ],
-    "employeurs": [],
-    "siteWeb": "",
-    "descriptionDetaillee": "Officier supérieur intermédiaire (catégorie A) qui commande généralement une compagnie ou un centre d'incendie et de secours (CIS) de taille importante, assurant l'encadrement opérationnel et administratif d'une équipe de sapeurs-pompiers professionnels ou volontaires.",
-    "voiesAcces": [
-      {
-        "nomConcours": "Concours externe",
-        "type": "externe",
-        "niveauRequis": "Bac+3",
-        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=404"
-      },
-      {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "4 années de service public",
-        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=404"
-      }
-    ]
-  },
-  {
-    "id": "colonel-sp",
-    "nom": "Colonel de sapeurs-pompiers",
+    "id": "professeur-universite",
+    "nom": "Professeur-e des universités",
     "categorie": "A+",
-    "filiere": "sapeur-pompier",
-    "versant": "FPT",
+    "filiere": "administrative",
+    "versant": "FPE",
     "secteur": [
-      "securite-interieure"
+      "enseignement-superieur-recherche"
     ],
     "employeurs": [],
     "siteWeb": "",
-    "descriptionDetaillee": "Officier supérieur de haut rang qui occupe généralement les fonctions de directeur départemental des services d'incendie et de secours (DDSIS) ou de directeur adjoint, pilotant la stratégie, l'organisation et la gestion globale des secours à l'échelle d'un département.",
+    "descriptionDetaillee": "Enseignant-chercheur du plus haut rang académique, il assure des responsabilités élargies d'enseignement, de recherche et d'encadrement doctoral, avec un rayonnement scientifique attendu plus important. On y accède généralement après avoir été MCF et obtenu une Habilitation à Diriger des Recherches (HDR), suivie d'une qualification CNU et d'un concours par comité de sélection, sauf en droit et en économie/gestion, où l'agrégation du supérieur permet un accès direct.",
     "voiesAcces": [
       {
-        "nomConcours": "Concours interne",
-        "type": "interne",
-        "niveauRequis": "4 années de service public",
-        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=413"
+        "nomConcours": "Concours",
+        "type": "externe",
+        "niveauRequis": "Habilitation à diriger des recherches (HDR) et qualification décernée par le Conseil national des universités",
+        "siteWebConcours": "https://www.enseignementsup-recherche.gouv.fr/fr/maitres-de-conferences-et-professeurs-des-universites-recrutement-agregation-detachement-mutation-46265"
       }
     ]
   }
