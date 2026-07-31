@@ -1638,6 +1638,18 @@
     "siteWeb": "https://www.enedis.fr/"
   },
   {
+    "id": "valabre",
+    "nom": "Entente Valabre",
+    "type": "epa",
+    "versant": "FPT",
+    "secteur": [
+      "securite-interieure",
+      "enseignement-superieur-recherche"
+    ],
+    "description": "Etablissement public interdépartemental de coopération spécialisé dans la prévention et la lutte contre les feux de forêt ainsi que la formation des sapeurs-pompiers, notamment via l'École d'application de sécurité civile (ECASC).",
+    "siteWeb": "https://www.valabre.com/"
+  },
+  {
     "id": "etat-major-armées",
     "nom": "Etat-major des armées",
     "type": "administration-centrale",
