@@ -1444,5 +1444,53 @@
         "siteWebConcours": "https://eu-careers.europa.eu/fr/apply-graduate-administrators-competition-ad5"
       }
     ]
+  },
+  {
+    "id": "capitaine-sp",
+    "nom": "Capitaine de sapeurs-pompiers",
+    "categorie": "A",
+    "filiere": "sapeur-pompier",
+    "versant": "FPT",
+    "secteur": [
+      "securite-interieure"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Officier supérieur intermédiaire (catégorie A) qui commande généralement une compagnie ou un centre d'incendie et de secours (CIS) de taille importante, assurant l'encadrement opérationnel et administratif d'une équipe de sapeurs-pompiers professionnels ou volontaires.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours externe",
+        "type": "externe",
+        "niveauRequis": "Bac+3",
+        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=404"
+      },
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=404"
+      }
+    ]
+  },
+  {
+    "id": "colonel-sp",
+    "nom": "Colonel de sapeurs-pompiers",
+    "categorie": "A+",
+    "filiere": "sapeur-pompier",
+    "versant": "FPT",
+    "secteur": [
+      "securite-interieure"
+    ],
+    "employeurs": [],
+    "siteWeb": "",
+    "descriptionDetaillee": "Officier supérieur de haut rang qui occupe généralement les fonctions de directeur départemental des services d'incendie et de secours (DDSIS) ou de directeur adjoint, pilotant la stratégie, l'organisation et la gestion globale des secours à l'échelle d'un département.",
+    "voiesAcces": [
+      {
+        "nomConcours": "Concours interne",
+        "type": "interne",
+        "niveauRequis": "4 années de service public",
+        "siteWebConcours": "https://www.concours-territorial.fr/session.aspx?id=413"
+      }
+    ]
   }
 ]

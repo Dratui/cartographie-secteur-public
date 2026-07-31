@@ -6,6 +6,7 @@
     { "id": "medico-sociale", "libelle": "Médico-sociale" },
     { "id": "culturelle", "libelle": "Culturelle" },
     { "id": "sportive", "libelle": "Sportive" },
-    { "id": "securite", "libelle": "Sécurité" }
+    { "id": "securite", "libelle": "Sécurité" },
+    { "id": "sapeur-pompier", "libelle": "Sapeur-pompier" }
   ]
 }

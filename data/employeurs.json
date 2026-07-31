@@ -2164,6 +2164,31 @@
     "siteWeb": "https://www.senat.fr/"
   },
   {
+    "id": "sdis",
+    "nom": "Service départemental d'incendie et de secours (SDIS)",
+    "type": "epa",
+    "versant": "FPT",
+    "secteur": [
+      "securite-interieure"
+    ],
+    "description": "Etablissement public administratif départemental chargé de l'organisation et de la gestion des moyens de secours contre l'incendie et de secours d'urgence (pompiers) à l'échelle d'un département.",
+    "siteWeb": "https://www.pompiers.fr/federation/#"
+  },
+  {
+    "id": "ser",
+    "nom": "Service économique régional",
+    "type": "administration-deconcentree",
+    "versant": "FPE",
+    "secteur": [
+      "economie",
+      "international-diplomatie",
+      "europe-affaires-europeennes",
+      "statistiques-donnees-publiques"
+    ],
+    "description": "Antenne de la Direction générale du Trésor rattachée à une ambassade, chargée du suivi économique, financier et commercial d'un pays ou d'une zone géographique pour le compte de l'État français.",
+    "siteWeb": "https://www.tresor.economie.gouv.fr/qui-sommes-nous/le-reseau-international"
+  },
+  {
     "id": "sncf-gares-connexions",
     "nom": "SNCF Gares & Connexions",
     "type": "entreprise-publique",
@@ -2222,6 +2247,17 @@
     "siteWeb": "https://www.marne.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Les-sous-prefectures"
   },
   {
+    "id": "sde",
+    "nom": "Syndiat départemental d'énergie",
+    "type": "epci",
+    "versant": "FPT",
+    "secteur": [
+      "energie"
+    ],
+    "description": "Autorité organisatrice de la distribution d'énergie (AODE) qui exerce par contrat de concession une mission de contrôle de la distribution d'électricité et accompagne les communes membres dans l'électrification, l'éclairage public, la production d'énergies renouvelables et la mobilité durable, tout en pouvant exercer des compétences optionnelles comme le gaz, les réseaux de chaleur ou le numérique.",
+    "siteWeb": "https://www.territoire-energie.com/le-reseau/"
+  },
+  {
     "id": "sedif",
     "nom": "Syndicat des eaux d'Ile-de-France (SEDIF)",
     "type": "epci",
@@ -2267,17 +2303,6 @@
     ],
     "description": "Organisme public responsable de la collecte et du traitement des eaux usées et pluviales de la zone dense francilienne.",
     "siteWeb": "https://www.siaap.fr/"
-  },
-  {
-    "id": "sde",
-    "nom": "Syndicat départemental d'énergie",
-    "type": "epci",
-    "versant": "FPT",
-    "secteur": [
-      "energie"
-    ],
-    "description": "Autorité organisatrice de la distribution d'énergie (AODE) qui exerce par contrat de concession une mission de contrôle de la distribution d'électricité et accompagne les communes membres dans l'électrification, l'éclairage public, la production d'énergies renouvelables et la mobilité durable, tout en pouvant exercer des compétences optionnelles comme le gaz, les réseaux de chaleur ou le numérique.",
-    "siteWeb": "https://www.territoire-energie.com/le-reseau/"
   },
   {
     "id": "syctom",
